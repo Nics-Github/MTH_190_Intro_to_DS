@@ -12,7 +12,8 @@ format:
     toc-title: "Class Days"
     df-print: kable
     
-freeze: true    
+execute:
+  freeze: auto  # re-render only when source changes    
 ---
 
 # [6 fixes to common issues](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit)

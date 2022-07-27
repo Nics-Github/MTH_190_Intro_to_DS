@@ -11,7 +11,7 @@ format:
     toc-depth: 1
     toc-float: true
     toc-location: left
-    toc-title: "toc"
+    toc-title: ""
     df-print: kable
     
 body-footer: 
@@ -88,9 +88,9 @@ Help us help you: take screenshots of your screen.
 
 ## Taxonomy
 
-[Lecture on Taxonomy](./course_materials/lectures/mdsr_viz_1_taxonomy.html)
+[Lecture on Taxonomy](./course-materials/lectures/mdsr_viz_1_taxonomy.html)
 
-[Activity on Taxonomy](./course_materials/in_class_activities/Activity_Taxonomy_of_Graphics.html)
+[Activity on Taxonomy](./course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html)
 
 
 
@@ -108,19 +108,19 @@ To sign in:
 
 ## Class work
 
-[Intro to R](./course_materials/lectures/Getting_Started_with_Quarto.html)
+[Intro to R](./course-materials/lectures/Getting_Started_with_Quarto.html)
 
 ## Activity
 
-[UNvotes](./course_materials/application-exercises/ae-01a-un-votes/unvotes.html)
+[UNvotes](./course-materials/application-exercises/ae-01a-un-votes/unvotes.html)
 
 or
 
-[COVID-19](./course_materials/application-exercises/ae-01b-covid/covid.html)
+[COVID-19](./course-materials/application-exercises/ae-01b-covid/covid.html)
 
 ## Homework
 
-[HW 1](./course_materials/hw-instructions/hw-01/hw-01-pet-names.html)
+[HW 1](./course-materials/hw-instructions/hw-01/hw-01-pet-names.html)
 
 ## Me and you
 

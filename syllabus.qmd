@@ -10,6 +10,9 @@ format:
     toc-location: left
     toc-title: "Class Days"
     df-print: kable
+
+execute:
+  freeze: auto  # re-render only when source changes    
 ---
 
 ```{r, include=FALSE}
@@ -37,22 +40,21 @@ h1{font-weight: 400;}
 
 -   **Course title:** MTH 190: Introduction to Data Science
 -   **Instructor:** [Nicholas Schwab (he/him)](https://rudeboybert.rbind.io/){target="_blank"} - Assistant Professor of Mathematics. Please call me "Professor Schwab"
--   **Office location:** Frost 362 
--   **Email:** nschwab@hcc.edu
+-   **Office location:** Frost 362
+-   **Email:** nschwab\@hcc.edu
 -   **Meeting locations/times:**
-    -   MF: 11:00 AM - 12:15 PM / Kittredge Center 420 	
-    
+    -   MF: 11:00 AM - 12:15 PM / Kittredge Center 420
 -   **Getting help**:
     -   For non personal/sensitive questions, ask on the `#questions` channel on Slack. For personal/sensitive matters, Slack DM Professor Kim.
     -   Spinelli Center [SDS drop-in tutoring hours](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats.){target="_blank"}. In Sabin-Reed 301
         -   Sunday through Thursday 7-9pm
         -   Friday 2:35-3:30pm
     -   Office hours:
-        -   Office hours: 
-        -   Slack:   
+        -   Office hours:
+        -   Slack:\
         -   
         -   For personal/sensitive matters: Book an appointment here, where the location (Zoom or McConnell 215) is indicated in the calendar entry: [bit.ly/meet_with_albert](https://calendar.google.com/calendar/selfsched?sstoken=UVBidEVzZlJ3a2dYfGRlZmF1bHR8NmExNDk4OGM5ZWZiYWNmOWYxYWRkZDM0NmU3ZGRmMzE){target="_blank"}. If none of the listed times work for you, please Slack me.
-    -
+    -   
 
 ## Instructor work-life balance {#work-life-balance}
 
@@ -162,14 +164,14 @@ It is difficult to explicit codify what constitutes "an engaged student," so ins
 
 1.  **Collaboration**: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another's work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.
 2.  **Honor Code**: All your work must follow the [Smith College Academic Honor Code Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"}; in particular all external sources must be cited in your submissions. <!--
-    1. **Problem sets**:
-        + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade.
-    1. **Mini-projects**:
-        + Extensions only with a dean's note.
-    1. **Midterms**:
-        + No make-up midterms will be allowed without a dean's note. 
-        + Timestamps for all midterms will be strictly enforced.
-    -->
+        1. **Problem sets**:
+            + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade.
+        1. **Mini-projects**:
+            + Extensions only with a dean's note.
+        1. **Midterms**:
+            + No make-up midterms will be allowed without a dean's note. 
+            + Timestamps for all midterms will be strictly enforced.
+        -->
 3.  **Grading**: I reserve the right to not discuss any grading issues in class and instead direct you to office hours.
 
 ------------------------------------------------------------------------

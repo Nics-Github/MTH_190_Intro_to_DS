@@ -1,5 +1,7 @@
 ---
 title: "Credits"
+execute:
+  freeze: auto  # re-render only when source changes
 ---
 
 ## Site Credit
