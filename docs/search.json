@@ -1,0 +1,366 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Intro_to_DS_Fall_22",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#summarize-reading",
+    "href": "index.html#summarize-reading",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Summarize Reading",
+    "text": "Summarize Reading"
+  },
+  {
+    "objectID": "index.html#see-tips-tricks",
+    "href": "index.html#see-tips-tricks",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "See Tips & Tricks",
+    "text": "See Tips & Tricks\nThe six-fixes\nHelp us help you: take screenshots of your screen.\n\nmacOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion\nWindows: Shift-Windows Key-S and Snip & Sketch"
+  },
+  {
+    "objectID": "index.html#taxonomy",
+    "href": "index.html#taxonomy",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Taxonomy",
+    "text": "Taxonomy\nLecture on Taxonomy\nActivity on Taxonomy"
+  },
+  {
+    "objectID": "index.html#rstudio",
+    "href": "index.html#rstudio",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "RStudio",
+    "text": "RStudio\n\n\n\n\n\nTo sign in:\n\nusername: Your HCC email with @hcc.edu\npassword: Your hcc password"
+  },
+  {
+    "objectID": "index.html#class-work",
+    "href": "index.html#class-work",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Class work",
+    "text": "Class work\nIntro to R"
+  },
+  {
+    "objectID": "index.html#activity",
+    "href": "index.html#activity",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Activity",
+    "text": "Activity\nUNvotes\nor\nCOVID-19"
+  },
+  {
+    "objectID": "index.html#homework",
+    "href": "index.html#homework",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Homework",
+    "text": "Homework\nHW 1"
+  },
+  {
+    "objectID": "index.html#me-and-you",
+    "href": "index.html#me-and-you",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Me and you",
+    "text": "Me and you"
+  },
+  {
+    "objectID": "index.html#reading",
+    "href": "index.html#reading",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Reading",
+    "text": "Reading\nProlouge: Why data science? MDSR"
+  },
+  {
+    "objectID": "credits.html",
+    "href": "credits.html",
+    "title": "Credits",
+    "section": "",
+    "text": "The format for this site was borrowed from [Albert Kim’s SDS 192 course](https://bit.ly/sds192kim)"
+  },
+  {
+    "objectID": "credits.html#activities-projects-etc.",
+    "href": "credits.html#activities-projects-etc.",
+    "title": "Credits",
+    "section": "Activities, Projects, etc.",
+    "text": "Activities, Projects, etc.\nIf not created by me or referred to in some other way the activities and projects for this course are from:\n\nThe above mentioned website\nData Science in a box.\nBen Baumer’s SDS 192 course page"
+  },
+  {
+    "objectID": "Resources.html#moderndive",
+    "href": "Resources.html#moderndive",
+    "title": "Resources",
+    "section": "ModernDive",
+    "text": "ModernDive"
+  },
+  {
+    "objectID": "Resources.html#data-science-in-a-box",
+    "href": "Resources.html#data-science-in-a-box",
+    "title": "Resources",
+    "section": "Data Science in a box",
+    "text": "Data Science in a box"
+  },
+  {
+    "objectID": "Resources.html#data-visualization-ggplot2",
+    "href": "Resources.html#data-visualization-ggplot2",
+    "title": "Resources",
+    "section": "Data Visualization: ggplot2",
+    "text": "Data Visualization: ggplot2"
+  },
+  {
+    "objectID": "Resources.html#data-transformation-dplyr",
+    "href": "Resources.html#data-transformation-dplyr",
+    "title": "Resources",
+    "section": "Data transformation: dplyr",
+    "text": "Data transformation: dplyr"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Kim.\nSpinelli Center SDS drop-in tutoring hours. In Sabin-Reed 301\n\nSunday through Thursday 7-9pm\nFriday 2:35-3:30pm\n\nOffice hours:\n\nOffice hours:\nSlack:\n\n\nFor personal/sensitive matters: Book an appointment here, where the location (Zoom or McConnell 215) is indicated in the calendar entry: bit.ly/meet_with_albert. If none of the listed times work for you, please Slack me.\n\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
+  },
+  {
+    "objectID": "syllabus.html#policies",
+    "href": "syllabus.html#policies",
+    "title": "Syllabus",
+    "section": "Class norms",
+    "text": "Class norms\n\nBring your laptop, a set of headphones, colored pens/pencils with paper notebook (or tablet with stylus) to every lecture.\nYou are expected to stay until the end of lecture. If you need to leave early, please confirm with me at the beginning of lecture and sit somewhere where your departure will be minimally disruptive.\nAttendance will not be explicitly taken and occasional absences are excused. However, extended absences should be mentioned to me.\nHowever, you are responsible for asking your peers for what you missed. For example, makeup lectures will not be held during office hours.\nLecture will be held as usual on Monday 11/22 (before Thanksgiving)."
+  },
+  {
+    "objectID": "syllabus.html#midterms-35",
+    "href": "syllabus.html#midterms-35",
+    "title": "Syllabus",
+    "section": "Midterms 35%",
+    "text": "Midterms 35%\nThere will be two midterms during the semester. The higher score of the two midterm scores will be weighted 20% and the lower will be weighted 15%. More details to follow."
+  },
+  {
+    "objectID": "syllabus.html#three-mini-projects-30",
+    "href": "syllabus.html#three-mini-projects-30",
+    "title": "Syllabus",
+    "section": "Three mini-projects 30%",
+    "text": "Three mini-projects 30%\nThere will be three mini-projects with particular themes. You’ll do these mini-projects in groups of 2 assigned by me.\n\nMini-project 1 5%: Data visualization\nMini-project 2 10%: Data wrangling\nMini-project 3 15%: Maps"
+  },
+  {
+    "objectID": "syllabus.html#final-project-20",
+    "href": "syllabus.html#final-project-20",
+    "title": "Syllabus",
+    "section": "Final project 20%",
+    "text": "Final project 20%\nThere will be a final project due the last day of exams. You’ll do this final project in groups of 2-3 where you can choose your groupmates.\nAs for whether you should be on Smith campus during exam week, this is for you and your groupmates to decide. You do not need to consult the instructor."
+  },
+  {
+    "objectID": "syllabus.html#problem-sets-10",
+    "href": "syllabus.html#problem-sets-10",
+    "title": "Syllabus",
+    "section": "Problem sets 10%",
+    "text": "Problem sets 10%\nThere will be 7 problem sets, with only the top 5 scores going towards your grade. Since the lowest two grades will be dropped, no extensions to problem sets will be given.\nExtension Requests (Added 10/27):\n\nYou have an extension “budget” of a maximum of 5 days for the rest of the semester; it’s up to you to keep track of your budget\nRequest must be made before due date/time.\nGoogle Form"
+  },
+  {
+    "objectID": "syllabus.html#engagement",
+    "href": "syllabus.html#engagement",
+    "title": "Syllabus",
+    "section": "Engagement 5%",
+    "text": "Engagement 5%\nIt is difficult to explicit codify what constitutes “an engaged student,” so instead I present the following rough principle I will follow: you’ll only get out of this class as much as you put in. That being said, here are multiple pathways for you to stay engaged in this class:\n\nIn particular: Peer evaluations for all projects.\nAsking and answering questions in class.\nComing to office hours.\nPosting questions on Slack.\nEven better: Responding to questions on Slack."
+  },
+  {
+    "objectID": "syllabus.html#policies-1",
+    "href": "syllabus.html#policies-1",
+    "title": "Syllabus",
+    "section": "Policies",
+    "text": "Policies\n\nCollaboration: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another’s work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.\nHonor Code: All your work must follow the Smith College Academic Honor Code Statement; in particular all external sources must be cited in your submissions. \nGrading: I reserve the right to not discuss any grading issues in class and instead direct you to office hours."
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01b-covid/covid.html",
+    "href": "course_materials/application-exercises/ae-01b-covid/covid.html",
+    "title": "Cumulative deaths from COVID-19",
+    "section": "",
+    "text": "Countries around the world are responding to an outbreak of respiratory illness caused by a novel coronavirus, COVID-19. The outbreak first started in Wuhan, China, but cases have been identified in a growing number of other locations internationally, including the United States. In this report we explore how the trajectory of the cumulative deaths in a number of countries.\nThe data come from the coronavirus package, which pulls data from the Johns Hopkins University Center for Systems Science and Engineering (JHU CCSE) Coronavirus repository. The coronavirus package provides a tidy format dataset of the 2019 Novel Coronavirus COVID-19 (2019-nCoV) epidemic. The package is available on GitHub here and is updated daily.\nFor our analysis, in addition to the coronavirus package, we will use the following packages for data wrangling and visualisation.\n\ntidyverse for data wrangling and visualization\nlubridate package for handling dates\nglue package for constructing text strings\nscales package for formatting axis labels\nggrepel package for pretty printing of country labels\n\nWe will make use of the DT package for interactive display of tabular output in the Appendix.\n\nlibrary(coronavirus) # devtools::install_github(\"RamiKrispin/coronavirus\")\nlibrary(tidyverse)\nlibrary(lubridate)\nlibrary(glue)\nlibrary(scales)\nlibrary(ggrepel)\nlibrary(DT)"
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01b-covid/covid.html#data-prep",
+    "href": "course_materials/application-exercises/ae-01b-covid/covid.html#data-prep",
+    "title": "Cumulative deaths from COVID-19",
+    "section": "Data prep",
+    "text": "Data prep\nThe data frame called coronavirus in the coronavirus package provides a daily summary of the Coronavirus (COVID-19) cases by country. Each row in the data frame represents a country (or, where relevant, state/province). A full list of the countries in the data frame is provided in the Appendix. Note that the data provided in this package provides daily number of deaths, confirmed cases, and recovered cases. For this report, we will focus on the deaths.\nWe will start by making our selection for the countries we want to explore.\n\ncountries <- c(\n  \"Mexico\",\n  \"US\",\n  \"Canada\"\n)\n\nIn the following code chunk we filter the data frame for deaths in the countries we specified above and calculate cumulative number of deaths. We will only visualise data since 10th confirmed death.\n\ncountry_data <- coronavirus %>%\n  # filter for deaths in countries of interest\n  filter(\n    type == \"death\",\n    country %in% countries\n  ) %>%\n  # fix county labels for pretty plotting\n  mutate(\n    country = case_when(\n      country == \"United Kingdom\" ~ \"UK\",\n      TRUE ~ country\n    )\n  ) %>%\n  # calculate number of total cases for each country and date\n  group_by(country, date) %>%\n  summarise(tot_cases = sum(cases)) %>%\n  # arrange by date in ascending order\n  arrange(date) %>%\n  # record daily cumulative cases as cumulative_cases\n  mutate(cumulative_cases = cumsum(tot_cases)) %>%\n  # only use days since the 10th confirmed death\n  filter(cumulative_cases > 9) %>%\n  # record days elapsed, end date, and end label\n  mutate(\n    days_elapsed = as.numeric(date - min(date)),\n    end_date     = if_else(date == max(date), TRUE, FALSE),\n    end_label    = if_else(end_date, country, NULL)\n  ) %>%\n  # ungroup\n  ungroup()\n\n`summarise()` has grouped output by 'country'. You can override using the\n`.groups` argument.\n\n\nWe also need to take a note of the “as of date” for the data so that we can properly label our visualisation.\n\nas_of_date <- country_data %>% \n  summarise(max(date)) %>% \n  pull()\n\nas_of_date_formatted <- glue(\"{wday(as_of_date, label = TRUE)}, {month(as_of_date, label = TRUE)} {day(as_of_date)}, {year(as_of_date)}\")\n\nThese data are as of Thu, Jun 23, 2022."
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01b-covid/covid.html#visualisation",
+    "href": "course_materials/application-exercises/ae-01b-covid/covid.html#visualisation",
+    "title": "Cumulative deaths from COVID-19",
+    "section": "Visualisation",
+    "text": "Visualisation\nThe following visualisation shows the number of cumulative cases vs. days elapsed since the 10th confirmed death in each country. The time span plotted for each country varies since some countries started seeing (and reporting) deaths from COVID-19 much later than others.\n\nggplot(data = country_data,\n       mapping = aes(x = days_elapsed, \n                     y = cumulative_cases, \n                     color = country, \n                     label = end_label)) +\n  # represent cumulative cases with lines\n  geom_line(size = 0.7, alpha = 0.8) +\n  # add points to line endings\n  geom_point(data = country_data %>% filter(end_date)) +\n  # add country labels, nudged above the lines\n  geom_label_repel(nudge_y = 1, direction = \"y\", hjust = 1) + \n  # turn off legend\n  guides(color = \"none\") +\n  # use pretty colors\n  scale_color_viridis_d() +\n  # better formatting for y-axis\n  scale_y_continuous(labels = label_comma()) +\n  # use minimal theme\n  theme_minimal() +\n  # customize labels\n  labs(\n    x = \"Days since 10th confirmed death\",\n    y = \"Cumulative number of deaths\",\n    title = \"Cumulative deaths from COVID-19, selected countries\",\n    subtitle = glue(\"Data as of\", as_of_date_formatted, .sep = \" \"),\n    caption = \"Source: github.com/RamiKrispin/coronavirus\"\n  )"
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01b-covid/covid.html#appendix",
+    "href": "course_materials/application-exercises/ae-01b-covid/covid.html#appendix",
+    "title": "Cumulative deaths from COVID-19",
+    "section": "Appendix",
+    "text": "Appendix\nA list of countries in the coronavirus data frame is provided below."
+  },
+  {
+    "objectID": "course_materials/lectures/mdsr_viz_1_taxonomy.html#borrowing-heavily-from-nathan-yau",
+    "href": "course_materials/lectures/mdsr_viz_1_taxonomy.html#borrowing-heavily-from-nathan-yau",
+    "title": "Vizualization_Taxonomy",
+    "section": "Borrowing heavily from Nathan Yau",
+    "text": "Borrowing heavily from Nathan Yau"
+  },
+  {
+    "objectID": "course_materials/lectures/mdsr_viz_1_taxonomy.html#elements-of-data-graphics",
+    "href": "course_materials/lectures/mdsr_viz_1_taxonomy.html#elements-of-data-graphics",
+    "title": "Vizualization_Taxonomy",
+    "section": "Elements of data graphics",
+    "text": "Elements of data graphics\n\nVisual cues\n\nposition, length, area, etc.\n\nCoordinate system\n\nhow are the data points organized?\n\nScale\n\nhow does distance translate into meaning?\n\nContext\n\nin relation to what?\n\nFaceting / small multiples"
+  },
+  {
+    "objectID": "course_materials/lectures/mdsr_viz_1_taxonomy.html#big-idea",
+    "href": "course_materials/lectures/mdsr_viz_1_taxonomy.html#big-idea",
+    "title": "Vizualization_Taxonomy",
+    "section": "Big idea",
+    "text": "Big idea\nMapping variables to visual cues"
+  },
+  {
+    "objectID": "course_materials/lectures/mdsr_viz_1_taxonomy.html#dos-and-donts",
+    "href": "course_materials/lectures/mdsr_viz_1_taxonomy.html#dos-and-donts",
+    "title": "Vizualization_Taxonomy",
+    "section": "Do’s and don’ts",
+    "text": "Do’s and don’ts\n\nDo: mind the perceptual heirarchy\n\nDon’t use color when length will suffice\nDon’t use pie charts!\n\nDon’t use redundant mappings unless you have a reason\nDo use context!\nDo match data dimensions to visual dimensions\n\nDon’t map area to a 1D quantity"
+  },
+  {
+    "objectID": "course_materials/lectures/mdsr_viz_1_taxonomy.html#read-more-about-this",
+    "href": "course_materials/lectures/mdsr_viz_1_taxonomy.html#read-more-about-this",
+    "title": "Vizualization_Taxonomy",
+    "section": "Read more about this!",
+    "text": "Read more about this!"
+  },
+  {
+    "objectID": "course_materials/lectures/mdsr_viz_1_taxonomy.html#tuftes-mantra",
+    "href": "course_materials/lectures/mdsr_viz_1_taxonomy.html#tuftes-mantra",
+    "title": "Vizualization_Taxonomy",
+    "section": "Tufte’s mantra",
+    "text": "Tufte’s mantra"
+  },
+  {
+    "objectID": "course_materials/lectures/Getting_Started_with_Quarto.html",
+    "href": "course_materials/lectures/Getting_Started_with_Quarto.html",
+    "title": "Getting_Started_with_Quarto",
+    "section": "",
+    "text": "The ?\nHow to get more information on a dataset in R.\n\n?mtcars\n\n\n\nLoad the tidyverse\n\n\n\nBehold\n\n\nWhat is the tidyverse?\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6     ✔ purrr   0.3.4\n✔ tibble  3.1.8     ✔ dplyr   1.0.9\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nview(mtcars)\n\nWhy do we load the tidyverse?\n\n\nLet’s compare cylinders and gas mileage\n\nmtcars |>\n  ggplot(aes(mpg,cyl))+\n  geom_point()\n\n\n\n\nHow can we make this graph clearer?\n\n\nLet’s add another aesthetic, color:\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= am))+\n  geom_point() \n\n\n\n\n\n\nLet’s add a title and change the x and y axes labels.\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= factor(am)))+\n  geom_point()+\n  #scale_fill_brewer(palette = \"blues\") +\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\n\n\nEdit the legend\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= factor(am)))+\n  geom_point()+\n  scale_fill_brewer(palette = \"YlOrRd\") +\n  scale_color_discrete(name=\"Transmission Type\",\n                      breaks=c(\"0\",\"1\"),\n                      labels=c(\"automatic\",\"manual\"))+\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\nLet’s Facet a bit\n\nmtcars |>\n  ggplot(aes(mpg,color= factor(am)))+\n  geom_boxplot()+\n  facet_grid(rows=vars(cyl)) +\n  scale_fill_brewer(palette = \"YlOrRd\") +\n  scale_color_discrete(name=\"Transmission Type\",\n                      breaks=c(\"0\",\"1\"),\n                      labels=c(\"automatic\",\"manual\"))+\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\n\n\nHow do you remember all of this?\n\nSave this file\nResources Tab"
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html",
+    "href": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html",
+    "title": "HW 02 - Airbnb listings in Edinburgh",
+    "section": "",
+    "text": "Photo by Madeleine Kohler on Unsplash\nOnce upon a time, people travelled all over the world, and some stayed in hotels and others chose to stay in other people’s houses that they booked through Airbnb. Recent developments in Edinburgh regarding the growth of Airbnb and its impact on the housing market means a better understanding of the Airbnb listings is needed. Using data provided by Airbnb, we can explore how Airbnb availability and prices vary by neighbourhood."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#warm-up",
+    "href": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#warm-up",
+    "title": "HW 02 - Airbnb listings in Edinburgh",
+    "section": "Warm up",
+    "text": "Warm up\nBefore we introduce the data, let’s warm up with some simple exercises.\n\nUpdate the YAML, changing the author name to your name, and knit the document.\nCommit your changes with a meaningful commit message.\nPush your changes to GitHub.\nGo to your repo on GitHub and confirm that your changes are visible in your Rmd and md files. If anything is missing, commit and push again."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#packages",
+    "href": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#packages",
+    "title": "HW 02 - Airbnb listings in Edinburgh",
+    "section": "Packages",
+    "text": "Packages\nWe’ll use the tidyverse package for much of the data wrangling and visualisation and the data lives in the dsbox package. These packages are already installed for you. You can load them by running the following in your Console:\n\nlibrary(tidyverse)\nlibrary(dsbox)"
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#data",
+    "href": "course_materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#data",
+    "title": "HW 02 - Airbnb listings in Edinburgh",
+    "section": "Data",
+    "text": "Data\nThe data can be found in the dsbox package, and it’s called edibnb. Since the dataset is distributed with the package, we don’t need to load it separately; it becomes available to us when we load the package.\nYou can view the dataset as a spreadsheet using the View() function. Note that you should not put this function in your R Markdown document, but instead type it directly in the Console, as it pops open a new window (and the concept of popping open a window in a static document doesn’t really make sense…). When you run this in the console, you’ll see the following data viewer window pop up.\n\nView(edibnb)\n\nYou can find out more about the dataset by inspecting its documentation, which you can access by running ?edibnb in the Console or using the Help menu in RStudio to search for edibnb. You can also find this information here."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html",
+    "href": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html",
+    "title": "HW 01 - Pet names",
+    "section": "",
+    "text": "Photo by Jovana Askrabic on Unsplash\nThe goal of this assignment is to introduce you to R, RStudio, Git, and GitHub, which you’ll be using throughout the course both to learn the data science concepts discussed in the course and to analyze real data and come to informed conclusions."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#prerequisites",
+    "href": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#prerequisites",
+    "title": "HW 01 - Pet names",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nThis assignment assumes that you have reviewed the lectures titled “Meet the toolkit: Programming” and “Meet the toolkit: version control and collaboration”. If you haven’t yet done so, please pause and complete the following before continuing."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#terminology",
+    "href": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#terminology",
+    "title": "HW 01 - Pet names",
+    "section": "Terminology",
+    "text": "Terminology\nWe’ve already thrown around a few new terms, so let’s define them before we proceed.\n\nR: Name of the programming language we will be using throughout the course.\nRStudio: An integrated development environment for R. In other words, a convenient interface for writing and running R code.\nGit: A version control system.\nGitHub: A web platform for hosting version controlled files and facilitating collaboration among users.\nRepository: A Git repository contains all of your project’s files and stores each file’s revision history. It’s common to refer to a repository as a repo.\n\nIn this course, each assignment you work on will be contained in a Git repo.\nFor individual assignments, only you will have access to the repo. For team assignments, all team members will have access to a single repo where they work collaboratively.\nAll repos associated with this course are housed in the course GitHub organization. The organization is set up such that students can only see repos they have access to, but the course staff can see all of them."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#starting-slow",
+    "href": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#starting-slow",
+    "title": "HW 01 - Pet names",
+    "section": "Starting slow",
+    "text": "Starting slow\nAs the course progresses, you are encouraged to explore beyond what the assignments dictate; a willingness to experiment will make you a much better programmer! Before we get to that stage, however, you need to build some basic fluency in R. First, we will explore the fundamental building blocks of all of these tools.\nBefore you can get started with the analysis, you need to make sure you:\n\nhave a GitHub account\nare a member of the course GitHub organization\nare a member of the course RStudio Cloud space\n\nIf you failed to confirm any of these, it means you have not yet completed the prerequisites for this assignment. Please go back to Prerequisites and complete them before continuing the assignment."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#step-1.-update-the-yaml",
+    "href": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#step-1.-update-the-yaml",
+    "title": "HW 01 - Pet names",
+    "section": "Step 1. Update the YAML",
+    "text": "Step 1. Update the YAML\nOpen the R Markdown (Rmd) file in your project, change the author name to your name, and knit the document."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#step-2-commit",
+    "href": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#step-2-commit",
+    "title": "HW 01 - Pet names",
+    "section": "Step 2: Commit",
+    "text": "Step 2: Commit\nThen Go to the Git pane in your RStudio.\nYou should see that your Rmd (R Markdown) file and its output, your md file (Markdown), are listed there as recently changed files.\nNext, click on Diff. This will pop open a new window that shows you the difference between the last committed state of the document and its current state that includes your changes. If you’re happy with these changes, click on the checkboxes of all files in the list, and type “Update author name” in the Commit message box and hit Commit.\n\n\n\n\n\n\n\n\n\nYou don’t have to commit after every change, this would get quite cumbersome. You should consider committing states that are meaningful to you for inspection, comparison, or restoration. In the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions."
+  },
+  {
+    "objectID": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#step-3.-push",
+    "href": "course_materials/hw-instructions/hw-01/hw-01-pet-names.html#step-3.-push",
+    "title": "HW 01 - Pet names",
+    "section": "Step 3. Push",
+    "text": "Step 3. Push\nNow that you have made an update and committed this change, it’s time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only). In order to push your changes to GitHub, click on Push.\n\n\n\n\n\nThis will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me… I will teach you how to save your password so you don’t have to enter it every time. But for this one assignment you’ll have to manually enter each time you push in order to gain some experience with it.\nThought exercise: Which of the above steps (updating the YAML, committing, and pushing) needs to talk to GitHub?1"
+  },
+  {
+    "objectID": "course_materials/in_class_activities/Activity_Taxonomy_of_Graphics.html",
+    "href": "course_materials/in_class_activities/Activity_Taxonomy_of_Graphics.html",
+    "title": "Taxonomy of Graphics",
+    "section": "",
+    "text": "From The Economist:\nLonger Constitutions\nAverted Deaths\nFrom Yougov:\nIce Cream\nFriend or Enemy -Russia"
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html",
+    "href": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html",
+    "title": "UN Votes",
+    "section": "",
+    "text": "How do various countries vote in the United Nations General Assembly, how have their voting patterns evolved throughout time, and how similarly or differently do they view certain issues? Answering these questions (at a high level) is the focus of this analysis.\n\n\nWe will use the tidyverse, lubridate, and scales packages for data wrangling and visualization, and the DT package for interactive display of tabular output, and the unvotes package for the data.\n\nlibrary(tidyverse)\nlibrary(lubridate)\nlibrary(scales)\nlibrary(DT)\nlibrary(unvotes)\n\n\n\n\nThe data we’re using originally come from the unvotes package. In the chunk below we modify the data by joining the various data frames provided in the package to help you get started with the analysis.\n\nunvotes <- un_votes %>%\n  inner_join(un_roll_calls, by = \"rcid\") %>%\n  inner_join(un_roll_call_issues, by = \"rcid\")"
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html#un-voting-patterns",
+    "href": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html#un-voting-patterns",
+    "title": "UN Votes",
+    "section": "UN voting patterns",
+    "text": "UN voting patterns\nLet’s create a data visualisation that displays how the voting record of the UK & NI changed over time on a variety of issues, and compares it to two other countries: US and Turkey.\nWe can easily change which countries are being plotted by changing which countries the code above filters for. Note that the country name should be spelled and capitalized exactly the same way as it appears in the data. See the Appendix for a list of the countries in the data.\n\nunvotes %>%\n  filter(country %in% c(\"United Kingdom\", \"United States\", \"Turkey\")) %>%\n  mutate(year = year(date)) %>%\n  group_by(country, year, issue) %>%\n  summarize(percent_yes = mean(vote == \"yes\")) %>%\n  ggplot(mapping = aes(x = year, y = percent_yes, color = country)) +\n  geom_point(alpha = 0.4) +\n  geom_smooth(method = \"loess\", se = FALSE) +\n  facet_wrap(~issue) +\n  scale_y_continuous(labels = percent) +\n  labs(\n    title = \"Percentage of 'Yes' votes in the UN General Assembly\",\n    subtitle = \"1946 to 2019\",\n    y = \"% Yes\",\n    x = \"Year\",\n    color = \"Country\"\n  )"
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html#references",
+    "href": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html#references",
+    "title": "UN Votes",
+    "section": "References",
+    "text": "References\n\nDavid Robinson (2017). unvotes: United Nations General Assembly Voting Data. R package version 0.2.0.\nErik Voeten “Data and Analyses of Voting in the UN General Assembly” Routledge Handbook of International Organization, edited by Bob Reinalda (published May 27, 2013).\nMuch of the analysis has been modeled on the examples presented in the unvotes package vignette."
+  },
+  {
+    "objectID": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html#appendix",
+    "href": "course_materials/application-exercises/ae-01a-un-votes/unvotes.html#appendix",
+    "title": "UN Votes",
+    "section": "Appendix",
+    "text": "Appendix\nBelow is a list of countries in the dataset:"
+  }
+]

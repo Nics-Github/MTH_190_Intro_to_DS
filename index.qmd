@@ -1,0 +1,131 @@
+---
+title: "MTH 190: Intro to Data Science"
+author: "Nicholas Schwab"
+date: today
+
+output: html
+
+format:
+  html:
+    toc: true
+    toc-depth: 1
+    toc-float: true
+    toc-location: left
+    toc-title: "toc"
+    df-print: kable
+    
+body-footer: 
+  Hi
+---
+
+```{=html}
+<style>
+h1{font-weight: 400;}
+</style>
+```
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, message=FALSE, warning = FALSE, eval = TRUE, 
+  fig.width = 16/2, fig.height = 9/2
+)
+
+# tidyverse R packages:
+library(ggplot2)
+library(dplyr)
+library(tibble)
+library(tidyr)
+library(readr)
+library(purrr)
+library(forcats)
+library(stringr)
+library(lubridate)
+library(forcats)
+
+# CRAN R packages:
+library(knitr)
+library(fivethirtyeight)
+library(nycflights13)
+library(gapminder)
+library(babynames)
+library(scales)
+library(moderndive)
+library(leaflet)
+library(maps)
+library(mapproj)
+library(patchwork)
+
+# Set seed value of random number generator to get "replicable" random numbers.
+# Why 76? Because of https://www.youtube.com/watch?v=xjJ7FheCkCU
+set.seed(76)
+```
+
+```{=html}
+<style>
+h1{font-weight: 400;}
+</style>
+```
+# Schedule
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK1_TZx6LCqC0Wfddr2T0Sb7sX0R1zuoAesmj-TYpXtMpikenrIqQz4LHmk83PFYF1Yk4MjQB14aec/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="850">
+
+</iframe>
+
+
+
+# Day 2: A Taxonomy for Data Graphics
+
+## Summarize Reading
+
+## See Tips & Tricks
+
+[The six-fixes]() 
+
+Help us help you: take screenshots of your screen.
+
+-   macOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion
+
+-   Windows: Shift-Windows Key-S and Snip & Sketch
+
+## Taxonomy
+
+[Lecture on Taxonomy](./course_materials/lectures/mdsr_viz_1_taxonomy.html)
+
+[Activity on Taxonomy](./course_materials/in_class_activities/Activity_Taxonomy_of_Graphics.html)
+
+
+
+# Day 1: Introduction to Class, Website, and RStudio
+
+## RStudio
+
+[![](images/rstudio_logo.png){fig-align="left"}](http://hcc-rstudiosrv1.hcc.edu:8787/s/93126cfc78a31806f480a/auth-sign-in?appUri=%2F)
+
+To sign in:
+
+-   username: Your HCC email with @hcc.edu
+
+-   password: Your hcc password
+
+## Class work
+
+[Intro to R](./course_materials/lectures/Getting_Started_with_Quarto.html)
+
+## Activity
+
+[UNvotes](./course_materials/application-exercises/ae-01a-un-votes/unvotes.html)
+
+or
+
+[COVID-19](./course_materials/application-exercises/ae-01b-covid/covid.html)
+
+## Homework
+
+[HW 1](./course_materials/hw-instructions/hw-01/hw-01-pet-names.html)
+
+## Me and you
+
+## Reading
+
+[Prolouge: Why data science? MDSR](https://mdsr-book.github.io/mdsr2e/ch-prologue.html)
+
+

@@ -1,0 +1,40 @@
+---
+title: "Resources"
+
+output: html
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-float: true
+    toc-location: left
+    toc-title: "Class Days"
+    df-print: kable
+    
+freeze: true    
+---
+
+# [6 fixes to common issues](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit)
+
+------------------------------------------------------------------------
+
+# **Other Books:**
+
+## ModernDive
+
+[![](images/ModernDive.png){width="369"}](https://moderndive.com/index.html)
+
+## Data Science in a box
+
+[![](images/dsbox.png){width="200"}](https://datasciencebox.org/content.html)
+
+# **Cheatsheets:**
+
+## Data Visualization: [ggplot2](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)
+
+[![](images/data-visualization.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)
+
+## Data transformation: dplyr
+
+[![](images/data-transformation.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf)

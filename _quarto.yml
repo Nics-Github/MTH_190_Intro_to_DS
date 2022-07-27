@@ -1,0 +1,54 @@
+project:
+  type: website
+#I think when I output to docs everything breaks. 
+  output-dir: docs
+  
+
+  
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    theme: cosmo
+    highlight: tango
+    df_print: paged
+    lib_dir: site_libs
+    self_contained: no
+    # includes:
+    #   in_header: "favicon.html"
+# All icons were obtained from https://fontawesome.com/icons?d=gallery
+website:   
+  page-navigation: true
+  title: "MTH_190"
+  author: "Schwab"  
+  date: now
+  navbar:
+ 
+    left:
+    - text: MDSR 
+      href: https://mdsr-book.github.io/mdsr2e/
+    - text: Resources
+      href: Resources.qmd
+    - text: Tips & Tricks
+      href: https://moderndive.com/C-appendixC.html
+    
+    right:
+    - text: GitHub Website
+      href: https://github.com/Nics-Github/MTH_190
+  # - text: Problem Sets
+  #   href: PS.html
+  #  - text: Mini-Projects
+  #    href: projects.Rmd
+  # - text: Midterms
+  #   href: midterms.html
+    - text: Syllabus
+      href: syllabus.qmd
+  #  - icon: fa-github fa-lg
+  #    href: https://github.com/rudeboybert/SDS192
+  
+  page-footer:
+    right: 
+    - text: credits
+      href: credits.qmd
+      
