@@ -15,8 +15,8 @@ output:
     df_print: paged
     lib_dir: site_libs
     self_contained: no
-    # includes:
-    #   in_header: "favicon.html"
+    includes:
+     in_header: "favicon.html"
 # All icons were obtained from https://fontawesome.com/icons?d=gallery
 website:   
   page-navigation: true
@@ -30,8 +30,10 @@ website:
       href: https://mdsr-book.github.io/mdsr2e/
     - text: Resources
       href: Resources.qmd
-    - text: Tips & Tricks
+    - text: T & T
       href: https://moderndive.com/C-appendixC.html
+    - text: Slack
+      href: https://mth190introto-dmw9119.slack.com
     
     right:
     - text: GitHub Website

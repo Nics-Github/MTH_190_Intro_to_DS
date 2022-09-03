@@ -326,7 +326,7 @@
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Kim.\nSpinelli Center SDS drop-in tutoring hours. In Sabin-Reed 301\n\nSunday through Thursday 7-9pm\nFriday 2:35-3:30pm\n\nOffice hours:\n\nOffice hours:\nSlack:\n\n\nFor personal/sensitive matters: Book an appointment here, where the location (Zoom or McConnell 215) is indicated in the calendar entry: bit.ly/meet_with_albert. If none of the listed times work for you, please Slack me.\n\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
+    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Schwab” or “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.\nProf. Schwab’s hours:\n\nMWF 10:00 - 10:50\nFR 362 or set up a zoom appointment.\n\nAJ’s office hours\n\nOffice hours:\nSlack:\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
   },
   {
     "objectID": "syllabus.html#policies",
@@ -354,7 +354,7 @@
     "href": "syllabus.html#final-project-20",
     "title": "Syllabus",
     "section": "Final project 20%",
-    "text": "Final project 20%\nThere will be a final project due the last day of exams. You’ll do this final project in groups of 2-3 where you can choose your groupmates.\nAs for whether you should be on Smith campus during exam week, this is for you and your groupmates to decide. You do not need to consult the instructor."
+    "text": "Final project 20%\nThere will be a final project due the last day of classes. You’ll do this final project in groups of 2-3 where you can choose your groupmates."
   },
   {
     "objectID": "syllabus.html#problem-sets-10",
@@ -367,8 +367,8 @@
     "objectID": "syllabus.html#engagement",
     "href": "syllabus.html#engagement",
     "title": "Syllabus",
-    "section": "Engagement 5%",
-    "text": "Engagement 5%\nIt is difficult to explicit codify what constitutes “an engaged student,” so instead I present the following rough principle I will follow: you’ll only get out of this class as much as you put in. That being said, here are multiple pathways for you to stay engaged in this class:\n\nIn particular: Peer evaluations for all projects.\nAsking and answering questions in class.\nComing to office hours.\nPosting questions on Slack.\nEven better: Responding to questions on Slack."
+    "section": "Engagment 15%",
+    "text": "Engagment 15%\nIt is difficult to explicit codify what constitutes “an engaged student,” so instead I present the following rough principle I will follow: you’ll only get out of this class as much as you put in. That being said, here are multiple pathways for you to stay engaged in this class:\n\nIn particular: Peer evaluations for all projects.\nAsking and answering questions in class.\nWorking and staying focused in class.\nComing to office hours.\nPosting questions on Slack.\nEven better: Responding to questions on Slack."
   },
   {
     "objectID": "syllabus.html#policies-1",
@@ -404,5 +404,19 @@
     "title": "Resources",
     "section": "Data transformation: dplyr",
     "text": "Data transformation: dplyr"
+  },
+  {
+    "objectID": "syllabus.html#projects-40",
+    "href": "syllabus.html#projects-40",
+    "title": "Syllabus",
+    "section": "Projects 40%",
+    "text": "Projects 40%\nThere are four projects to complete during the semester."
+  },
+  {
+    "objectID": "syllabus.html#problem-sets-25",
+    "href": "syllabus.html#problem-sets-25",
+    "title": "Syllabus",
+    "section": "Problem sets 25%",
+    "text": "Problem sets 25%\nHomework will be assigned weekly, its important to complete and stay on top of homework."
   }
 ]

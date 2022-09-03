@@ -39,22 +39,20 @@ h1{font-weight: 400;}
 # Basic information {#basicinfo}
 
 -   **Course title:** MTH 190: Introduction to Data Science
--   **Instructor:** [Nicholas Schwab (he/him)](https://rudeboybert.rbind.io/){target="_blank"} - Assistant Professor of Mathematics. Please call me "Professor Schwab"
+-   **Instructor:** [Nicholas Schwab (he/him)](https://rudeboybert.rbind.io/){target="_blank"} - Assistant Professor of Mathematics. Please call me "Schwab" or "Professor Schwab"
 -   **Office location:** Frost 362
 -   **Email:** nschwab\@hcc.edu
 -   **Meeting locations/times:**
     -   MF: 11:00 AM - 12:15 PM / Kittredge Center 420
 -   **Getting help**:
-    -   For non personal/sensitive questions, ask on the `#questions` channel on Slack. For personal/sensitive matters, Slack DM Professor Kim.
-    -   Spinelli Center [SDS drop-in tutoring hours](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats.){target="_blank"}. In Sabin-Reed 301
-        -   Sunday through Thursday 7-9pm
-        -   Friday 2:35-3:30pm
-    -   Office hours:
+    -   For non personal/sensitive questions, ask on the `#questions` channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.
+    -   Prof. Schwab's hours:
+        -   MWF 10:00 - 10:50
+
+        -   FR 362 or [set up a zoom appointment.](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU10THFMNFV0NEJafGRlZmF1bHR8MzA4NTk0ZDE0OThjM2E4ZmU4ZjljYTU2NGYwZDJiMzk)
+    -   AJ's office hours
         -   Office hours:
-        -   Slack:\
-        -   
-        -   For personal/sensitive matters: Book an appointment here, where the location (Zoom or McConnell 215) is indicated in the calendar entry: [bit.ly/meet_with_albert](https://calendar.google.com/calendar/selfsched?sstoken=UVBidEVzZlJ3a2dYfGRlZmF1bHR8NmExNDk4OGM5ZWZiYWNmOWYxYWRkZDM0NmU3ZGRmMzE){target="_blank"}. If none of the listed times work for you, please Slack me.
-    -   
+        -   Slack:
 
 ## Instructor work-life balance {#work-life-balance}
 
@@ -84,29 +82,72 @@ Ask yourself:
 
 # Course Description & Objectives
 
-From [Smith College Course Search](https://www.smith.edu/academics/academic-program/curriculum/course-search?term=Fall+2019&dept=&instr=Albert+Y.+Kim&credits=&course_numb=192&course_keywd=&op=Submit&form_build_id=form-V3WH-ixzbA-eyjFrRcImqp_C6DNgVUwcb_Pg8XhbUS8&form_id=campus_course_search_basic_search_form){target="_blank"}: *An introduction to data science using Python, R and SQL. Students learn how to scrape, process and clean data from the web; manipulate data in a variety of formats; contextualize variation in data; construct point and interval estimates using resampling techniques; visualize multidimensional data; design accurate, clear and appropriate data graphics; create data maps and perform basic spatial analysis; and query large relational databases. No prerequisites, but a willingness to write code is necessary.*
+The world is awash with raw data, and students will benefit in the job market from learning to properly analyze it. The purpose of this course is to introduce students to the concepts of data science early in their college education. In this course, students will learn to code in R or Python, popular programming languages commonly used in Data Science. This course can also be seen as an introduction to programming languages and coding. It is designed to be accessible to students from a wide range of backgrounds and interests, including those without advanced mathematics or computer programming experience.
 
-On top of the goals of the above description, this semester you will:
+Prerequisite(s): MTH 085 or MTH 099 or MTH 011/MTH 012 with a grade of C- or better; or SM08, or adequate score on the Mathematics Placement Examination.  No computer language experience necessary but student must have a willingness to learn to code.
 
-1.  Equip yourselves with the data science tools necessarily to perform effective *exploratory data analysis*.
-2.  Learn about project workflows such as
-    -   Getting a ["minimally viable product"](https://www.interaction-design.org/literature/article/minimum-viable-product-mvp-and-design-balancing-risk-to-gain-reward){target="_blank"} done *quickly*.
-    -   Not ["letting the perfect be the enemy of the good"](https://www.entrepreneur.com/article/249676){target="_blank"}.
-3.  Learn how to use internet search engines effectively in a data science setting.
+**3 Class Hours 3 Credits**
 
 ------------------------------------------------------------------------
 
-# Lecture schedule {#topicschedule}
+# BASIC OUTLINE OF COURSE CONTENT:
+
+-   Introduction to Programming Language for Data Science (R or Python) and Computing Environment (RStudio, Jupyter Notebook, etc.)
+
+-   Data Science Life Cycle 
+
+-   Grammar of Graphics
+
+-   Data Visualization
+
+-   Data Wrangling
+
+-   Data Collection
+
+-   Web Scraping and Importing Data
+
+-   Data Management
+
+-   Data Ethics
+
+-   Introduction to Database Querying with SQL
+
+-   Further Topics based on time and student interest may include:
+
+    -   Iteration
+
+    -   Dynamic and Customized Data Graphics
+
+    -   Geospatial Data and Maps
+
+    -   Text Mining
+
+    -   Introduction to Machine Learning (to motivate interest in an Intro to Data Science 2 course that would be devoted to this.)
+
+# Student Learning outcomes
+
+Students who complete this course will be able to: 
+
+-   Develop skills in using modern technology to conduct data analysis.
+
+-   Draw meaningful conclusions and insights from real world data. 
+
+-   Understand data collection from various sources and appropriate data management. 
+
+-   Effectively organize, clean, prepare data for analysis
+
+-   Communicate clear, meaningful data visualizations.
+
+-   Develop understanding and appreciation of ethics in Data Science.
+
+# Lecture schedule
 
 The lecture schedule and associated readings can be found on the [main page](index.html){target="_blank"} of this course webpage. The ModernDive textbook is accessible on the navigational bar of this webpage.
 
-## Class norms {#policies}
+# Class norms {#policies}
 
--   Bring your laptop, a set of headphones, colored pens/pencils with paper notebook (or tablet with stylus) to every lecture.
 -   You are expected to stay until the end of lecture. If you need to leave early, please confirm with me at the beginning of lecture and sit somewhere where your departure will be minimally disruptive.
 -   Attendance will not be explicitly taken and occasional absences are excused. However, extended absences should be mentioned to me.
--   However, you are responsible for asking your peers for what you missed. For example, makeup lectures will not be held during office hours.
--   Lecture will be held as usual on Monday 11/22 (before Thanksgiving).
 
 ------------------------------------------------------------------------
 
@@ -114,48 +155,27 @@ The lecture schedule and associated readings can be found on the [main page](ind
 
 All due dates can be found on the [main page](index.html){target="_blank"} of this course webpage.
 
-## Midterms 35%
+This class is project based. As such your evaluations will be based on projects you create.
 
-There will be two midterms during the semester. The higher score of the two midterm scores will be weighted 20% and the lower will be weighted 15%. More details to follow.
+## Projects 40%
 
-```{=html}
-<!--
-You'll take these midterms in Seelye Self-Scheduled Exam center between Friday at 5pm and Sunday at 11:55pm. Instructions on taking exams for [Smithies](https://sophia.smith.edu/edtech/documentation/print-an-exam-from-the-direct-to-queue-application/){target="_blank"} and [Five College Students](https://sophia.smith.edu/edtech/documentation/special-instructions-for-five-college-and-high-school-students-using-direct-to-queue-exam-printing/){target="_blank"}.
-
-* Midterm I: Data visualization
-* Midterm II: Data wrangling
--->
-```
-## Three mini-projects 30%
-
-There will be three mini-projects with particular themes. You'll do these mini-projects in groups of 2 assigned by me.
-
--   Mini-project 1 5%: Data visualization
--   Mini-project 2 10%: Data wrangling
--   Mini-project 3 15%: Maps
+There are four projects to complete during the semester.
 
 ## Final project 20%
 
-There will be a final project due the last day of exams. You'll do this final project in groups of 2-3 where you can choose your groupmates.
+There will be a final project due the last day of classes. You'll do this final project in groups of 2-3 where you can choose your groupmates.
 
-As for whether you should be on Smith campus during exam week, this is for you and your groupmates to decide. You do not need to consult the instructor.
+## Problem sets 25%
 
-## Problem sets 10%
+Homework will be assigned weekly, its important to complete and stay on top of homework.
 
-There will be 7 problem sets, with only the top 5 scores going towards your grade. ~~Since the lowest two grades will be dropped, no extensions to problem sets will be given.~~
-
-**Extension Requests (Added 10/27)**:
-
--   You have an extension "budget" of a maximum of 5 days for the rest of the semester; it's up to you to keep track of your budget
--   Request must be made before due date/time.
--   [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeCrhqs-iTD5qPcf4FfcFNHE_rwMuaeF37yQuwusRsP9xHJ_Q/viewform){target="_blank"}
-
-## Engagement 5% {#engagement}
+## Engagment 15% {#engagement}
 
 It is difficult to explicit codify what constitutes "an engaged student," so instead I present the following rough principle I will follow: *you'll only get out of this class as much as you put in*. That being said, here are multiple pathways for you to stay engaged in this class:
 
 -   In particular: Peer evaluations for all projects.
 -   Asking and answering questions in class.
+-   Working and staying focused in class.
 -   Coming to office hours.
 -   Posting questions on Slack.
 -   Even better: Responding to questions on Slack.
@@ -164,30 +184,16 @@ It is difficult to explicit codify what constitutes "an engaged student," so ins
 
 1.  **Collaboration**: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another's work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.
 2.  **Honor Code**: All your work must follow the [Smith College Academic Honor Code Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"}; in particular all external sources must be cited in your submissions. <!--
-        1. **Problem sets**:
-            + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade.
-        1. **Mini-projects**:
-            + Extensions only with a dean's note.
-        1. **Midterms**:
-            + No make-up midterms will be allowed without a dean's note. 
-            + Timestamps for all midterms will be strictly enforced.
-        -->
+                1. **Problem sets**:
+                    + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade.
+                1. **Mini-projects**:
+                    + Extensions only with a dean's note.
+                1. **Midterms**:
+                    + No make-up midterms will be allowed without a dean's note. 
+                    + Timestamps for all midterms will be strictly enforced.
+                -->
 3.  **Grading**: I reserve the right to not discuss any grading issues in class and instead direct you to office hours.
 
 ------------------------------------------------------------------------
 
-# Accommodations {#accommodations}
-
-Smith is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the Disability Services Office at the beginning of the semester. To do so, call 413.585.2071 to arrange an appointment with Laura Rauscher, Director of Disability Services.
-
-------------------------------------------------------------------------
-
-# Code of Conduct {#codeofconduct}
-
-As the instructor and assistants for this course, we are committed to making participation in this course a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion. Examples of unacceptable behavior by participants in this course include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.
-
-As the instructor and assistants we have the right and responsibility to point out and stop behavior that is not aligned to this Code of Conduct. Participants who do not follow the Code of Conduct may be reprimanded for such behavior. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the instructor.
-
-**All students, the instructor, the lab instructor, and all data assistants are expected to adhere to this Code of Conduct in all settings for this course: lectures, office hours, tutoring hours, and over Slack.**
-
-This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org){target="_blank"}, version 1.0.0, available [here](http://contributor-covenant.org/version/1/0/0/){target="_blank"}.
+#  {#accommodations}
