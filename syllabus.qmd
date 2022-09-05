@@ -184,14 +184,14 @@ It is difficult to explicit codify what constitutes "an engaged student," so ins
 
 1.  **Collaboration**: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another's work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.
 2.  **Honor Code**: All your work must follow the [Smith College Academic Honor Code Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"}; in particular all external sources must be cited in your submissions. <!--
-                1. **Problem sets**:
-                    + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade.
-                1. **Mini-projects**:
-                    + Extensions only with a dean's note.
-                1. **Midterms**:
-                    + No make-up midterms will be allowed without a dean's note. 
-                    + Timestamps for all midterms will be strictly enforced.
-                -->
+                    1. **Problem sets**:
+                        + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade.
+                    1. **Mini-projects**:
+                        + Extensions only with a dean's note.
+                    1. **Midterms**:
+                        + No make-up midterms will be allowed without a dean's note. 
+                        + Timestamps for all midterms will be strictly enforced.
+                    -->
 3.  **Grading**: I reserve the right to not discuss any grading issues in class and instead direct you to office hours.
 
 ------------------------------------------------------------------------

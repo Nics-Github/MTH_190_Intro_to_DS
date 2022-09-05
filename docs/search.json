@@ -425,5 +425,68 @@
     "title": "MTH 190: Intro to Data Science",
     "section": "",
     "text": "<iframe src=“https://calendar.google.com/calendar/embed?src=c_7bf2gbuo4i9fise6utlenr4jbc%40group.calendar.google.com&ctz=America%2FNew_York” style=“border: 0” width=“800” height=“600” frameborder=“0” scrolling=“no”>"
+  },
+  {
+    "objectID": "index.html#get-a-nytime-account",
+    "href": "index.html#get-a-nytime-account",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Get a NYtime account",
+    "text": "Get a NYtime account\nYou get this free through HCC"
+  },
+  {
+    "objectID": "index.html#slack",
+    "href": "index.html#slack",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Slack",
+    "text": "Slack\nThis class has a slack channel. Its invite only. Check your e-mail I invited you to the channel on Monday. If you’ve got questions post them to slack. I’ve introduced myself on Slack, you should do that too."
+  },
+  {
+    "objectID": "index.html#lecture",
+    "href": "index.html#lecture",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Lecture",
+    "text": "Lecture\nIntro to R"
+  },
+  {
+    "objectID": "index.html#lab",
+    "href": "index.html#lab",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Lab",
+    "text": "Lab\n\nIf the server is up to date:\nDatasaurus_Dozen ### If it is not up to date: Datasaurus_Dozen"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
+    "title": "Lab 01 - Hello R!",
+    "section": "",
+    "text": "R is the name of the programming language itself and RStudio is a convenient interface.\nThe main goal of this lab is to introduce you to R and RStudio, which we will be using throughout the course both to learn the statistical concepts discussed in the course and to analyze real data and come to informed conclusions.\nAn additional goal is to introduce you to Git and GitHub, which is the collaboration and version control system that we will be using throughout the course.\nAs the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.\nAnd to make versioning simpler, this is a solo lab. Additionally, we want to make sure everyone gets a significant amount of time at the steering wheel. In future labs you’ll learn about collaborating on GitHub and produce a single lab report for your team."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#warm-up",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#warm-up",
+    "title": "Lab 01 - Hello R!",
+    "section": "Warm up",
+    "text": "Warm up\nBefore we introduce the data, let’s warm up with some simple exercises.\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for \"YAML Ain't Markup Language\". It is a human friendly data serialization standard for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\nYAML\nOpen the R Markdown (Rmd) file in your project, change the author name to your name, and knit the document."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#packages",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#packages",
+    "title": "Lab 01 - Hello R!",
+    "section": "Packages",
+    "text": "Packages\nIn this lab we will work with two packages: datasauRus which contains the dataset we’ll be using and tidyverse which is a collection of packages for doing data analysis in a “tidy” way. These packages are already installed for you. You can load the packages by running the following in the Console.\n\nlibrary(tidyverse) \nlibrary(datasauRus)\n\nNote that the packages are also loaded with the same commands in your R Markdown document."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#data",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#data",
+    "title": "Lab 01 - Hello R!",
+    "section": "Data",
+    "text": "Data\n\nIf it's confusing that the data frame is called `datasaurus_dozen` when it contains 13 datasets, you're not alone! Have you heard of a [baker's dozen](https://en.wikipedia.org/wiki/Dozen#Baker's_dozen)?\n\nThe data frame we will be working with today is called datasaurus_dozen and it’s in the datasauRus package. Actually, this single data frame contains 13 datasets, designed to show us why data visualisation is important and how summary statistics alone can be misleading. The different datasets are marked by the dataset variable.\nTo find out more about the dataset, type the following in your Console: ?datasaurus_dozen. A question mark before the name of an object will always bring up its help file. This command must be ran in the Console."
+  },
+  {
+    "objectID": "index.html#get-a-nytimes-account",
+    "href": "index.html#get-a-nytimes-account",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Get a NYTimes account",
+    "text": "Get a NYTimes account\nYou get this free through HCC"
   }
 ]

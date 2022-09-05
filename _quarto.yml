@@ -1,6 +1,5 @@
 project:
   type: website
-#I think when I output to docs everything breaks. 
   output-dir: docs
   
 
@@ -10,7 +9,7 @@ output:
     toc: yes
     toc_float: yes
     toc_depth: 2
-    theme: cosmo
+    theme: readable
     highlight: tango
     df_print: paged
     lib_dir: site_libs
@@ -34,9 +33,11 @@ website:
       href: https://moderndive.com/C-appendixC.html
     - icon: slack
       href: https://mth190introto-dmw9119.slack.com
+    - text: R
+      href: http://hcc-rstudiosrv1.hcc.edu:8787/auth-sign-in
     
     right:
-    - text: GitHub Website
+    - icon: github
       href: https://github.com/Nics-Github/MTH_190
   # - text: Problem Sets
   #   href: PS.html

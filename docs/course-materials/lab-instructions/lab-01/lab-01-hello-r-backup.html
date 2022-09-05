@@ -149,15 +149,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </i> 
  </a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="http://hcc-rstudiosrv1.hcc.edu:8787/auth-sign-in"><i class="bi bi-./images/rstudio_logo.png" role="img">
-</i> 
- </a>
+  <li class="nav-item">
+    <a class="nav-link" href="http://hcc-rstudiosrv1.hcc.edu:8787/auth-sign-in">R</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://github.com/Nics-Github/MTH_190">GitHub Website</a>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Nics-Github/MTH_190"><i class="bi bi-github" role="img">
+</i> 
+ </a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../syllabus.html">Syllabus</a>
@@ -202,91 +202,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>An additional goal is to introduce you to Git and GitHub, which is the collaboration and version control system that we will be using throughout the course.</p>
 <p>As the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.</p>
 <p>And to make versioning simpler, this is a solo lab. Additionally, we want to make sure everyone gets a significant amount of time at the steering wheel. In future labs you’ll learn about collaborating on GitHub and produce a single lab report for your team.</p>
-<section id="connecting-github-and-rstudio-cloud" class="level1">
-<h1>Connecting GitHub and RStudio Cloud</h1>
-<p>You should have already received an invitation to join the GitHub organization for this course. You need to accept the invitation before moving on to the next step.</p>
-<p>To connect your RStudio and GitHub accounts by following the steps below:</p>
-<ul>
-<li>Click on your name on the top right corner to open the right menu.</li>
-<li>Then, click on Authentication.</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="img/github-auth-1.png" class="img-fluid" width="1532"></p>
-</div>
-</div>
-<ul>
-<li>In the Authentication window, check the box for <em>Enabled</em>.</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="img/github-auth-2.png" class="img-fluid" width="1532"></p>
-</div>
-</div>
-<ul>
-<li>In the next window, click on the green box that says “Authorize rstudio”.</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="img/github-auth-3.png" class="img-fluid" width="1532"></p>
-</div>
-</div>
-<ul>
-<li>Back in the Authentication window, check the box for <em>Private repo access also enabled</em>, and once again, on the green box that says “Authorize rstudio” in the next window. At this point you should also make sure that the course organization shows up for you under <em>Organization access</em>. If it does not, this means you have not yet accepted the GitHub invitation to join the course, and you should go back and do that.</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="img/github-auth-4.png" class="img-fluid" width="1532"></p>
-</div>
-</div>
-<ul>
-<li>Once you’re done, both of these boxes should be checked.</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="img/github-auth-5.png" class="img-fluid" width="1532"></p>
-</div>
-</div>
-<ul>
-<li>To confirm that you’ve successfully linked up your GitHub and RStudio Cloud accounts, <a href="https://github.com/settings/applications">GitHub settings &gt; Applications</a>. You should see RStudio listed as an authorized app under <em>Authorized OAuth Apps</em>. If you don’t this is a good time to ask a question.</li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="img/github-auth-6.png" class="img-fluid" width="1532"></p>
-</div>
-</div>
-</section>
-<section id="getting-started" class="level1">
-<h1>Getting started</h1>
-<p>Each of your assignments will begin with the following steps. You saw these once in class yesterday, they’re outlined in detail here again. Going forward each lab will start with a “Getting started” section but details will be a bit more sparse than this. You can always refer back to this lab for a detailed list of the steps involved for getting started with an assignment.</p>
-<ul>
-<li>Click on the assignment link that you should have received in your email to create your GitHub repository (which we’ll refer to as “repo” going forward) for the assignment. This repo contains a template you can build on to complete your assignment.</li>
-</ul>
-<div class="cell" data-fig.margin="true">
-<div class="cell-output-display">
-<p><img src="img/clone-repo-link.png" class="img-fluid" width="265"></p>
-</div>
-</div>
-<ul>
-<li>On GitHub, click on the green <strong>Clone or download</strong> button, select <strong>Use HTTPS</strong> (this might already be selected by default, and if it is, you’ll see the text <strong>Clone with HTTPS</strong> as in the image below). Click on the clipboard icon to copy the repo URL.</li>
-</ul>
-<div class="cell" data-fig.margin="true">
-<div class="cell-output-display">
-<p><img src="img/new-project-from-gh.png" class="img-fluid" width="224"></p>
-</div>
-</div>
-<ul>
-<li>Go to RStudio Cloud and into the course workspace. Create a <strong>New Project from Git Repo</strong>. You will need to click on the down arrow next to the <strong>New Project</strong> button to see this option.</li>
-</ul>
-<div class="cell" data-fig.margin="true">
-<div class="cell-output-display">
-<p><img src="img/paste-gh-repo-url.png" class="img-fluid" width="500"></p>
-</div>
-</div>
-<ul>
-<li><p>Copy and paste the URL of your assignment repo into the dialog box:</p></li>
-<li><p>Hit OK, and you’re good to go!</p></li>
-</ul>
 <section id="warm-up" class="level2">
 <h2 class="anchored" data-anchor-id="warm-up">Warm up</h2>
 <p>Before we introduce the data, let’s warm up with some simple exercises.</p>
@@ -301,22 +216,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><img src="img/yaml-raw-to-rendered.png" class="img-fluid" width="930"></p>
 </div>
 </div>
-</section>
-<section id="committing-changes" class="level3">
-<h3 class="anchored" data-anchor-id="committing-changes">Committing changes</h3>
-<p>Then go to the Git pane in your RStudio.</p>
-<p>If you have made changes to your Rmd file, you should see it listed here. Click on it to select it in this list and then click on <strong>Diff</strong>. This shows you the <em>diff</em>erence between the last committed state of the document and its current state that includes your changes. If you’re happy with these changes, write “Update author name” in the <strong>Commit message</strong> box and hit <strong>Commit</strong>.</p>
-<div class="cell" data-fig.fullwidth="true">
-<div class="cell-output-display">
-<p><img src="img/update-author-name-commit.png" class="img-fluid" width="889"></p>
-</div>
-</div>
-<p>You don’t have to commit after every change, this would get quite cumbersome. You should consider committing states that are <em>meaningful to you</em> for inspection, comparison, or restoration. In the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions.</p>
-</section>
-<section id="pushing-changes" class="level3">
-<h3 class="anchored" data-anchor-id="pushing-changes">Pushing changes</h3>
-<p>Now that you have made an update and committed this change, it’s time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only).</p>
-<p>In order to push your changes to GitHub, click on <strong>Push</strong>. This will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me… We <em>will</em> teach you how to save your password so you don’t have to enter it every time. But for this one assignment you’ll have to manually enter each time you push in order to gain some experience with it.</p>
 </section>
 </section>
 <section id="packages" class="level2">
@@ -335,7 +234,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <p>The data frame we will be working with today is called <code>datasaurus_dozen</code> and it’s in the <code>datasauRus</code> package. Actually, this single data frame contains 13 datasets, designed to show us why data visualisation is important and how summary statistics alone can be misleading. The different datasets are marked by the <code>dataset</code> variable.</p>
 <p>To find out more about the dataset, type the following in your Console: <code>?datasaurus_dozen</code>. A question mark before the name of an object will always bring up its help file. This command must be ran in the Console.</p>
-</section>
 </section>
 <section id="exercises" class="level1">
 <h1>Exercises</h1>
@@ -394,7 +292,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> dino_data, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> x, <span class="at">y =</span> y)) <span class="sc">+</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="lab-01-hello-r_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+<p><img src="lab-01-hello-r-backup_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>If this seems like a lot, it is. And you will learn about the philosophy of building data visualizations in layer in detail next week. For now, follow along with the code that is provided.</p>
@@ -478,7 +376,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Once again click on the gear icon in on top of the R Markdown document, and select “Output Options…” in the dropdown menu. In the General tab of the pop up dialogue box try out different Syntax highlighting and theme options. Hit OK and knit your document to see how it looks. Play around with these until you’re happy with the look.</p>
 <p><br></p>
 <div class="cell">
-<pre class="marginfigure cell-code"><code>Not sure how to use emojis on your computer? Maybe a teammate can help? Or you can ask your TA as well!</code></pre>
+<pre class="marginfigure cell-code"><code>Not sure how to use emojis on your computer? Maybe a teammate can help? Or you can ask your TA as well! </code></pre>
 </div>
 <p>🧶 ✅ ⬆️ <em>Yay, you’re done! Commit all remaining changes, use the commit message “Done with Lab 1!</em> 💪<em>“, and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards. Before you wrap up the assignment, make sure all documents are updated on your GitHub repo.</em></p>
 
