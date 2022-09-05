@@ -418,5 +418,12 @@
     "title": "Syllabus",
     "section": "Problem sets 25%",
     "text": "Problem sets 25%\nHomework will be assigned weekly, its important to complete and stay on top of homework."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "",
+    "text": "<iframe src=“https://calendar.google.com/calendar/embed?src=c_7bf2gbuo4i9fise6utlenr4jbc%40group.calendar.google.com&ctz=America%2FNew_York” style=“border: 0” width=“800” height=“600” frameborder=“0” scrolling=“no”>"
   }
 ]

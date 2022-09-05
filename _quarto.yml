@@ -32,7 +32,7 @@ website:
       href: Resources.qmd
     - text: T & T
       href: https://moderndive.com/C-appendixC.html
-    - text: Slack
+    - icon: slack
       href: https://mth190introto-dmw9119.slack.com
     
     right:
