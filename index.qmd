@@ -70,29 +70,29 @@ h1{font-weight: 400;}
 
 </iframe>
 
-# Day 2: A Taxonomy for Data Graphics
+<!-- # Day 2: A Taxonomy for Data Graphics -->
 
-## Summarize Reading
+<!-- ## Summarize Reading -->
 
-## See Tips & Tricks
+<!-- ## See Tips & Tricks -->
 
-[The six-fixes]()
+<!-- [The six-fixes](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit) -->
 
-Help us help you: take screenshots of your screen.
+<!-- Help us help you: take screenshots of your screen. -->
 
--   macOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion
+<!-- -   macOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion -->
 
--   Windows: Shift-Windows Key-S and Snip & Sketch
+<!-- -   Windows: Shift-Windows Key-S and Snip & Sketch -->
 
-## Taxonomy
+<!-- ## Taxonomy -->
 
-[Lecture on Taxonomy](./course-materials/lectures/mdsr_viz_1_taxonomy.html)
+<!-- [Lecture on Taxonomy](./course-materials/lectures/mdsr_viz_1_taxonomy.html) -->
 
-[Activity on Taxonomy](./course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html)
+<!-- [Activity on Taxonomy](./course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html) -->
 
-## Get a NYTimes account
+<!-- ## Get a NYTimes account -->
 
-[You get this free through HCC](https://www.hcc.edu/library/find-resources/databases-and-journals/nyt-login)
+<!-- [You get this free through HCC](https://www.hcc.edu/library/find-resources/databases-and-journals/nyt-login) -->
 
 # Day 1: Introduction to Class, Website, and RStudio
 
@@ -115,6 +115,7 @@ I've introduced myself on Slack, you should do that too.
 
 [Intro to R](./course-materials/lectures/Getting_Started_with_Quarto.html)
 
+
 ## Activity
 
 [UNvotes](./course-materials/application-exercises/ae-01a-un-votes/unvotes.html)
@@ -127,13 +128,10 @@ or
 
 ### If the server is up to date:
 [Datasaurus_Dozen](./course-materials/lab-instructions/lab-01/lab-01-hello-r.html)
+
 ### If it is not up to date: 
 [Datasaurus_Dozen](./course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html)
 
-## Homework
+## Meet AJ!
 
-[HW 1](./course-materials/hw-instructions/hw-01/hw-01-pet-names.html)
-
-## Reading
-
-[Prolouge: Why data science? MDSR](https://mdsr-book.github.io/mdsr2e/ch-prologue.html)
+## General Questions and Comments

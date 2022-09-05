@@ -452,7 +452,7 @@
     "href": "index.html#lab",
     "title": "MTH 190: Intro to Data Science",
     "section": "Lab",
-    "text": "Lab\n\nIf the server is up to date:\nDatasaurus_Dozen ### If it is not up to date: Datasaurus_Dozen"
+    "text": "Lab\n\nIf the server is up to date:\nDatasaurus_Dozen\n\n\nIf it is not up to date:\nDatasaurus_Dozen"
   },
   {
     "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
@@ -488,5 +488,19 @@
     "title": "MTH 190: Intro to Data Science",
     "section": "Get a NYTimes account",
     "text": "Get a NYTimes account\nYou get this free through HCC"
+  },
+  {
+    "objectID": "index.html#meet-aj",
+    "href": "index.html#meet-aj",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Meet AJ!",
+    "text": "Meet AJ!"
+  },
+  {
+    "objectID": "index.html#general-questions-and-comments",
+    "href": "index.html#general-questions-and-comments",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "General Questions and Comments",
+    "text": "General Questions and Comments"
   }
 ]
