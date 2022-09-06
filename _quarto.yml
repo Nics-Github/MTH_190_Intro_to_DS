@@ -2,8 +2,6 @@ project:
   type: website
   output-dir: docs
   
-
-  
 output:
   html_document:
     toc: yes
