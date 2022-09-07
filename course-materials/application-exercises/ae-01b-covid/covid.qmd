@@ -3,8 +3,6 @@ title: "Cumulative deaths from COVID-19"
 author: "Mine Çetinkaya-Rundel"
 format: html
 editor: visual
-execute:
-  freeze: auto  # re-render only when source changes
 ---
 
 ## Introduction
