@@ -19,7 +19,6 @@ website:
   page-navigation: true
   title: "MTH_190"
   author: "Schwab"  
-  date: now
   navbar:
  
     left:
