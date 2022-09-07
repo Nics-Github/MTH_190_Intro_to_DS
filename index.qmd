@@ -3,7 +3,7 @@ title: "MTH 190: Intro to Data Science"
 author: "Nicholas Schwab"
 date: today
 
-output: html_document
+output: html
 
 format:
   html:
