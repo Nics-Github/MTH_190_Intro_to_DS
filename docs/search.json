@@ -1,38 +1,24 @@
 [
   {
-    "objectID": "index.html#summarize-reading",
-    "href": "index.html#summarize-reading",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Summarize Reading",
-    "text": "Summarize Reading"
-  },
-  {
-    "objectID": "index.html#see-tips-tricks",
-    "href": "index.html#see-tips-tricks",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "See Tips & Tricks",
-    "text": "See Tips & Tricks\nThe six-fixes\nHelp us help you: take screenshots of your screen.\n\nmacOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion\nWindows: Shift-Windows Key-S and Snip & Sketch"
-  },
-  {
-    "objectID": "index.html#taxonomy",
-    "href": "index.html#taxonomy",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Taxonomy",
-    "text": "Taxonomy\nLecture on Taxonomy\nActivity on Taxonomy"
-  },
-  {
     "objectID": "index.html#rstudio",
     "href": "index.html#rstudio",
     "title": "MTH 190: Intro to Data Science",
     "section": "RStudio",
-    "text": "RStudio\n\n\n\n\n\nTo sign in:\n\nusername: Your HCC email with @hcc.edu\npassword: Your hcc password"
+    "text": "RStudio\n\n\n\n\n\nTo sign in:\n\nusername: Your HCC email with @hcc.edu\npassword: Your HCC password"
   },
   {
-    "objectID": "index.html#class-work",
-    "href": "index.html#class-work",
+    "objectID": "index.html#slack",
+    "href": "index.html#slack",
     "title": "MTH 190: Intro to Data Science",
-    "section": "Class work",
-    "text": "Class work\nIntro to R"
+    "section": "Slack",
+    "text": "Slack\nThis class has a Slack channel. Its invite only. Check your e-mail I invited you to the channel on Monday. If you’ve got questions post them to Slack. I’ve introduced myself on Slack, you should do that too."
+  },
+  {
+    "objectID": "index.html#lecture",
+    "href": "index.html#lecture",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Lecture",
+    "text": "Lecture\nIntro to R"
   },
   {
     "objectID": "index.html#activity",
@@ -42,46 +28,25 @@
     "text": "Activity\nUNvotes\nor\nCOVID-19"
   },
   {
-    "objectID": "index.html#homework",
-    "href": "index.html#homework",
+    "objectID": "index.html#lab",
+    "href": "index.html#lab",
     "title": "MTH 190: Intro to Data Science",
-    "section": "Homework",
-    "text": "Homework\nHW 1"
+    "section": "Lab",
+    "text": "Lab\n\nIf the server is up to date:\nDatasaurus_Dozen\n\n\nIf it is not up to date:\nDatasaurus_Dozen"
   },
   {
-    "objectID": "index.html#me-and-you",
-    "href": "index.html#me-and-you",
+    "objectID": "index.html#meet-aj",
+    "href": "index.html#meet-aj",
     "title": "MTH 190: Intro to Data Science",
-    "section": "Me and you",
-    "text": "Me and you"
+    "section": "Meet AJ!",
+    "text": "Meet AJ!"
   },
   {
-    "objectID": "index.html#reading",
-    "href": "index.html#reading",
+    "objectID": "index.html#general-questions-and-comments",
+    "href": "index.html#general-questions-and-comments",
     "title": "MTH 190: Intro to Data Science",
-    "section": "Reading",
-    "text": "Reading\nProlouge: Why data science? MDSR"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "credits.html",
-    "href": "credits.html",
-    "title": "Credits",
-    "section": "",
-    "text": "The format for this site was borrowed from [Albert Kim’s SDS 192 course](https://bit.ly/sds192kim)"
-  },
-  {
-    "objectID": "credits.html#activities-projects-etc.",
-    "href": "credits.html#activities-projects-etc.",
-    "title": "Credits",
-    "section": "Activities, Projects, etc.",
-    "text": "Activities, Projects, etc.\nIf not created by me or referred to in some other way the activities and projects for this course are from:\n\nThe above mentioned website\nData Science in a box.\nBen Baumer’s SDS 192 course page"
+    "section": "General Questions and Comments",
+    "text": "General Questions and Comments"
   },
   {
     "objectID": "course-materials/application-exercises/ae-01a-un-votes/unvotes.html",
@@ -110,6 +75,41 @@
     "title": "UN Votes",
     "section": "Appendix",
     "text": "Appendix\nBelow is a list of countries in the dataset:"
+  },
+  {
+    "objectID": "credits.html",
+    "href": "credits.html",
+    "title": "Credits",
+    "section": "",
+    "text": "The format for this site was borrowed from [Albert Kim’s SDS 192 course](https://bit.ly/sds192kim)"
+  },
+  {
+    "objectID": "credits.html#activities-projects-etc.",
+    "href": "credits.html#activities-projects-etc.",
+    "title": "Credits",
+    "section": "Activities, Projects, etc.",
+    "text": "Activities, Projects, etc.\nIf not created by me or referred to in some other way the activities and projects for this course are from:\n\nThe above mentioned website\nData Science in a box.\nBen Baumer’s SDS 192 course page"
+  },
+  {
+    "objectID": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html",
+    "href": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html",
+    "title": "Bechdel",
+    "section": "",
+    "text": "In this mini analysis we work with the data used in the FiveThirtyEight story titled “The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women”. Your task is to fill in the blanks denoted by ___."
+  },
+  {
+    "objectID": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#data-and-packages",
+    "href": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#data-and-packages",
+    "title": "Bechdel",
+    "section": "Data and packages",
+    "text": "Data and packages\nWe start with loading the packages we’ll use.\n\nlibrary(fivethirtyeight)\nlibrary(tidyverse)\n\nThe dataset contains information on 1794 movies released between 1970 and 2013. However we’ll focus our analysis on movies released between 1990 and 2013.\n\nbechdel90_13 <- bechdel %>% \n  filter(between(year, 1990, 2013))\n\nThere are ___ such movies.\nThe financial variables we’ll focus on are the following:\n\nbudget_2013: Budget in 2013 inflation adjusted dollars\ndomgross_2013: Domestic gross (US) in 2013 inflation adjusted dollars\nintgross_2013: Total International (i.e., worldwide) gross in 2013 inflation adjusted dollars\n\nAnd we’ll also use the binary and clean_test variables for grouping."
+  },
+  {
+    "objectID": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#analysis",
+    "href": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#analysis",
+    "title": "Bechdel",
+    "section": "Analysis",
+    "text": "Analysis\nLet’s take a look at how median budget and gross vary by whether the movie passed the Bechdel test, which is stored in the binary variable.\n\nbechdel90_13 %>%\n  group_by(binary) %>%\n  summarise(\n    med_budget = median(budget_2013),\n    med_domgross = median(domgross_2013, na.rm = TRUE),\n    med_intgross = median(intgross_2013, na.rm = TRUE)\n    )\n\n# A tibble: 2 × 4\n  binary med_budget med_domgross med_intgross\n  <chr>       <dbl>        <dbl>        <dbl>\n1 FAIL    48385984.    57318606.    104475669\n2 PASS    31070724     45330446.     80124349\n\n\nNext, let’s take a look at how median budget and gross vary by a more detailed indicator of the Bechdel test result. This information is stored in the clean_test variable, which takes on the following values:\n\nok = passes test\ndubious\nmen = women only talk about men\nnotalk = women don’t talk to each other\nnowomen = fewer than two women\n\n\nbechdel90_13 %>%\n  #group_by(___) %>%\n  summarise(\n    med_budget = median(budget_2013),\n    med_domgross = median(domgross_2013, na.rm = TRUE),\n    med_intgross = median(intgross_2013, na.rm = TRUE)\n    )\n\n# A tibble: 1 × 3\n  med_budget med_domgross med_intgross\n       <int>        <dbl>        <dbl>\n1   37878971     52270207     93523336\n\n\nIn order to evaluate how return on investment varies among movies that pass and fail the Bechdel test, we’ll first create a new variable called roi as the ratio of the gross to budget.\n\nbechdel90_13 <- bechdel90_13 %>%\n  mutate(roi = (intgross_2013 + domgross_2013) / budget_2013)\n\nLet’s see which movies have the highest return on investment.\n\nbechdel90_13 %>%\n  arrange(desc(roi)) %>% \n  select(title, roi, year)\n\n# A tibble: 1,615 × 3\n   title                     roi  year\n   <chr>                   <dbl> <int>\n 1 Paranormal Activity      671.  2007\n 2 The Blair Witch Project  648.  1999\n 3 El Mariachi              583.  1992\n 4 Clerks.                  258.  1994\n 5 In the Company of Men    231.  1997\n 6 Napoleon Dynamite        227.  2004\n 7 Once                     190.  2006\n 8 The Devil Inside         155.  2012\n 9 Primer                   142.  2004\n10 Fireproof                134.  2008\n# … with 1,605 more rows\n# ℹ Use `print(n = ...)` to see more rows\n\n\nBelow is a visualization of the return on investment by test result, however it’s difficult to see the distributions due to a few extreme observations.\n\nggplot(data = bechdel90_13, \n       mapping = aes(x = clean_test, y = roi, color = binary)) +\n  geom_boxplot() +\n  labs(\n    title = \"Return on investment vs. Bechdel test result\",\n    x = \"Detailed Bechdel result\",\n    y = \"___\",\n    color = \"Binary Bechdel result\"\n    )\n\n\n\n\nWhat are those movies with very high returns on investment?\n\nbechdel90_13 %>%\n  filter(roi > 400) %>%\n  select(title, budget_2013, domgross_2013, year)\n\n# A tibble: 3 × 4\n  title                   budget_2013 domgross_2013  year\n  <chr>                         <int>         <dbl> <int>\n1 Paranormal Activity          505595     121251476  2007\n2 The Blair Witch Project      839077     196538593  1999\n3 El Mariachi                   11622       3388636  1992\n\n\nZooming in on the movies with roi < ___ provides a better view of how the medians across the categories compare:\n\nggplot(data = bechdel90_13, mapping = aes(x = clean_test, y = roi, color = binary)) +\n  geom_boxplot() +\n  labs(\n    title = \"Return on investment vs. Bechdel test result\",\n    subtitle = \"___\", # Something about zooming in to a certain level\n    x = \"Detailed Bechdel result\",\n    y = \"Return on investment\",\n    color = \"Binary Bechdel result\"\n    ) +\n  coord_cartesian(ylim = c(0, 15))"
   },
   {
     "objectID": "course-materials/application-exercises/ae-01b-covid/covid.html",
@@ -145,6 +145,34 @@
     "title": "Taxonomy of Graphics",
     "section": "",
     "text": "From The Economist:\nLonger Constitutions\nAverted Deaths\nFrom Yougov:\nIce Cream\nFriend or Enemy -Russia"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
+    "title": "Lab 01 - Hello R!",
+    "section": "",
+    "text": "R is the name of the programming language itself and RStudio is a convenient interface.\nThe main goal of this lab is to introduce you to R and RStudio, which we will be using throughout the course both to learn the statistical concepts discussed in the course and to analyze real data and come to informed conclusions.\nAn additional goal is to introduce you to Git and GitHub, which is the collaboration and version control system that we will be using throughout the course.\nAs the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.\nAnd to make versioning simpler, this is a solo lab. Additionally, we want to make sure everyone gets a significant amount of time at the steering wheel. In future labs you’ll learn about collaborating on GitHub and produce a single lab report for your team."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#warm-up",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#warm-up",
+    "title": "Lab 01 - Hello R!",
+    "section": "Warm up",
+    "text": "Warm up\nBefore we introduce the data, let’s warm up with some simple exercises.\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for \"YAML Ain't Markup Language\". It is a human friendly data serialization standard for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\nYAML\nOpen the R Markdown (Rmd) file in your project, change the author name to your name, and knit the document."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#packages",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#packages",
+    "title": "Lab 01 - Hello R!",
+    "section": "Packages",
+    "text": "Packages\nIn this lab we will work with two packages: datasauRus which contains the dataset we’ll be using and tidyverse which is a collection of packages for doing data analysis in a “tidy” way. These packages are already installed for you. You can load the packages by running the following in the Console.\n\nlibrary(tidyverse) \nlibrary(datasauRus)\n\nNote that the packages are also loaded with the same commands in your R Markdown document."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#data",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#data",
+    "title": "Lab 01 - Hello R!",
+    "section": "Data",
+    "text": "Data\n\nIf it's confusing that the data frame is called `datasaurus_dozen` when it contains 13 datasets, you're not alone! Have you heard of a [baker's dozen](https://en.wikipedia.org/wiki/Dozen#Baker's_dozen)?\n\nThe data frame we will be working with today is called datasaurus_dozen and it’s in the datasauRus package. Actually, this single data frame contains 13 datasets, designed to show us why data visualisation is important and how summary statistics alone can be misleading. The different datasets are marked by the dataset variable.\nTo find out more about the dataset, type the following in your Console: ?datasaurus_dozen. A question mark before the name of an object will always bring up its help file. This command must be ran in the Console."
   },
   {
     "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r.html",
@@ -329,25 +357,11 @@
     "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Schwab” or “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.\nProf. Schwab’s hours:\n\nMWF 10:00 - 10:50\nFR 362 or set up a zoom appointment.\n\nAJ’s office hours\n\nOffice hours:\nSlack:\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
   },
   {
-    "objectID": "syllabus.html#policies",
-    "href": "syllabus.html#policies",
+    "objectID": "syllabus.html#projects-40",
+    "href": "syllabus.html#projects-40",
     "title": "Syllabus",
-    "section": "Class norms",
-    "text": "Class norms\n\nBring your laptop, a set of headphones, colored pens/pencils with paper notebook (or tablet with stylus) to every lecture.\nYou are expected to stay until the end of lecture. If you need to leave early, please confirm with me at the beginning of lecture and sit somewhere where your departure will be minimally disruptive.\nAttendance will not be explicitly taken and occasional absences are excused. However, extended absences should be mentioned to me.\nHowever, you are responsible for asking your peers for what you missed. For example, makeup lectures will not be held during office hours.\nLecture will be held as usual on Monday 11/22 (before Thanksgiving)."
-  },
-  {
-    "objectID": "syllabus.html#midterms-35",
-    "href": "syllabus.html#midterms-35",
-    "title": "Syllabus",
-    "section": "Midterms 35%",
-    "text": "Midterms 35%\nThere will be two midterms during the semester. The higher score of the two midterm scores will be weighted 20% and the lower will be weighted 15%. More details to follow."
-  },
-  {
-    "objectID": "syllabus.html#three-mini-projects-30",
-    "href": "syllabus.html#three-mini-projects-30",
-    "title": "Syllabus",
-    "section": "Three mini-projects 30%",
-    "text": "Three mini-projects 30%\nThere will be three mini-projects with particular themes. You’ll do these mini-projects in groups of 2 assigned by me.\n\nMini-project 1 5%: Data visualization\nMini-project 2 10%: Data wrangling\nMini-project 3 15%: Maps"
+    "section": "Projects 40%",
+    "text": "Projects 40%\nThere are four projects to complete during the semester."
   },
   {
     "objectID": "syllabus.html#final-project-20",
@@ -357,11 +371,11 @@
     "text": "Final project 20%\nThere will be a final project due the last day of classes. You’ll do this final project in groups of 2-3 where you can choose your groupmates."
   },
   {
-    "objectID": "syllabus.html#problem-sets-10",
-    "href": "syllabus.html#problem-sets-10",
+    "objectID": "syllabus.html#problem-sets-25",
+    "href": "syllabus.html#problem-sets-25",
     "title": "Syllabus",
-    "section": "Problem sets 10%",
-    "text": "Problem sets 10%\nThere will be 7 problem sets, with only the top 5 scores going towards your grade. Since the lowest two grades will be dropped, no extensions to problem sets will be given.\nExtension Requests (Added 10/27):\n\nYou have an extension “budget” of a maximum of 5 days for the rest of the semester; it’s up to you to keep track of your budget\nRequest must be made before due date/time.\nGoogle Form"
+    "section": "Problem sets 25%",
+    "text": "Problem sets 25%\nHomework will be assigned weekly, its important to complete and stay on top of homework."
   },
   {
     "objectID": "syllabus.html#engagement",
@@ -404,124 +418,5 @@
     "title": "Resources",
     "section": "Data transformation: dplyr",
     "text": "Data transformation: dplyr"
-  },
-  {
-    "objectID": "syllabus.html#projects-40",
-    "href": "syllabus.html#projects-40",
-    "title": "Syllabus",
-    "section": "Projects 40%",
-    "text": "Projects 40%\nThere are four projects to complete during the semester."
-  },
-  {
-    "objectID": "syllabus.html#problem-sets-25",
-    "href": "syllabus.html#problem-sets-25",
-    "title": "Syllabus",
-    "section": "Problem sets 25%",
-    "text": "Problem sets 25%\nHomework will be assigned weekly, its important to complete and stay on top of homework."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "",
-    "text": "<iframe src=“https://calendar.google.com/calendar/embed?src=c_7bf2gbuo4i9fise6utlenr4jbc%40group.calendar.google.com&ctz=America%2FNew_York” style=“border: 0” width=“800” height=“600” frameborder=“0” scrolling=“no”>"
-  },
-  {
-    "objectID": "index.html#get-a-nytime-account",
-    "href": "index.html#get-a-nytime-account",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Get a NYtime account",
-    "text": "Get a NYtime account\nYou get this free through HCC"
-  },
-  {
-    "objectID": "index.html#slack",
-    "href": "index.html#slack",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Slack",
-    "text": "Slack\nThis class has a slack channel. Its invite only. Check your e-mail I invited you to the channel on Monday. If you’ve got questions post them to slack. I’ve introduced myself on Slack, you should do that too."
-  },
-  {
-    "objectID": "index.html#lecture",
-    "href": "index.html#lecture",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Lecture",
-    "text": "Lecture\nIntro to R"
-  },
-  {
-    "objectID": "index.html#lab",
-    "href": "index.html#lab",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Lab",
-    "text": "Lab\n\nIf the server is up to date:\nDatasaurus_Dozen\n\n\nIf it is not up to date:\nDatasaurus_Dozen"
-  },
-  {
-    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
-    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
-    "title": "Lab 01 - Hello R!",
-    "section": "",
-    "text": "R is the name of the programming language itself and RStudio is a convenient interface.\nThe main goal of this lab is to introduce you to R and RStudio, which we will be using throughout the course both to learn the statistical concepts discussed in the course and to analyze real data and come to informed conclusions.\nAn additional goal is to introduce you to Git and GitHub, which is the collaboration and version control system that we will be using throughout the course.\nAs the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.\nAnd to make versioning simpler, this is a solo lab. Additionally, we want to make sure everyone gets a significant amount of time at the steering wheel. In future labs you’ll learn about collaborating on GitHub and produce a single lab report for your team."
-  },
-  {
-    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#warm-up",
-    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#warm-up",
-    "title": "Lab 01 - Hello R!",
-    "section": "Warm up",
-    "text": "Warm up\nBefore we introduce the data, let’s warm up with some simple exercises.\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for \"YAML Ain't Markup Language\". It is a human friendly data serialization standard for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\nYAML\nOpen the R Markdown (Rmd) file in your project, change the author name to your name, and knit the document."
-  },
-  {
-    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#packages",
-    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#packages",
-    "title": "Lab 01 - Hello R!",
-    "section": "Packages",
-    "text": "Packages\nIn this lab we will work with two packages: datasauRus which contains the dataset we’ll be using and tidyverse which is a collection of packages for doing data analysis in a “tidy” way. These packages are already installed for you. You can load the packages by running the following in the Console.\n\nlibrary(tidyverse) \nlibrary(datasauRus)\n\nNote that the packages are also loaded with the same commands in your R Markdown document."
-  },
-  {
-    "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#data",
-    "href": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html#data",
-    "title": "Lab 01 - Hello R!",
-    "section": "Data",
-    "text": "Data\n\nIf it's confusing that the data frame is called `datasaurus_dozen` when it contains 13 datasets, you're not alone! Have you heard of a [baker's dozen](https://en.wikipedia.org/wiki/Dozen#Baker's_dozen)?\n\nThe data frame we will be working with today is called datasaurus_dozen and it’s in the datasauRus package. Actually, this single data frame contains 13 datasets, designed to show us why data visualisation is important and how summary statistics alone can be misleading. The different datasets are marked by the dataset variable.\nTo find out more about the dataset, type the following in your Console: ?datasaurus_dozen. A question mark before the name of an object will always bring up its help file. This command must be ran in the Console."
-  },
-  {
-    "objectID": "index.html#get-a-nytimes-account",
-    "href": "index.html#get-a-nytimes-account",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Get a NYTimes account",
-    "text": "Get a NYTimes account\nYou get this free through HCC"
-  },
-  {
-    "objectID": "index.html#meet-aj",
-    "href": "index.html#meet-aj",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "Meet AJ!",
-    "text": "Meet AJ!"
-  },
-  {
-    "objectID": "index.html#general-questions-and-comments",
-    "href": "index.html#general-questions-and-comments",
-    "title": "MTH 190: Intro to Data Science",
-    "section": "General Questions and Comments",
-    "text": "General Questions and Comments"
-  },
-  {
-    "objectID": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html",
-    "href": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html",
-    "title": "Bechdel",
-    "section": "",
-    "text": "In this mini analysis we work with the data used in the FiveThirtyEight story titled “The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women”. Your task is to fill in the blanks denoted by ___."
-  },
-  {
-    "objectID": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#data-and-packages",
-    "href": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#data-and-packages",
-    "title": "Bechdel",
-    "section": "Data and packages",
-    "text": "Data and packages\nWe start with loading the packages we’ll use.\n\nlibrary(fivethirtyeight)\nlibrary(tidyverse)\n\nThe dataset contains information on 1794 movies released between 1970 and 2013. However we’ll focus our analysis on movies released between 1990 and 2013.\n\nbechdel90_13 <- bechdel %>% \n  filter(between(year, 1990, 2013))\n\nThere are ___ such movies.\nThe financial variables we’ll focus on are the following:\n\nbudget_2013: Budget in 2013 inflation adjusted dollars\ndomgross_2013: Domestic gross (US) in 2013 inflation adjusted dollars\nintgross_2013: Total International (i.e., worldwide) gross in 2013 inflation adjusted dollars\n\nAnd we’ll also use the binary and clean_test variables for grouping."
-  },
-  {
-    "objectID": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#analysis",
-    "href": "course-materials/application-exercises/ae-02-bechdel-rmarkdown/bechdel.html#analysis",
-    "title": "Bechdel",
-    "section": "Analysis",
-    "text": "Analysis\nLet’s take a look at how median budget and gross vary by whether the movie passed the Bechdel test, which is stored in the binary variable.\n\nbechdel90_13 %>%\n  group_by(binary) %>%\n  summarise(\n    med_budget = median(budget_2013),\n    med_domgross = median(domgross_2013, na.rm = TRUE),\n    med_intgross = median(intgross_2013, na.rm = TRUE)\n    )\n\n# A tibble: 2 × 4\n  binary med_budget med_domgross med_intgross\n  <chr>       <dbl>        <dbl>        <dbl>\n1 FAIL    48385984.    57318606.    104475669\n2 PASS    31070724     45330446.     80124349\n\n\nNext, let’s take a look at how median budget and gross vary by a more detailed indicator of the Bechdel test result. This information is stored in the clean_test variable, which takes on the following values:\n\nok = passes test\ndubious\nmen = women only talk about men\nnotalk = women don’t talk to each other\nnowomen = fewer than two women\n\n\nbechdel90_13 %>%\n  #group_by(___) %>%\n  summarise(\n    med_budget = median(budget_2013),\n    med_domgross = median(domgross_2013, na.rm = TRUE),\n    med_intgross = median(intgross_2013, na.rm = TRUE)\n    )\n\n# A tibble: 1 × 3\n  med_budget med_domgross med_intgross\n       <int>        <dbl>        <dbl>\n1   37878971     52270207     93523336\n\n\nIn order to evaluate how return on investment varies among movies that pass and fail the Bechdel test, we’ll first create a new variable called roi as the ratio of the gross to budget.\n\nbechdel90_13 <- bechdel90_13 %>%\n  mutate(roi = (intgross_2013 + domgross_2013) / budget_2013)\n\nLet’s see which movies have the highest return on investment.\n\nbechdel90_13 %>%\n  arrange(desc(roi)) %>% \n  select(title, roi, year)\n\n# A tibble: 1,615 × 3\n   title                     roi  year\n   <chr>                   <dbl> <int>\n 1 Paranormal Activity      671.  2007\n 2 The Blair Witch Project  648.  1999\n 3 El Mariachi              583.  1992\n 4 Clerks.                  258.  1994\n 5 In the Company of Men    231.  1997\n 6 Napoleon Dynamite        227.  2004\n 7 Once                     190.  2006\n 8 The Devil Inside         155.  2012\n 9 Primer                   142.  2004\n10 Fireproof                134.  2008\n# … with 1,605 more rows\n# ℹ Use `print(n = ...)` to see more rows\n\n\nBelow is a visualization of the return on investment by test result, however it’s difficult to see the distributions due to a few extreme observations.\n\nggplot(data = bechdel90_13, \n       mapping = aes(x = clean_test, y = roi, color = binary)) +\n  geom_boxplot() +\n  labs(\n    title = \"Return on investment vs. Bechdel test result\",\n    x = \"Detailed Bechdel result\",\n    y = \"___\",\n    color = \"Binary Bechdel result\"\n    )\n\n\n\n\nWhat are those movies with very high returns on investment?\n\nbechdel90_13 %>%\n  filter(roi > 400) %>%\n  select(title, budget_2013, domgross_2013, year)\n\n# A tibble: 3 × 4\n  title                   budget_2013 domgross_2013  year\n  <chr>                         <int>         <dbl> <int>\n1 Paranormal Activity          505595     121251476  2007\n2 The Blair Witch Project      839077     196538593  1999\n3 El Mariachi                   11622       3388636  1992\n\n\nZooming in on the movies with roi < ___ provides a better view of how the medians across the categories compare:\n\nggplot(data = bechdel90_13, mapping = aes(x = clean_test, y = roi, color = binary)) +\n  geom_boxplot() +\n  labs(\n    title = \"Return on investment vs. Bechdel test result\",\n    subtitle = \"___\", # Something about zooming in to a certain level\n    x = \"Detailed Bechdel result\",\n    y = \"Return on investment\",\n    color = \"Binary Bechdel result\"\n    ) +\n  coord_cartesian(ylim = c(0, 15))"
   }
 ]

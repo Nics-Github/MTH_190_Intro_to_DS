@@ -7,9 +7,6 @@ output:
     tufte_variant: "envisioned"
     highlight: pygments
 link-citations: yes
-
-execute:
-  freeze: auto  # re-render only when source changes
 ---
 
 ```{r include = FALSE}

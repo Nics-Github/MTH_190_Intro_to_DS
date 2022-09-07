@@ -3,8 +3,6 @@ title: "Taxonomy of Graphics"
 author: "Nic Schwab"
 format: html
 editor: visual
-execute:
-  freeze: auto  # re-render only when source changes
 ---
 
 Use the vocabulary from the Taxonomy of data graphics.
