@@ -128,6 +128,6 @@ or
 
 [Datasaurus_Dozen](./course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html)
 
-## Meet AJ!
+## Meet AJ! 12:00 
 
 ## General Questions and Comments
