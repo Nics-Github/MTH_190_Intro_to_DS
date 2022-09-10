@@ -107,8 +107,8 @@ mtcars |>
 -   ![](/images/floppydisk.png)Save this file
 -   [Resources Tab](.\Resources.html)
 
-# You try: 
+# You try:
 
-## Make a point plot with the variables disp and hp from the mtcars data frame. 
+## Make a point plot with the variables disp and hp from the mtcars data frame.
 
 Hint 1: Copy the code from above and just make little changes.

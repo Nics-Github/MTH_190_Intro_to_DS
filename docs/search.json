@@ -268,9 +268,9 @@
   {
     "objectID": "course-materials/lectures/Getting_Started_with_Quarto.html",
     "href": "course-materials/lectures/Getting_Started_with_Quarto.html",
-    "title": "Getting_Started_with_Quarto",
+    "title": "Getting_Started_with_Rmarkdown",
     "section": "",
-    "text": "The ?\nHow to get more information on a dataset in R.\n\n?mtcars\n\n\n\nLoad the tidyverse\n\n\n\nBehold\n\n\nWhat is the tidyverse?\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6     ✔ purrr   0.3.4\n✔ tibble  3.1.8     ✔ dplyr   1.0.9\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nview(mtcars)\n\nWhy do we load the tidyverse?\n\n\nLet’s compare cylinders and gas mileage\n\nmtcars |>\n  ggplot(aes(mpg,cyl))+\n  geom_point()\n\n\n\n\nHow can we make this graph clearer?\n\n\nLet’s add another aesthetic, color:\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= am))+\n  geom_point() \n\n\n\n\n\n\nLet’s add a title and change the x and y axes labels.\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= factor(am)))+\n  geom_point()+\n  #scale_fill_brewer(palette = \"blues\") +\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\n\n\nEdit the legend\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= factor(am)))+\n  geom_point()+\n  scale_fill_brewer(palette = \"YlOrRd\") +\n  scale_color_discrete(name=\"Transmission Type\",\n                      breaks=c(\"0\",\"1\"),\n                      labels=c(\"automatic\",\"manual\"))+\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\nLet’s Facet a bit\n\nmtcars |>\n  ggplot(aes(mpg,color= factor(am)))+\n  geom_boxplot()+\n  facet_grid(rows=vars(cyl)) +\n  scale_fill_brewer(palette = \"YlOrRd\") +\n  scale_color_discrete(name=\"Transmission Type\",\n                      breaks=c(\"0\",\"1\"),\n                      labels=c(\"automatic\",\"manual\"))+\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\n\n\nHow do you remember all of this?\n\nSave this file\nResources Tab"
+    "text": "In the upper left:\n\n\nchoose R Markdown … (We’ll also use .qmd too)\nchoose html"
   },
   {
     "objectID": "course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html",
@@ -425,5 +425,12 @@
     "title": "MTH 190: Intro to Data Science",
     "section": "Meet AJ! 12:00",
     "text": "Meet AJ! 12:00\n\nSee slack for zoom link.\nWhen could you meet AJ?"
+  },
+  {
+    "objectID": "course-materials/lectures/Getting_Started_with_Quarto.html#make-a-point-plot-with-the-variables-disp-and-hp-from-the-mtcars-data-frame.",
+    "href": "course-materials/lectures/Getting_Started_with_Quarto.html#make-a-point-plot-with-the-variables-disp-and-hp-from-the-mtcars-data-frame.",
+    "title": "Getting_Started_with_Rmarkdown",
+    "section": "Make a point plot with the variables disp and hp from the mtcars data frame.",
+    "text": "Make a point plot with the variables disp and hp from the mtcars data frame.\nHint 1: Copy the code from above and just make little changes."
   }
 ]
