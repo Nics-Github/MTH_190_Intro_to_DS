@@ -474,5 +474,40 @@
     "title": "Syllabus",
     "section": "Policies",
     "text": "Policies\n\nCollaboration: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another’s work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.\nHonor Code: All your work must follow the Smith College Academic Honor Code Statement; in particular all external sources must be cited in your submissions. <!– 1. Problem sets: + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade. 1. Mini-projects: + Extensions only with a dean’s note. 1. Midterms: + No make-up midterms will be allowed without a dean’s note. + Timestamps for all midterms will be strictly enforced."
+  },
+  {
+    "objectID": "index.html#the-knit-ty-gritty",
+    "href": "index.html#the-knit-ty-gritty",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "The Knit-ty Gritty",
+    "text": "The Knit-ty Gritty\n\nWhen you come to class:\n\nLog into HCC email account\nGo to course website\nLog into RStudio\nOpen Slack\n\n\n\nShare with me your github username if you have not already."
+  },
+  {
+    "objectID": "index.html#summarize-reading",
+    "href": "index.html#summarize-reading",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Summarize Reading",
+    "text": "Summarize Reading\nPreface to 1.4 document"
+  },
+  {
+    "objectID": "index.html#see-tips-tricks",
+    "href": "index.html#see-tips-tricks",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "See Tips & Tricks",
+    "text": "See Tips & Tricks\nThe six-fixes\nHelp us help you: take screenshots of your screen and post them to Slack.\n\nmacOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion\nWindows: Shift-Windows Key-S and Snip & Sketch"
+  },
+  {
+    "objectID": "index.html#hw-1-should-be-shared-with-you-via-github.-check-your-email.",
+    "href": "index.html#hw-1-should-be-shared-with-you-via-github.-check-your-email.",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "HW 1 should be shared with you via github. Check your email.",
+    "text": "HW 1 should be shared with you via github. Check your email."
+  },
+  {
+    "objectID": "index.html#hw-1-should-be-shared-with-you-via-github.",
+    "href": "index.html#hw-1-should-be-shared-with-you-via-github.",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "HW 1 should be shared with you via github.",
+    "text": "HW 1 should be shared with you via github.\n-Check your email. -I’d like to start this in class so we’re on the same page."
   }
 ]

@@ -13,7 +13,6 @@ format:
     toc-location: left
     toc-title: ""
     df-print: kable
-    
 ---
 
 ```{=html}
@@ -64,21 +63,11 @@ h1{font-weight: 400;}
 ```
 # Schedule
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK1_TZx6LCqC0Wfddr2T0Sb7sX0R1zuoAesmj-TYpXtMpikenrIqQz4LHmk83PFYF1Yk4MjQB14aec/pubhtml?gid=0&amp;single=false&amp;widget=true&amp;headers=false&amp;gid=0&amp;range=A1:D31" width="100%" height="850"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK1_TZx6LCqC0Wfddr2T0Sb7sX0R1zuoAesmj-TYpXtMpikenrIqQz4LHmk83PFYF1Yk4MjQB14aec/pubhtml?gid=0&amp;single=false&amp;widget=true&amp;headers=false&amp;gid=0&amp;range=A1:D31" width="100%" height="850">
 
-<!-- # Day 2: A Taxonomy for Data Graphics -->
+</iframe>
 
-<!-- ## Summarize Reading -->
-
-<!-- ## See Tips & Tricks -->
-
-<!-- [The six-fixes](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit) -->
-
-<!-- Help us help you: take screenshots of your screen. -->
-
-<!-- -   macOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion -->
-
-<!-- -   Windows: Shift-Windows Key-S and Snip & Sketch -->
+<!-- # Day 3:  -->
 
 <!-- ## Taxonomy -->
 
@@ -90,7 +79,47 @@ h1{font-weight: 400;}
 
 <!-- [You get this free through HCC](https://www.hcc.edu/library/find-resources/databases-and-journals/nyt-login) -->
 
-# Day 1: Introduction to Class
+# Day 2: Practicing with github and Rstudio
+
+## The Knit-ty Gritty
+
+### When you come to class:
+
+-   Log into HCC email account
+-   Go to course website
+-   Log into RStudio
+-   Open Slack
+
+### Share with me your github username if you have not already.
+
+## Summarize Reading
+
+[Preface to 1.4 document](https://docs.google.com/document/d/1HzpH8hSvPvoO7IvorYEl2jq3c4vaGTViWi-qdwexpxg/edit?usp=sharing)
+
+## See Tips & Tricks
+
+[The six-fixes](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit)
+
+Help us help you: take screenshots of your screen and post them to Slack.
+
+-   macOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion
+
+-   Windows: Shift-Windows Key-S and Snip & Sketch
+
+## Activity
+
+[UNvotes](./course-materials/application-exercises/ae-01a-un-votes/unvotes.html)
+
+or
+
+[COVID-19](./course-materials/application-exercises/ae-01b-covid/covid.html)
+
+## HW 1 should be shared with you via github. 
+
+-Check your email. 
+-I'd like to start this in class so we're on the same page. 
+
+# Day 1: First Day of Class
 
 ## RStudio
 
@@ -110,27 +139,9 @@ To sign in:
 
 [Intro to R](./course-materials/lectures/Getting_Started_with_Quarto.html)
 
-## Activity
+## Meet AJ! 12:00
 
-[UNvotes](./course-materials/application-exercises/ae-01a-un-votes/unvotes.html)
-
-or
-
-[COVID-19](./course-materials/application-exercises/ae-01b-covid/covid.html)
-
-## Lab
-
-### If the server is up to date:
-
-[Datasaurus_Dozen](./course-materials/lab-instructions/lab-01/lab-01-hello-r.html)
-
-### If it is not up to date:
-
-[Datasaurus_Dozen](./course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html)
-
-## Meet AJ! 12:00 
-
-- See slack for zoom link.
-- When could you meet AJ? 
+-   See slack for zoom link.
+-   When could you meet AJ?
 
 ## General Questions and Comments
