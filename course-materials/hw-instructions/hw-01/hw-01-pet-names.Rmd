@@ -77,7 +77,7 @@ Then you will work in RStudio on the data analysis, making **commits** along the
 
 The next few steps will walk you through the process of getting information of the repo to be cloned, cloning your repo in a new RStudio Cloud project, and getting started with the analysis.
 
-### Step 0. Make yourself a github Token. 
+### Step 0. Make yourself a github Token.
 
 -Log into Github.
 
