@@ -116,8 +116,9 @@ or
 
 ## HW 1 should be shared with you via github. 
 
--Check your email. 
--I'd like to start this in class so we're on the same page. 
+- Check your email. 
+- I'd like to start this in class so we're on the same page. 
+- [Here's a link just in case, but don't click it](./course-materials/hw-instructions/hw-01/hw-01-pet-names.html)
 
 # Day 1: First Day of Class
 
