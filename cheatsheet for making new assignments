@@ -10,3 +10,6 @@ org_create_assignment(
   user = students,
   source_repo = “MTH190/hw-01”
 )
+
+This site will be helpful: 
+https://mine-cetinkaya-rundel.github.io/teach-r-online/03-git/03-git.html#31
