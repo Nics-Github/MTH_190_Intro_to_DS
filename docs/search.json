@@ -277,7 +277,7 @@
     "href": "course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html",
     "title": "HW 02 - Airbnb listings in Edinburgh",
     "section": "",
-    "text": "Photo by Madeleine Kohler on Unsplash\nOnce upon a time, people travelled all over the world, and some stayed in hotels and others chose to stay in other people’s houses that they booked through Airbnb. Recent developments in Edinburgh regarding the growth of Airbnb and its impact on the housing market means a better understanding of the Airbnb listings is needed. Using data provided by Airbnb, we can explore how Airbnb availability and prices vary by neighbourhood."
+    "text": "Photo by Madeleine Kohler on Unsplash\nOnce upon a time, people traveled all over the world, and some stayed in hotels and others chose to stay in other people’s houses that they booked through Airbnb. Recent developments in Edinburgh regarding the growth of Airbnb and its impact on the housing market means a better understanding of the Airbnb listings is needed. Using data provided by Airbnb, we can explore how Airbnb availability and prices vary by neighborhood."
   },
   {
     "objectID": "course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#warm-up",
@@ -291,14 +291,14 @@
     "href": "course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#packages",
     "title": "HW 02 - Airbnb listings in Edinburgh",
     "section": "Packages",
-    "text": "Packages\nWe’ll use the tidyverse package for much of the data wrangling and visualisation and the data lives in the dsbox package. These packages are already installed for you. You can load them by running the following in your Console:\n\nlibrary(tidyverse)\nlibrary(dsbox)"
+    "text": "Packages\nWe’ll use the tidyverse package for much of the data wrangling and visualisation. The data is in the edibnb.rda file, double click it. These packages are already installed for you. You can load them by running the following in your Console:\n\nlibrary(tidyverse)"
   },
   {
     "objectID": "course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#data",
     "href": "course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html#data",
     "title": "HW 02 - Airbnb listings in Edinburgh",
     "section": "Data",
-    "text": "Data\nThe data can be found in the dsbox package, and it’s called edibnb. Since the dataset is distributed with the package, we don’t need to load it separately; it becomes available to us when we load the package.\nYou can view the dataset as a spreadsheet using the View() function. Note that you should not put this function in your R Markdown document, but instead type it directly in the Console, as it pops open a new window (and the concept of popping open a window in a static document doesn’t really make sense…). When you run this in the console, you’ll see the following data viewer window pop up.\n\nView(edibnb)\n\nYou can find out more about the dataset by inspecting its documentation, which you can access by running ?edibnb in the Console or using the Help menu in RStudio to search for edibnb. You can also find this information here."
+    "text": "Data\nThe data is called edibnb. Since the dataset is distributed without a package, we need to load it separately, just double click it. It lives in the file pane that HW-02 is in.\nYou can view the dataset as a spreadsheet using the View() function. Note that you should not put this function in your R Markdown document, but instead type it directly in the Console, as it pops open a new window (and the concept of popping open a window in a static document doesn’t really make sense…). When you run this in the console, you’ll see the following data viewer window pop up.\n\nView(edibnb)\n\nYou can find out more about the dataset by inspecting its documentation, which you can access by running ?edibnb in the Console or using the Help menu in RStudio to search for edibnb. You can also find this information here."
   },
   {
     "objectID": "course-materials/hw-instructions/hw-01/hw-01-pet-names.html",
@@ -509,5 +509,40 @@
     "title": "MTH 190: Intro to Data Science",
     "section": "HW 1 should be shared with you via github.",
     "text": "HW 1 should be shared with you via github.\n\nCheck your email.\nI’d like to start this in class so we’re on the same page.\nHere’s a link just in case, but don’t click it"
+  },
+  {
+    "objectID": "index.html#updates-issues-with-some-packages-installing-on-server-coronavirus-ggimage",
+    "href": "index.html#updates-issues-with-some-packages-installing-on-server-coronavirus-ggimage",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Updates: Issues with some packages installing on Server: ‘coronavirus’, ‘ggimage’",
+    "text": "Updates: Issues with some packages installing on Server: ‘coronavirus’, ‘ggimage’"
+  },
+  {
+    "objectID": "index.html#check-in-on-hw-1",
+    "href": "index.html#check-in-on-hw-1",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Check in on HW 1",
+    "text": "Check in on HW 1\n\nknitting, Committing and pushing going ok?\ngo through the code and discuss aspects"
+  },
+  {
+    "objectID": "index.html#taxonomy",
+    "href": "index.html#taxonomy",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Taxonomy",
+    "text": "Taxonomy\nLecture on Taxonomy\nActivity on Taxonomy"
+  },
+  {
+    "objectID": "index.html#lets-look-at-hw-2",
+    "href": "index.html#lets-look-at-hw-2",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Let’s look at HW 2",
+    "text": "Let’s look at HW 2\nHW 02 should be shared with you through github You have to clone the repo and use your token as a password."
+  },
+  {
+    "objectID": "index.html#get-a-nytimes-account",
+    "href": "index.html#get-a-nytimes-account",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Get a NYTimes account",
+    "text": "Get a NYTimes account\nYou get this free through HCC"
   }
 ]

@@ -69,17 +69,30 @@ h1{font-weight: 400;}
 
 </iframe>
 
-<!-- # Day 3:  -->
+# Day 3: Check in and Taxonomy
 
-<!-- ## Taxonomy -->
+## Updates: Issues with some packages installing on Server: 'coronavirus', 'ggimage'
 
-<!-- [Lecture on Taxonomy](./course-materials/lectures/mdsr_viz_1_taxonomy.html) -->
+## Check in on HW 1
+  - knitting, Committing and pushing going ok? 
+  - go through the code and discuss aspects
 
-<!-- [Activity on Taxonomy](./course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html) -->
+## Taxonomy
 
-<!-- ## Get a NYTimes account -->
+[Lecture on Taxonomy](./course-materials/lectures/mdsr_viz_1_taxonomy.html)
 
-<!-- [You get this free through HCC](https://www.hcc.edu/library/find-resources/databases-and-journals/nyt-login) -->
+[Activity on Taxonomy](./course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html)
+
+
+## Let's look at HW 2
+
+[HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html) should be shared with you through github
+You have to clone the repo and use your token as a password. 
+
+## Get a NYTimes account
+
+[You get this free through HCC](https://www.hcc.edu/library/find-resources/databases-and-journals/nyt-login)
+
 
 # Day 2: Practicing with github and Rstudio
 
