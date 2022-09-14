@@ -1,5 +1,5 @@
 ---
-title: "Getting_Started_with_Quarto"
+title: "Getting_Started_with_Rmarkdown"
 author: "Nic Schwab"
 format:
   html:
@@ -21,10 +21,10 @@ execute:
 In the upper left:
 
 -   ![](/images/paste-2BFF12EB.png)
--   ![](/images/Quarto_Document.png) Quarto Document...
+-   choose R Markdown ... (We'll also use .qmd too)
 -   choose html
 
-# The **?**
+# The "**?"**
 
 How to get more information on a dataset in R.
 
@@ -38,6 +38,8 @@ How to get more information on a dataset in R.
 
 What is the tidyverse?
 
+Hit the little green c to add a chunk
+
 ```{r}
 library(tidyverse)
 view(mtcars)
@@ -49,7 +51,7 @@ Why do we load the tidyverse?
 
 ```{r}
 mtcars |>
-  ggplot(aes(mpg,cyl))+
+  ggplot(mapping = aes(mpg,cyl))+
   geom_point()
 ```
 
@@ -104,3 +106,9 @@ mtcars |>
 
 -   ![](/images/floppydisk.png)Save this file
 -   [Resources Tab](.\Resources.html)
+
+# You try:
+
+## Make a point plot with the variables disp and hp from the mtcars data frame.
+
+Hint 1: Copy the code from above and just make little changes.

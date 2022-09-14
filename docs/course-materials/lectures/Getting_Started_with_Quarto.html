@@ -8,7 +8,7 @@
 
 <meta name="author" content="Nic Schwab">
 
-<title>MTH_190 - Getting_Started_with_Quarto</title>
+<title>MTH_190 - Getting_Started_with_Rmarkdown</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -136,10 +136,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://mdsr-book.github.io/mdsr2e/">MDSR</a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../Resources.html">Resources</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://mdsr-book.github.io/mdsr2e/"><i class="bi bi-book" role="img">
+</i> 
+ </a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://moderndive.com/C-appendixC.html">T &amp; T</a>
@@ -177,13 +179,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
    
   <ul>
   <li><a href="#open-a-new-document" id="toc-open-a-new-document" class="nav-link active" data-scroll-target="#open-a-new-document">Open a new document</a></li>
-  <li><a href="#the" id="toc-the" class="nav-link" data-scroll-target="#the">The <strong>?</strong></a></li>
+  <li><a href="#the" id="toc-the" class="nav-link" data-scroll-target="#the">The “<strong>?“</strong></a></li>
   <li><a href="#load-the-tidyverse" id="toc-load-the-tidyverse" class="nav-link" data-scroll-target="#load-the-tidyverse">Load the tidyverse</a></li>
   <li><a href="#lets-compare-cylinders-and-gas-mileage" id="toc-lets-compare-cylinders-and-gas-mileage" class="nav-link" data-scroll-target="#lets-compare-cylinders-and-gas-mileage">Let’s compare cylinders and gas mileage</a></li>
   <li><a href="#lets-add-another-aesthetic-color" id="toc-lets-add-another-aesthetic-color" class="nav-link" data-scroll-target="#lets-add-another-aesthetic-color">Let’s add another aesthetic, color:</a></li>
   <li><a href="#lets-add-a-title-and-change-the-x-and-y-axes-labels." id="toc-lets-add-a-title-and-change-the-x-and-y-axes-labels." class="nav-link" data-scroll-target="#lets-add-a-title-and-change-the-x-and-y-axes-labels.">Let’s add a title and change the x and y axes labels.</a></li>
   <li><a href="#edit-the-legend" id="toc-edit-the-legend" class="nav-link" data-scroll-target="#edit-the-legend"><span>Edit the legend</span></a></li>
   <li><a href="#how-do-you-remember-all-of-this" id="toc-how-do-you-remember-all-of-this" class="nav-link" data-scroll-target="#how-do-you-remember-all-of-this">How do you remember all of this?</a></li>
+  <li><a href="#you-try" id="toc-you-try" class="nav-link" data-scroll-target="#you-try">You try:</a></li>
   </ul>
 </nav>
 </nav>
@@ -195,7 +198,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting_Started_with_Quarto</h1>
+<h1 class="title">Getting_Started_with_Rmarkdown</h1>
 </div>
 
 
@@ -220,12 +223,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>In the upper left:</p>
 <ul>
 <li><img src="../../images/paste-2BFF12EB.png" class="img-fluid"></li>
-<li><img src="../../images/Quarto_Document.png" class="img-fluid"> Quarto Document…</li>
+<li>choose R Markdown … (We’ll also use .qmd too)</li>
 <li>choose html</li>
 </ul>
 </section>
 <section id="the" class="level1">
-<h1>The <strong>?</strong></h1>
+<h1>The “<strong>?“</strong></h1>
 <p>How to get more information on a dataset in R.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>?mtcars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -240,6 +243,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </figure>
 </div>
 <p>What is the tidyverse?</p>
+<p>Hit the little green c to add a chunk</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -260,7 +264,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>Let’s compare cylinders and gas mileage</h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>mtcars <span class="sc">|&gt;</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(mpg,cyl))<span class="sc">+</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="at">mapping =</span> <span class="fu">aes</span>(mpg,cyl))<span class="sc">+</span></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="Getting_Started_with_Quarto_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
@@ -329,8 +333,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><img src="../../images/floppydisk.png" class="img-fluid">Save this file</li>
 <li><a href=".\Resources.html">Resources Tab</a></li>
 </ul>
+</section>
+<section id="you-try" class="level1">
+<h1>You try:</h1>
+<section id="make-a-point-plot-with-the-variables-disp-and-hp-from-the-mtcars-data-frame." class="level2">
+<h2 class="anchored" data-anchor-id="make-a-point-plot-with-the-variables-disp-and-hp-from-the-mtcars-data-frame.">Make a point plot with the variables disp and hp from the mtcars data frame.</h2>
+<p>Hint 1: Copy the code from above and just make little changes.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

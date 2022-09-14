@@ -1,0 +1,15 @@
+Make list of students= c(“kathrineshev”, “Mentor0fHeroes”, “Iserrano364”, ”Practice-Student”)
+
+org_invite(org= “MTH190”, user = students)
+
+org_members(org = "MTH190")
+
+org_create_assignment(
+  org = “MTH190”,
+  repo = paste0("hw-01-", students),
+  user = students,
+  source_repo = “MTH190/hw-01”
+)
+
+This site will be helpful: 
+https://mine-cetinkaya-rundel.github.io/teach-r-online/03-git/03-git.html#31
