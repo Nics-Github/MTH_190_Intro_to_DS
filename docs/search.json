@@ -268,9 +268,9 @@
   {
     "objectID": "course-materials/lectures/Getting_Started_with_Quarto.html",
     "href": "course-materials/lectures/Getting_Started_with_Quarto.html",
-    "title": "Getting_Started_with_Quarto",
+    "title": "Getting_Started_with_Rmarkdown",
     "section": "",
-    "text": "The ?\nHow to get more information on a dataset in R.\n\n?mtcars\n\n\n\nLoad the tidyverse\n\n\n\nBehold\n\n\nWhat is the tidyverse?\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6     ✔ purrr   0.3.4\n✔ tibble  3.1.8     ✔ dplyr   1.0.9\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nview(mtcars)\n\nWhy do we load the tidyverse?\n\n\nLet’s compare cylinders and gas mileage\n\nmtcars |>\n  ggplot(aes(mpg,cyl))+\n  geom_point()\n\n\n\n\nHow can we make this graph clearer?\n\n\nLet’s add another aesthetic, color:\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= am))+\n  geom_point() \n\n\n\n\n\n\nLet’s add a title and change the x and y axes labels.\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= factor(am)))+\n  geom_point()+\n  #scale_fill_brewer(palette = \"blues\") +\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\n\n\nEdit the legend\n\nmtcars |>\n  ggplot(aes(mpg,cyl,color= factor(am)))+\n  geom_point()+\n  scale_fill_brewer(palette = \"YlOrRd\") +\n  scale_color_discrete(name=\"Transmission Type\",\n                      breaks=c(\"0\",\"1\"),\n                      labels=c(\"automatic\",\"manual\"))+\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\nLet’s Facet a bit\n\nmtcars |>\n  ggplot(aes(mpg,color= factor(am)))+\n  geom_boxplot()+\n  facet_grid(rows=vars(cyl)) +\n  scale_fill_brewer(palette = \"YlOrRd\") +\n  scale_color_discrete(name=\"Transmission Type\",\n                      breaks=c(\"0\",\"1\"),\n                      labels=c(\"automatic\",\"manual\"))+\n  labs(title = \"Cylinders vs MPG\",x=\"Miles Per Gallon\",y=\"Cylinders\")\n\n\n\n\n\n\nHow do you remember all of this?\n\nSave this file\nResources Tab"
+    "text": "In the upper left:\n\n\nchoose R Markdown … (We’ll also use .qmd too)\nchoose html"
   },
   {
     "objectID": "course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html",
@@ -326,7 +326,7 @@
     "href": "course-materials/hw-instructions/hw-01/hw-01-pet-names.html#starting-slow",
     "title": "HW 01 - Pet names",
     "section": "Starting slow",
-    "text": "Starting slow\nAs the course progresses, you are encouraged to explore beyond what the assignments dictate; a willingness to experiment will make you a much better programmer! Before we get to that stage, however, you need to build some basic fluency in R. First, we will explore the fundamental building blocks of all of these tools.\nBefore you can get started with the analysis, you need to make sure you:\n\nhave a GitHub account\nare a member of the course GitHub organization\nare a member of the course RStudio Cloud space\n\nIf you failed to confirm any of these, it means you have not yet completed the prerequisites for this assignment. Please go back to Prerequisites and complete them before continuing the assignment."
+    "text": "Starting slow\nAs the course progresses, you are encouraged to explore beyond what the assignments dictate; a willingness to experiment will make you a much better programmer! Before we get to that stage, however, you need to build some basic fluency in R. First, we will explore the fundamental building blocks of all of these tools.\nBefore you can get started with the analysis, you need to make sure you:\n\nhave a GitHub account\nare a member of the course GitHub organization\nare a member of the HCC’s RStudio workbench server (which you are, just log on).\n\nIf you failed to confirm any of these, it means you have not yet completed the prerequisites for this assignment. Please go back to Prerequisites and complete them before continuing the assignment."
   },
   {
     "objectID": "course-materials/hw-instructions/hw-01/hw-01-pet-names.html#step-1.-update-the-yaml",
@@ -418,5 +418,96 @@
     "title": "Resources",
     "section": "Data transformation: dplyr",
     "text": "Data transformation: dplyr"
+  },
+  {
+    "objectID": "index.html#meet-aj-1200",
+    "href": "index.html#meet-aj-1200",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Meet AJ! 12:00",
+    "text": "Meet AJ! 12:00\n\nSee slack for zoom link.\nWhen could you meet AJ?"
+  },
+  {
+    "objectID": "course-materials/lectures/Getting_Started_with_Quarto.html#make-a-point-plot-with-the-variables-disp-and-hp-from-the-mtcars-data-frame.",
+    "href": "course-materials/lectures/Getting_Started_with_Quarto.html#make-a-point-plot-with-the-variables-disp-and-hp-from-the-mtcars-data-frame.",
+    "title": "Getting_Started_with_Rmarkdown",
+    "section": "Make a point plot with the variables disp and hp from the mtcars data frame.",
+    "text": "Make a point plot with the variables disp and hp from the mtcars data frame.\nHint 1: Copy the code from above and just make little changes."
+  },
+  {
+    "objectID": "course-materials/syllabus/syllabus.html",
+    "href": "course-materials/syllabus/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Schwab” or “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.\nProf. Schwab’s hours:\n\nMWF 10:00 - 10:50\nFR 362 or set up a zoom appointment.\n\nAJ’s office hours\n\nOffice hours:\nSlack:\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
+  },
+  {
+    "objectID": "course-materials/syllabus/syllabus.html#projects-40",
+    "href": "course-materials/syllabus/syllabus.html#projects-40",
+    "title": "Syllabus",
+    "section": "Projects 40%",
+    "text": "Projects 40%\nThere are four projects to complete during the semester."
+  },
+  {
+    "objectID": "course-materials/syllabus/syllabus.html#final-project-20",
+    "href": "course-materials/syllabus/syllabus.html#final-project-20",
+    "title": "Syllabus",
+    "section": "Final project 20%",
+    "text": "Final project 20%\nThere will be a final project due the last day of classes. You’ll do this final project in groups of 2-3 where you can choose your groupmates."
+  },
+  {
+    "objectID": "course-materials/syllabus/syllabus.html#problem-sets-25",
+    "href": "course-materials/syllabus/syllabus.html#problem-sets-25",
+    "title": "Syllabus",
+    "section": "Problem sets 25%",
+    "text": "Problem sets 25%\nHomework will be assigned weekly, its important to complete and stay on top of homework."
+  },
+  {
+    "objectID": "course-materials/syllabus/syllabus.html#engagement",
+    "href": "course-materials/syllabus/syllabus.html#engagement",
+    "title": "Syllabus",
+    "section": "Engagment 15%",
+    "text": "Engagment 15%\nIt is difficult to explicit codify what constitutes “an engaged student,” so instead I present the following rough principle I will follow: you’ll only get out of this class as much as you put in. That being said, here are multiple pathways for you to stay engaged in this class:\n\nIn particular: Peer evaluations for all projects.\nAsking and answering questions in class.\nWorking and staying focused in class.\nComing to office hours.\nPosting questions on Slack.\nEven better: Responding to questions on Slack."
+  },
+  {
+    "objectID": "course-materials/syllabus/syllabus.html#policies-1",
+    "href": "course-materials/syllabus/syllabus.html#policies-1",
+    "title": "Syllabus",
+    "section": "Policies",
+    "text": "Policies\n\nCollaboration: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another’s work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.\nHonor Code: All your work must follow the Smith College Academic Honor Code Statement; in particular all external sources must be cited in your submissions. <!– 1. Problem sets: + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade. 1. Mini-projects: + Extensions only with a dean’s note. 1. Midterms: + No make-up midterms will be allowed without a dean’s note. + Timestamps for all midterms will be strictly enforced."
+  },
+  {
+    "objectID": "index.html#the-knit-ty-gritty",
+    "href": "index.html#the-knit-ty-gritty",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "The Knit-ty Gritty",
+    "text": "The Knit-ty Gritty\n\nWhen you come to class:\n\nLog into HCC email account\nGo to course website\nLog into RStudio\nOpen Slack\n\n\n\nShare with me your github username if you have not already."
+  },
+  {
+    "objectID": "index.html#summarize-reading",
+    "href": "index.html#summarize-reading",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Summarize Reading",
+    "text": "Summarize Reading\nPreface to 1.4 document"
+  },
+  {
+    "objectID": "index.html#see-tips-tricks",
+    "href": "index.html#see-tips-tricks",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "See Tips & Tricks",
+    "text": "See Tips & Tricks\nThe six-fixes\nHelp us help you: take screenshots of your screen and post them to Slack.\n\nmacOS: Command+Shift+3 to take shot of whole screen, Command+Shift+4 to take subportion\nWindows: Shift-Windows Key-S and Snip & Sketch"
+  },
+  {
+    "objectID": "index.html#hw-1-should-be-shared-with-you-via-github.-check-your-email.",
+    "href": "index.html#hw-1-should-be-shared-with-you-via-github.-check-your-email.",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "HW 1 should be shared with you via github. Check your email.",
+    "text": "HW 1 should be shared with you via github. Check your email."
+  },
+  {
+    "objectID": "index.html#hw-1-should-be-shared-with-you-via-github.",
+    "href": "index.html#hw-1-should-be-shared-with-you-via-github.",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "HW 1 should be shared with you via github.",
+    "text": "HW 1 should be shared with you via github.\n\nCheck your email.\nI’d like to start this in class so we’re on the same page.\nHere’s a link just in case, but don’t click it"
   }
 ]
