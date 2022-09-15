@@ -205,6 +205,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
+<p>This is the assignment that I completed.-Schwab</p>
 <p>The goal of this assignment is to introduce you to R, RStudio, Git, and GitHub, which you’ll be using throughout the course both to learn the data science concepts discussed in the course and to analyze real data and come to informed conclusions.</p>
 <section id="getting-started" class="level1">
 <h1>Getting started</h1>
@@ -382,11 +383,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ol type="1">
 <li>According to the data dictionary, how many pets are included in this dataset?</li>
 </ol>
-<p>🧶 ✅ ⬆️ <em>Write your answer in your R Markdown document under Exercise 1, knit the document, commit your changes with a commit message that says “Completed Exercise 1”, and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.</em></p>
+<p>52,519 pets</p>
 <ol start="2" type="1">
 <li>Again, according to the data dictionary, how many variables do we have for each pet?</li>
 </ol>
-<p>🧶 ✅ ⬆️ <em>Write your answer in your R Markdown document under Exercise 2, knit the document, commit your changes with a commit message that says “Completed Exercise 2”, and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.</em></p>
+<p>7 variables</p>
 <ol start="3" type="1">
 <li>What are the three most common pet names in Seattle? To do this you will need to count the frequencies of each pet name and display the results in descending order of frequency so that you can easily see the top three most popular names. The following code does exactly that.</li>
 </ol>
@@ -397,7 +398,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>seattlepets <span class="sc">%&gt;%</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(animal_name, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>🧶 ✅ ⬆️ <em>Write your answer in your R Markdown document under Exercise 3. In this exercise you will not only provide a written answer but also include some code and output. You should insert the code in the code chunk provided for you, knit the document to see the output, and then write your narrative for the answer based on the output of this function, and knit again to see your narrative, code, and output in the resulting document. Then, commit your changes with a commit message that says “Completed Exercise 3”, and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.</em></p>
+<p>The three most common names are Lucy, Charlie, and Luna.</p>
 <p>Let’s also look to see what the most common pet names are for various species. For this we need to first <code>group_by()</code> the <code>species</code>, and then do the same counting we did before.</p>
 <div class="cell">
 <pre class="marginfigure cell-code"><code>Looks like many of those NAs were cats. Poor unnamed kitties…</code></pre>
@@ -446,40 +447,41 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>seattlepets <span class="sc">%&gt;%</span> </span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(animal_name, <span class="at">sort =</span> <span class="cn">TRUE</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(n, <span class="at">n =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(n, <span class="at">n =</span> <span class="dv">5</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(species,n)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 53 × 3
 # Groups:   species [4]
    species animal_name     n
    &lt;chr&gt;   &lt;chr&gt;       &lt;int&gt;
- 1 Cat     &lt;NA&gt;          406
- 2 Cat     Luna          111
+ 1 Cat     Max            83
+ 2 Cat     Lily           86
  3 Cat     Lucy          102
- 4 Cat     Lily           86
- 5 Cat     Max            83
- 6 Dog     Lucy          337
- 7 Dog     Charlie       306
+ 4 Cat     Luna          111
+ 5 Cat     &lt;NA&gt;          406
+ 6 Dog     Daisy         221
+ 7 Dog     Luna          244
  8 Dog     Bella         249
- 9 Dog     Luna          244
-10 Dog     Daisy         221
+ 9 Dog     Charlie       306
+10 Dog     Lucy          337
 # … with 43 more rows</code></pre>
 </div>
 </div>
-<ol type="1">
+<ol start="4" type="1">
 <li>Based on the previous output we can easily identify the most common cat and dog names in Seattle, but the output is sorted by <code>n</code> (the frequencies) as opposed to being organized by the <code>species</code>. Build on the pipeline to arrange the results so that they’re arranged by <code>species</code> first, and then <code>n</code>. This means you will need to add one more step to the pipeline, and you have two options: <code>arrange(species, n)</code> or <code>arrange(n, species)</code>. You should try both and decide which one organizes the output by species and then ranks the names in order of frequency for each species.</li>
 </ol>
-<p>🧶 ✅ ⬆️ <em>Write your answer in your R Markdown document under Exercise 4. In this exercise you’re asked to complete the code provided for you. You should insert the code in the code chunk provided for you, knit the document to see the output, and then write your narrative for the answer based on the output of this function, and knit again to see your narrative, code, and output in the resulting document. Then, commit your changes with a commit message that says “Completed Exercise 4”, and push. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.</em></p>
+<p>This feels a little silly to arrange by species first, the result is basically the same.</p>
 <p>The following visualization plots the proportion of dogs with a given name versus the proportion of cats with the same name. The 20 most common cat and dog names are displayed. The diagonal line on the plot is the <span class="math inline">\(x = y\)</span> line; if a name appeared on this line, the name’s popularity would be exactly the same for dogs and cats.</p>
 <div class="cell" data-fig.fullwidth="true">
 <div class="cell-output-display">
-<p><img src="hw-01-pet-names_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" style="width:80.0%"></p>
+<p><img src="hw-01-pet-names-Schwab_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" style="width:80.0%"></p>
 </div>
 </div>
 <ol type="1">
 <li>What names are more common for cats than dogs? The ones above the line or the ones below the line?</li>
 <li>Is the relationship between the two variables (proportion of cats with a given name and proportion of dogs with a given name) positive or negative? What does this mean in context of the data?</li>
 </ol>
-<p>🧶 ✅ ⬆️ <em>Now is a good time to commit and push your changes to GitHub with an appropriate commit message. Commit and push all changed files so that your Git pane is cleared up afterwards. Make sure that your last push to the repo comes before the deadline. You should confirm that what you committed and pushed are indeed in your repo that we will see by visiting your repo on GitHub.</em></p>
+<p>The ones below the line are more common for cats than dogs. It looks roughly positive, this means that the cats and dogs have names in common.</p>
 
 
 </section>
