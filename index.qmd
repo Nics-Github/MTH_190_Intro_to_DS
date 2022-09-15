@@ -71,11 +71,14 @@ h1{font-weight: 400;}
 
 # Day 3: Check in and Taxonomy
 
-## Updates: Issues with some packages installing on Server: 'coronavirus', 'ggimage'
+## Updates: 
+- Issues with some packages installing on Server: 'coronavirus', 'ggimage', 'dsbox'
+- What times of the day do you do your homework. When would AJ's office hours work for you?  
 
 ## Check in on HW 1
-  - knitting, Committing and pushing going ok? 
-  - go through the code and discuss aspects
+[HW 1 Take Aways](./https://docs.google.com/document/d/1jtF58XftxCVLf8DMDsrDLyxKY752puwckm1d6db-CYo/edit?usp=sharing)
+
+HW 1 due by midnight tonight. 
 
 ## Taxonomy
 
@@ -92,7 +95,6 @@ You have to clone the repo and use your token as a password.
 ## Get a NYTimes account
 
 [You get this free through HCC](https://www.hcc.edu/library/find-resources/databases-and-journals/nyt-login)
-
 
 # Day 2: Practicing with github and Rstudio
 

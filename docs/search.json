@@ -144,7 +144,7 @@
     "href": "course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html",
     "title": "Taxonomy of Graphics",
     "section": "",
-    "text": "From The Economist:\nLonger Constitutions\nAverted Deaths\nFrom Yougov:\nIce Cream\nFriend or Enemy -Russia"
+    "text": "Group 1: Ida, James, and Magdalen\nGroup 2: Ajani and Kathryn\nDiscuss the\n\nQ: What is the graph showing?\nvisual cues\ncoordinate system\nscales\ncontext\nQ: How do you feel about this graph?\n\nNYTimes:\n\nSerena Williams\nEndangered Biodiversity\nPandemic Stimulus\n\nFrom Yougov:\n\nIce Cream (Just the first graph, there is a lot here).\n\nFrom Five Thirty Eight:\n\nHow Unpopular is Joe Biden"
   },
   {
     "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
@@ -522,7 +522,7 @@
     "href": "index.html#check-in-on-hw-1",
     "title": "MTH 190: Intro to Data Science",
     "section": "Check in on HW 1",
-    "text": "Check in on HW 1\n\nknitting, Committing and pushing going ok?\ngo through the code and discuss aspects"
+    "text": "Check in on HW 1\nHW 1 Take Aways\nHW 1 due by midnight tonight."
   },
   {
     "objectID": "index.html#taxonomy",
@@ -593,5 +593,12 @@
     "title": "HW 01 - Pet names",
     "section": "Step 3. Push",
     "text": "Step 3. Push\nNow that you have made an update and committed this change, it’s time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only). In order to push your changes to GitHub, click on Push.\n\n\n\n\n\nThis will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me… I will teach you how to save your password so you don’t have to enter it every time. But for this one assignment you’ll have to manually enter each time you push in order to gain some experience with it.\nThought exercise: Which of the above steps (updating the YAML, committing, and pushing) needs to talk to GitHub?1"
+  },
+  {
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Updates:",
+    "text": "Updates:\n\nIssues with some packages installing on Server: ‘coronavirus’, ‘ggimage’, ‘dsbox’\nWhat times of the day do you do your homework. When would AJ’s office hours work for you?"
   }
 ]
