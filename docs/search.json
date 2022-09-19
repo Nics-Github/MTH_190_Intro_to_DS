@@ -606,7 +606,7 @@
     "href": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html",
     "title": "Lab 01 - Global plastic waste",
     "section": "",
-    "text": "Plastic pollution is a major and growing problem, negatively affecting oceans and wildlife health. Our World in Data has a lot of great data at various levels including globally, per country, and over time. For this lab we focus on data from 2010.\nAdditionally, National Geographic ran a data visualization communication contest on plastic waste as seen here."
+    "text": "Plastic pollution is a major and growing problem, negatively affecting oceans and wildlife health. Our World in Data has a lot of great data at various levels including globally, per country, and over time. For this lab we focus on data from 2010.\nAdditionally, National Geographic ran a data visualization communication contest on plastic waste as seen here. The winner was Perpetual Plastic"
   },
   {
     "objectID": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html#packages",
@@ -677,5 +677,33 @@
     "title": "Lab 01 - Hello R!",
     "section": "Data",
     "text": "Data\n\nIf it's confusing that the data frame is called `datasaurus_dozen` when it contains 13 datasets, you're not alone! Have you heard of a [baker's dozen](https://en.wikipedia.org/wiki/Dozen#Baker's_dozen)?\n\nThe data frame we will be working with today is called datasaurus_dozen and it’s in the datasauRus package. Actually, this single data frame contains 13 datasets, designed to show us why data visualisation is important and how summary statistics alone can be misleading. The different datasets are marked by the dataset variable.\nTo find out more about the dataset, type the following in your Console: ?datasaurus_dozen. A question mark before the name of an object will always bring up its help file. This command must be ran in the Console."
+  },
+  {
+    "objectID": "course-materials/in-class-activities/Activity-ggplot2.html",
+    "href": "course-materials/in-class-activities/Activity-ggplot2.html",
+    "title": "Activity - ggplot 2",
+    "section": "",
+    "text": "Here’s a quick rundown of how things work in ggplot. We’ll learn more as we go.\nMake a chunk just to look at the data.\n\nmammals\n\nMake another one to dotplot the data. You need: - a pipe |> - ggplot() with some aesthetics - a +, - geom_point()\n\nmammals |>\n  ggplot(aes(x=total_sleep, y =brain_wt)) +\n  geom_point()\n\nLets add a color aesthetic.\n\nmammals |>\n  ggplot(aes(x=total_sleep, y =brain_wt, color = exposure)) +\n  geom_point()\n\nLet’s add a facet()\n\nmammals |>\n  ggplot(aes(x=total_sleep, y =brain_wt, color = exposure)) +\n  geom_point() +\n  facet_wrap(~danger)\n\nHow do you know which aesthetics can be added?\n?geom_point()\nHow do you choose a facet?\nChoose something witih finite options.\nAlso see the ggplot cheatsheet under Resources"
+  },
+  {
+    "objectID": "index.html#chapter-2-take-aways",
+    "href": "index.html#chapter-2-take-aways",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Chapter 2 Take Aways",
+    "text": "Chapter 2 Take Aways"
+  },
+  {
+    "objectID": "index.html#activity-intro-to-ggplot2",
+    "href": "index.html#activity-intro-to-ggplot2",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Activity: Intro to ggplot2",
+    "text": "Activity: Intro to ggplot2"
+  },
+  {
+    "objectID": "index.html#lab_01",
+    "href": "index.html#lab_01",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Lab_01",
+    "text": "Lab_01"
   }
 ]

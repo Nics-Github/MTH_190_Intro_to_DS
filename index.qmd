@@ -69,6 +69,14 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 4: Using GGplot
+
+## [Chapter 2 Take Aways](https://docs.google.com/document/d/184nd7HdObXgeyuq7TUHYXjThkHWc0O45GDD1BG1m40E/edit?usp=sharing)
+
+## Activity: [Intro to ggplot2](./course-materials/in-class-activities/Activity-ggplot2.html)
+
+## [Lab_01](./course-materials/lab-instructions/lab-01-plastic-waste.html)
+
 # Day 3: Check in and Taxonomy
 
 ## Updates: 
