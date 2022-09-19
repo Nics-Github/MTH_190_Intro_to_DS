@@ -84,7 +84,6 @@ h1{font-weight: 400;}
 - What times of the day do you do your homework. When would AJ's office hours work for you?  
 
 ## Check in on HW 1
-[HW 1 Take Aways](./https://docs.google.com/document/d/1jtF58XftxCVLf8DMDsrDLyxKY752puwckm1d6db-CYo/edit?usp=sharing)
 [HW 1 Take Aways](https://docs.google.com/document/d/1jtF58XftxCVLf8DMDsrDLyxKY752puwckm1d6db-CYo/edit?usp=sharing)
 
 HW 1 due by midnight tonight. 
