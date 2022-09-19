@@ -85,6 +85,7 @@ h1{font-weight: 400;}
 
 ## Check in on HW 1
 [HW 1 Take Aways](./https://docs.google.com/document/d/1jtF58XftxCVLf8DMDsrDLyxKY752puwckm1d6db-CYo/edit?usp=sharing)
+[HW 1 Take Aways](https://docs.google.com/document/d/1jtF58XftxCVLf8DMDsrDLyxKY752puwckm1d6db-CYo/edit?usp=sharing)
 
 HW 1 due by midnight tonight. 
 
