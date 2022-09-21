@@ -705,5 +705,131 @@
     "title": "MTH 190: Intro to Data Science",
     "section": "Lab_01",
     "text": "Lab_01"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#three-color-schemes",
+    "href": "course-materials/lectures/mdsr_color.html#three-color-schemes",
+    "title": "Color",
+    "section": "Three color schemes",
+    "text": "Three color schemes\n\nSequential\n\nSingle hue\nMulti-hue\n\nDiverging\nCategorical"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#sequential-single-hue",
+    "href": "course-materials/lectures/mdsr_color.html#sequential-single-hue",
+    "title": "Color",
+    "section": "Sequential, single hue",
+    "text": "Sequential, single hue\n\nMap saturation to numeric variable\nNo more than 5–6 levels\nPeople interpret high saturation as more"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#sequential-double-hue",
+    "href": "course-materials/lectures/mdsr_color.html#sequential-double-hue",
+    "title": "Color",
+    "section": "Sequential, double hue",
+    "text": "Sequential, double hue\n\nMap hue to numeric variable\nGenerally, no more than 2 anchor colors\nPeople interpret darker hue as more"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#diverging",
+    "href": "course-materials/lectures/mdsr_color.html#diverging",
+    "title": "Color",
+    "section": "Diverging",
+    "text": "Diverging\n\nTwo colors used to indicate extremes of a range\nNeutral color in the middle\ndistinguish between zero and missing"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#sorry-no-rainbows",
+    "href": "course-materials/lectures/mdsr_color.html#sorry-no-rainbows",
+    "title": "Color",
+    "section": "Sorry, no rainbows",
+    "text": "Sorry, no rainbows\n\n\nNO RAINBOWS!!\nWhy rainbow colors aren’t the best option for data visualizations\nHow The Rainbow Color Map Misleads\n\ndataviz cheatsheet"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#colorbrewer-ylgn-palette",
+    "href": "course-materials/lectures/mdsr_color.html#colorbrewer-ylgn-palette",
+    "title": "Color",
+    "section": "ColorBrewer YlGn palette",
+    "text": "ColorBrewer YlGn palette"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#take-any-ggplot",
+    "href": "course-materials/lectures/mdsr_color.html#take-any-ggplot",
+    "title": "Color",
+    "section": "Take any ggplot…",
+    "text": "Take any ggplot…"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#built-in-color-palettes",
+    "href": "course-materials/lectures/mdsr_color.html#built-in-color-palettes",
+    "title": "Color",
+    "section": "Built-in color palettes",
+    "text": "Built-in color palettes\n\nCynthia Brewer\nRColorBrewer package\nscale_color_brewer() function\nviridis palettes mimic matplotlib Python library"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#categorical",
+    "href": "course-materials/lectures/mdsr_color.html#categorical",
+    "title": "Color",
+    "section": "Categorical",
+    "text": "Categorical\nDifferent color = different category\nchoose colors that are - perceptually distant - roughly the same saturation"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#distinguish-between-zero-and-missing",
+    "href": "course-materials/lectures/mdsr_color.html#distinguish-between-zero-and-missing",
+    "title": "Color",
+    "section": "distinguish between zero and missing",
+    "text": "distinguish between zero and missing"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#viridis-palette",
+    "href": "course-materials/lectures/mdsr_color.html#viridis-palette",
+    "title": "Color",
+    "section": "Viridis palette",
+    "text": "Viridis palette"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#and-change-themes-with-ggthemes",
+    "href": "course-materials/lectures/mdsr_color.html#and-change-themes-with-ggthemes",
+    "title": "Color",
+    "section": "…and change themes with ggthemes",
+    "text": "…and change themes with ggthemes"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#ggplot2-default-color",
+    "href": "course-materials/lectures/mdsr_color.html#ggplot2-default-color",
+    "title": "Color",
+    "section": "ggplot2 default color",
+    "text": "ggplot2 default color"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#colorbrewer-purples-palette",
+    "href": "course-materials/lectures/mdsr_color.html#colorbrewer-purples-palette",
+    "title": "Color",
+    "section": "ColorBrewer Purples palette",
+    "text": "ColorBrewer Purples palette"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "",
+    "text": "#Day 6: The verbs and coding"
+  },
+  {
+    "objectID": "index.html#let-us-talk-about-these",
+    "href": "index.html#let-us-talk-about-these",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Let us talk about these",
+    "text": "Let us talk about these\n\nChapter 2 Take Aways\nDiscuss Lab_01\nHW 02"
+  },
+  {
+    "objectID": "index.html#color-lecture",
+    "href": "index.html#color-lecture",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Color lecture",
+    "text": "Color lecture"
+  },
+  {
+    "objectID": "index.html#color-excersise",
+    "href": "index.html#color-excersise",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "[Color excersise]",
+    "text": "[Color excersise]"
   }
 ]

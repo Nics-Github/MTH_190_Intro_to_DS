@@ -69,9 +69,28 @@ h1{font-weight: 400;}
 
 </iframe>
 
-# Day 4: Using GGplot
+#Day 6: The verbs and coding 
 
-## [Chapter 2 Take Aways](https://docs.google.com/document/d/184nd7HdObXgeyuq7TUHYXjThkHWc0O45GDD1BG1m40E/edit?usp=sharing)
+
+
+
+# Day 5: Digestion Day
+
+## Let us talk about these 
+
+- [Chapter 2 Take Aways](https://docs.google.com/document/d/184nd7HdObXgeyuq7TUHYXjThkHWc0O45GDD1BG1m40E/edit?usp=sharing)
+
+- Discuss [Lab_01](./course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html)
+
+- [HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html)
+
+## [Color lecture](./course-materials/lectures/mdsr_color.html)
+
+## [Color excersise] 
+
+
+
+# Day 4: Using GGplot
 
 ## Activity: [Intro to ggplot2](./course-materials/in-class-activities/Activity-ggplot2.html)
 

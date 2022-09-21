@@ -1,0 +1,53 @@
+---
+title: "color"
+format: html
+---
+
+Mammals are back 
+
+```{r}
+library(openintro)
+library(tidyverse)
+library(RColorBrewer)
+library(ggthemes)
+```
+
+```{r}
+president
+```
+
+
+Let's play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()
+
+```{r}
+president |>
+  ggplot(aes(x=start, y =end, color = party) )+
+  geom_point()+
+  theme_bw()
+
+```
+
+What does factor do? 
+
+Let's play with some colors. [Here are the color brewer choices](https://r-graph-gallery.com/38-rcolorbrewers-palettes.html)
+
+Add scale_fill_brewer
+
+```{r}
+president |>
+  ggplot(aes( x = party,fill=party) )+
+  geom_bar()+
+  scale_fill_brewer(palette = "Greens") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+           
+```
+
+Let's make a histogram of sleep hours
+
+```{r}
+mammals |>
+  ggplot(aes(x =brain_wt, fill = factor(danger) ))+
+  geom_histogram()   +
+  scale_fill_gradient(low = "blue",high = "red")
+
+```  
