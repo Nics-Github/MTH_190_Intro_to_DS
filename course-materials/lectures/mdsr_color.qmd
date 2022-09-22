@@ -16,13 +16,15 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(fig.path = 'figures/', fig.height = 5)
 ```
 
-
-
 ------------------------------------------------------------------------
 
 # Color
 
 ------------------------------------------------------------------------
+
+## Colors can be added to aestheitcs, or for the whole graph. 
+
+Type ?geom_point() to see which asthetics are allowed for the point plot
 
 ## Three color schemes
 
@@ -81,16 +83,15 @@ No more than 5--6 levels
 
 People interpret high saturation as more
 
-
 ------------------------------------------------------------------------
 
 ## Sequential, double hue
 
-- Map [**hue**](https://en.wikipedia.org/wiki/Hue) to numeric variable
+-   Map [**hue**](https://en.wikipedia.org/wiki/Hue) to numeric variable
 
-- Generally, no more than 2 anchor colors
+-   Generally, no more than 2 anchor colors
 
-- People interpret darker hue as more
+-   People interpret darker hue as more
 
 ```{r cali-multihue, echo=FALSE}
 ggplot(ca_counties) + 
@@ -122,9 +123,7 @@ distinguish between zero and missing
 
 Different color = different category
 
-choose colors that are 
-- perceptually distant
-- roughly the same saturation
+choose colors that are - perceptually distant - roughly the same saturation
 
 ```{r cali-categorical, echo=FALSE}
 ggplot(ca_counties) + 
@@ -137,13 +136,13 @@ ggplot(ca_counties) +
 
 ## Built-in color palettes
 
-- [`Cynthia Brewer`](http://www.colorbrewer2.org)
+-   [`Cynthia Brewer`](http://www.colorbrewer2.org)
 
-- `RColorBrewer` package
+-   `RColorBrewer` package
 
-- `scale_color_brewer()` function
+-   `scale_color_brewer()` function
 
-- [`viridis`](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html) palettes mimic `matplotlib` Python library
+-   [`viridis`](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html) palettes mimic `matplotlib` Python library
 
 ------------------------------------------------------------------------
 
@@ -151,11 +150,11 @@ ggplot(ca_counties) +
 
 ![](https://media.giphy.com/media/3o7aD0Meng5BT8IejK/giphy.gif)
 
-- NO RAINBOWS!!
+-   NO RAINBOWS!!
 
-- [Why rainbow colors aren’t the best option for data visualizations](https://www.poynter.org/archive/2013/why-rainbow-colors-arent-always-the-best-options-for-data-visualizations/)
+-   [Why rainbow colors aren't the best option for data visualizations](https://www.poynter.org/archive/2013/why-rainbow-colors-arent-always-the-best-options-for-data-visualizations/)
 
-- [How The Rainbow Color Map Misleads](https://eagereyes.org/basics/rainbow-color-map)
+-   [How The Rainbow Color Map Misleads](https://eagereyes.org/basics/rainbow-color-map)
 
 [dataviz cheatsheet](https://policyviz.com/2018/08/07/dataviz-cheatsheet/)
 
@@ -189,16 +188,12 @@ norm_plot +
   scale_fill_distiller(palette = "YlGn")
 ```
 
-
-
 ## Viridis palette
 
 ```{r norm_plot_viridis, message=FALSE}
 norm_plot +
   scale_fill_viridis_c()
 ```
-
-
 
 # Themes
 
@@ -224,7 +219,6 @@ p1
 library(ggthemes)
 p1 + theme_wsj()
 ```
-
 
 ------------------------------------------------------------------------
 

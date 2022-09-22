@@ -69,7 +69,7 @@ h1{font-weight: 400;}
 
 </iframe>
 
-#Day 6: The verbs and coding 
+# Day 6: The verbs and coding 
 
 
 
@@ -84,9 +84,11 @@ h1{font-weight: 400;}
 
 - [HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html)
 
+## [Color excersise](./course-materials/in-class-activities/Color_exercises.html) 
+
 ## [Color lecture](./course-materials/lectures/mdsr_color.html)
 
-## [Color excersise] 
+
 
 
 

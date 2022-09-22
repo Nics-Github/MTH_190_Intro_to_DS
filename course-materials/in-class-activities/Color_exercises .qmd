@@ -1,20 +1,18 @@
 ---
-title: "color"
+title: "Color exercise"
+author: "Schwab"
 format: html
 ---
 
-Mammals are back 
+Let's play around with some colors.  
 
-```{r}
+```{r message=FALSE}
 library(openintro)
 library(tidyverse)
 library(RColorBrewer)
 library(ggthemes)
 ```
 
-```{r}
-president
-```
 
 
 Let's play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()
@@ -27,7 +25,7 @@ president |>
 
 ```
 
-What does factor do? 
+
 
 Let's play with some colors. [Here are the color brewer choices](https://r-graph-gallery.com/38-rcolorbrewers-palettes.html)
 
@@ -37,17 +35,37 @@ Add scale_fill_brewer
 president |>
   ggplot(aes( x = party,fill=party) )+
   geom_bar()+
-  scale_fill_brewer(palette = "Greens") +
+  scale_fill_brewer(palette = "Purples") +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
            
 ```
+Does color add anything to the graph above? 
 
-Let's make a histogram of sleep hours
+Let's make a count plot of assortative mating. [Notice we are adding a shape aesthetic.](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html) 
 
 ```{r}
-mammals |>
-  ggplot(aes(x =brain_wt, fill = factor(danger) ))+
-  geom_histogram()   +
-  scale_fill_gradient(low = "blue",high = "red")
-
+assortative_mating |>
+  ggplot(aes(x = self_male, y= partner_female, fill=self_male),)+
+  geom_count(aes(color = partner_female), shape=23,stroke=1.5)  + 
+  scale_fill_manual(values = c("blue","brown","green")) +
+  scale_color_manual(values =  c("blue","brown","green")) +
+  theme_bw()
 ```  
+
+How do you feel about color in the above graph? 
+
+Try this: 
+- Make sure the above libraries are loaded.
+- Take the cpr data set from the OpenIntro package
+- Make a geom_bar() graph for the variable `group`
+- Use the fill aesthetic to color the bars by outcome. 
+- Add a scale_fill_brewer(palette= ) to play with different [brewer choices](https://r-graph-gallery.com/38-rcolorbrewers-palettes.html).
+
+
+```{r}
+cpr 
+```
+Copy most of the chunk you made above. 
+- Try scale_fill_manual(values=c("","")) to manually set two colors for outcomes. 
+
+Copy most of the chunck again and try scale_fill_fivethirtyeight()

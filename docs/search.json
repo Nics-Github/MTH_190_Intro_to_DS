@@ -829,7 +829,21 @@
     "objectID": "index.html#color-excersise",
     "href": "index.html#color-excersise",
     "title": "MTH 190: Intro to Data Science",
-    "section": "[Color excersise]",
-    "text": "[Color excersise]"
+    "section": "Color excersise",
+    "text": "Color excersise"
+  },
+  {
+    "objectID": "course-materials/in-class-activities/Color_exercises .html",
+    "href": "course-materials/in-class-activities/Color_exercises .html",
+    "title": "Color exercise",
+    "section": "",
+    "text": "library(openintro)\nlibrary(tidyverse)\nlibrary(RColorBrewer)\nlibrary(ggthemes)\n\nLet’s play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()\n\npresident |>\n  ggplot(aes(x=start, y =end, color = party) )+\n  geom_point()+\n  theme_bw()\n\nWarning: Removed 1 rows containing missing values (geom_point).\n\n\n\n\n\nLet’s play with some colors. Here are the color brewer choices\nAdd scale_fill_brewer\n\npresident |>\n  ggplot(aes( x = party,fill=party) )+\n  geom_bar()+\n  scale_fill_brewer(palette = \"Purples\") +\n  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))\n\n\n\n\nDoes color add anything to the graph above?\nLet’s make a count plot of assortative mating. Notice we are adding a shape aesthetic.\n\nassortative_mating |>\n  ggplot(aes(x = self_male, y= partner_female, fill=self_male),)+\n  geom_count(aes(color = partner_female), shape=23,stroke=1.5)  + \n  scale_fill_manual(values = c(\"blue\",\"brown\",\"green\")) +\n  scale_color_manual(values =  c(\"blue\",\"brown\",\"green\")) +\n  theme_bw()\n\n\n\n\nHow do you feel about color in the above graph?\nTry this: - Make sure the above libraries are loaded. - Take the cpr data set from the OpenIntro package - Make a geom_bar() graph for the variable group - Use the fill aesthetic to color the bars by outcome. - Add a scale_fill_brewer(palette= ) to play with different brewer choices.\n\ncpr \n\n# A tibble: 90 × 2\n   group   outcome \n   <fct>   <fct>   \n 1 control survived\n 2 control survived\n 3 control survived\n 4 control survived\n 5 control survived\n 6 control survived\n 7 control survived\n 8 control survived\n 9 control survived\n10 control survived\n# … with 80 more rows\n\n\nCopy most of the chunk you made above. - Try scale_fill_manual(values=c(““,”“)) to manually set two colors for outcomes.\nCopy most of the chunck again and try scale_fill_fivethirtyeight()"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#colors-can-be-added-to-aestheitcs-or-for-the-whole-graph.",
+    "href": "course-materials/lectures/mdsr_color.html#colors-can-be-added-to-aestheitcs-or-for-the-whole-graph.",
+    "title": "Color",
+    "section": "Colors can be added to aestheitcs, or for the whole graph.",
+    "text": "Colors can be added to aestheitcs, or for the whole graph.\nType ?geom_point() to see which asthetics are allowed for the point plot"
   }
 ]
