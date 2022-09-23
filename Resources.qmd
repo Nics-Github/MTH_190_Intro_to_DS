@@ -39,3 +39,7 @@ execute:
 ## Data transformation: dplyr
 
 [![](images/data-transformation.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf)
+
+## Style Guide
+
+[The Tidyverse Style Guide](https://style.tidyverse.org/index.html)

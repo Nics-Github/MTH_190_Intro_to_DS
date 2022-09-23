@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.0.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -207,7 +207,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(RColorBrewer)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggthemes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Let’s play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()</p>
+<p>Here’s the <a href="https://www.openintro.org/data/index.php?data=president">presidents data set</a>. Let’s play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>president <span class="sc">|&gt;</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span>start, <span class="at">y =</span>end, <span class="at">color =</span> party) )<span class="sc">+</span></span>
@@ -217,38 +217,51 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code>Warning: Removed 1 rows containing missing values (geom_point).</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="Color_exercises-_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<p><img src="Color_exercises_files/figure-html/presidents-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>Let’s play with some colors. <a href="https://r-graph-gallery.com/38-rcolorbrewers-palettes.html">Here are the color brewer choices</a></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">display.brewer.all</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Color_exercises_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>That’s alittle hard to see in the .rmd. <a href="https://r-graph-gallery.com/38-rcolorbrewers-palettes.html">Here are the color brewer choices</a></p>
 <p>Add scale_fill_brewer</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>president <span class="sc">|&gt;</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>( <span class="at">x =</span> party,<span class="at">fill=</span>party) )<span class="sc">+</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>()<span class="sc">+</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">"Purples"</span>) <span class="sc">+</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>president <span class="sc">|&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>( <span class="at">x =</span> party,<span class="at">fill=</span>party) )<span class="sc">+</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>()<span class="sc">+</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">"Purples"</span>) <span class="sc">+</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="Color_exercises-_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<p><img src="Color_exercises_files/figure-html/x-party-fill-party-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Does color add anything to the graph above?</p>
-<p>Let’s make a count plot of assortative mating. <a href="https://ggplot2.tidyverse.org/articles/ggplot2-specs.html">Notice we are adding a shape aesthetic.</a></p>
+<p>Let’s make a count plot of <a href="https://www.openintro.org/data/index.php?data=assortive_mating">assortative mating</a>. <a href="https://ggplot2.tidyverse.org/articles/ggplot2-specs.html">Notice we are adding a shape aesthetic.</a></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>assortative_mating <span class="sc">|&gt;</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> self_male, <span class="at">y=</span> partner_female, <span class="at">fill=</span>self_male),)<span class="sc">+</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_count</span>(<span class="fu">aes</span>(<span class="at">color =</span> partner_female), <span class="at">shape=</span><span class="dv">23</span>,<span class="at">stroke=</span><span class="fl">1.5</span>)  <span class="sc">+</span> </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>,<span class="st">"brown"</span>,<span class="st">"green"</span>)) <span class="sc">+</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span>  <span class="fu">c</span>(<span class="st">"blue"</span>,<span class="st">"brown"</span>,<span class="st">"green"</span>)) <span class="sc">+</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>assortative_mating <span class="sc">|&gt;</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> self_male, <span class="at">y=</span> partner_female, <span class="at">fill=</span>self_male),)<span class="sc">+</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_count</span>(<span class="fu">aes</span>(<span class="at">color =</span> partner_female), <span class="at">shape=</span><span class="dv">23</span>,<span class="at">stroke=</span><span class="fl">1.5</span>)  <span class="sc">+</span> </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"blue"</span>,<span class="st">"brown"</span>,<span class="st">"green"</span>)) <span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span>  <span class="fu">c</span>(<span class="st">"blue"</span>,<span class="st">"brown"</span>,<span class="st">"green"</span>)) <span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="Color_exercises-_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<p><img src="Color_exercises_files/figure-html/assortative-mating-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>How do you feel about color in the above graph?</p>
-<p>Try this: - Make sure the above libraries are loaded. - Take the cpr data set from the OpenIntro package - Make a geom_bar() graph for the variable <code>group</code> - Use the fill aesthetic to color the bars by outcome. - Add a scale_fill_brewer(palette= ) to play with different <a href="https://r-graph-gallery.com/38-rcolorbrewers-palettes.html">brewer choices</a>.</p>
+<p>Try this:</p>
+<ul>
+<li><p>Make sure the above libraries are loaded.</p></li>
+<li><p>Take the <a href="https://www.openintro.org/data/index.php?data=cpr">cpr data set</a> from the OpenIntro package</p></li>
+<li><p>Make a geom_bar() graph for the variable <code>group</code></p></li>
+<li><p>Use the fill aesthetic to color the bars by outcome.</p></li>
+<li><p>Add a scale_fill_brewer(palette=“” ) to play with different <a href="https://r-graph-gallery.com/38-rcolorbrewers-palettes.html">brewer choices</a>.</p></li>
+</ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>cpr </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>cpr </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 90 × 2
    group   outcome 
@@ -266,8 +279,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 # … with 80 more rows</code></pre>
 </div>
 </div>
-<p>Copy most of the chunk you made above. - Try scale_fill_manual(values=c(““,”“)) to manually set two colors for outcomes.</p>
-<p>Copy most of the chunck again and try scale_fill_fivethirtyeight()</p>
+<p>Copy most of the chunk you made above.</p>
+<ul>
+<li><p>Add scale_fill_manual(values=c(“black”,“white”)) to manually set two colors for outcomes. Change black and white to other colors. <a href="https://derekogle.com/NCGraphing/resources/colors">Here’s a list of color choices in R.</a></p></li>
+<li><p>Copy most of the chunk again and try scale_fill_fivethirtyeight()</p></li>
+</ul>
 
 
 

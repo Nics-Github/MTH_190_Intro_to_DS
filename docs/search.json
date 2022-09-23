@@ -816,7 +816,7 @@
     "href": "index.html#let-us-talk-about-these",
     "title": "MTH 190: Intro to Data Science",
     "section": "Let us talk about these",
-    "text": "Let us talk about these\n\nChapter 2 Take Aways\nDiscuss Lab_01\nHW 02"
+    "text": "Let us talk about these\n\nChapter 2 Take Aways\nDiscuss Problems 1 & 6 & 3\nDiscuss Lab_01\nQuick check in HW 02"
   },
   {
     "objectID": "index.html#color-lecture",
@@ -845,5 +845,75 @@
     "title": "Color",
     "section": "Colors can be added to aestheitcs, or for the whole graph.",
     "text": "Colors can be added to aestheitcs, or for the whole graph.\nType ?geom_point() to see which asthetics are allowed for the point plot"
+  },
+  {
+    "objectID": "Resources.html#style-guide",
+    "href": "Resources.html#style-guide",
+    "title": "Resources",
+    "section": "Style Guide",
+    "text": "Style Guide\nThe Tidyverse Style Guide"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html",
+    "href": "course-materials/lab-instructions/sds192-labs.html",
+    "title": "ColorBrewer and ggthemes",
+    "section": "",
+    "text": "Goal: by the end of this lab, you will be able to use colorbrewer and ggthemes to customize the look of your visualization.\n\n\nFor this lab, we’re going to be using the ToothGrowth dataset, which is one of the example datasets included in R. It contains data on how fast guinea pigs’ teeth grow if you give them vitamin C supplements in various forms and at various doses. You can learn more about this dataset by typing ?ToothGrowth at the console.\n\nLet’s take a look:\n\nlibrary(tidyverse)\nglimpse(ToothGrowth)\n\nRows: 60\nColumns: 3\n$ len  <dbl> 4.2, 11.5, 7.3, 5.8, 6.4, 10.0, 11.2, 11.2, 5.2, 7.0, 16.5, 16.5,…\n$ supp <fct> VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, V…\n$ dose <dbl> 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1.0, 1.0, 1.0, …\n\nsummary(ToothGrowth)\n\n      len        supp         dose      \n Min.   : 4.20   OJ:30   Min.   :0.500  \n 1st Qu.:13.07   VC:30   1st Qu.:0.500  \n Median :19.25           Median :1.000  \n Mean   :18.81           Mean   :1.167  \n 3rd Qu.:25.27           3rd Qu.:2.000  \n Max.   :33.90           Max.   :2.000  \n\n\nHmm…the dose column looks a little funny. There are only three dosage values [0.5, 1 ,2], but R is interpreting them as continuous. We can tell R that we want to convert them to categories (a.k.a. factors) using dplyr like this:\n\nToothGrowth <- ToothGrowth %>%\n  mutate(dose = factor(dose))\n\nNow let’s look again:\n\nsummary(ToothGrowth)\n\n      len        supp     dose   \n Min.   : 4.20   OJ:30   0.5:20  \n 1st Qu.:13.07   VC:30   1  :20  \n Median :19.25           2  :20  \n Mean   :18.81                   \n 3rd Qu.:25.27                   \n Max.   :33.90                   \n\n\nMuch better! Now let’s draw a graph."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#drawing-a-ggplot",
+    "href": "course-materials/lab-instructions/sds192-labs.html#drawing-a-ggplot",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Drawing a ggplot",
+    "text": "Drawing a ggplot\nRemember the basic recipe for building a plot with ggplot2? Don’t forget to load the library!\n\nMake a boxplot of the ToothGrowth data, with x = dose, y = len, and fill = dose. Store it in a variable called my_plot.\n\n\n# sample solution\nmy_plot <- ggplot(ToothGrowth, aes(x = dose, y = len, fill = dose)) + \n  geom_boxplot()"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#changing-colors-manually",
+    "href": "course-materials/lab-instructions/sds192-labs.html#changing-colors-manually",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Changing colors manually",
+    "text": "Changing colors manually\nThe default colors R selects are okay, but maybe we can do better. Let’s try using colors from the official Smith College Color Palette. We can specify the color values we want using scale_fill_manual() like this:\n\nmy_plot + \n  scale_fill_manual(values = c(\"#004f71\", \"#465a01\", \"#981d97\"))"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#changing-colors-with-rcolorbrewer",
+    "href": "course-materials/lab-instructions/sds192-labs.html#changing-colors-with-rcolorbrewer",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Changing colors with RColorBrewer",
+    "text": "Changing colors with RColorBrewer\nThat looks pretty nice, but we could spend an awful lot of time making tiny tweaks to color palettes. Luckily Cynthia Brewer over at ColorBrewer has come up with some really good ones we can borrow! Let’s load the RColorBrewer library and check it out. Note: you might need to install.packages('RColorBrewer') if you’re running R on your laptop.\n\nlibrary(RColorBrewer)\ndisplay.brewer.all()\n\n\n\n\nOoh, so many choices! We can now use these palettes along with scale_fill_brewer() to make perceptually-optimized plots:\n\nmy_plot + \n  scale_fill_brewer(palette = \"Set3\")\n\n\n\n\nThat looks a little bit… Valentine-y?\n\n\nTry out a few other color palettes!\n\n\n# sample solution\nmy_plot + \n  scale_fill_brewer(palette = \"Dark2\")\n\n\n\n\n\nInstall the nasaweather package, and load it.\n\n\n# sample solution\ninstall.packages(\"nasaweather\")\nlibrary(nasaweather)\n\nTo make the plot easier to read, we will first filter the storms data frame to include only storms from 1995.\n\nmy_storms <- storms %>%\n  filter(year == 1995)\n\n\nPlot the storms in my_storms, mapping horizontal position to longitude, vertical position to latitude, and color to wind speed. Also use a facet_wrap() to make small multiples according to the name of each storm.\n\n\n# sample solution\nggplot(my_storms, aes(x = long, y = lat, color = wind)) + \n  geom_point() + \n  facet_wrap(~name)\n\n\n\n\n\nDo you think a sequential or diverging color scheme is most appropriate for wind speed? Justify your answer."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#stylizing-using-ggthemes",
+    "href": "course-materials/lab-instructions/sds192-labs.html#stylizing-using-ggthemes",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Stylizing using ggthemes",
+    "text": "Stylizing using ggthemes\nIf we want even more control, we can use the ggthemes package to define not only the color palette, but the overall style of the plot as well. For example, if we want the minic the style used by the graphic design team at The Economist, we could say:\n\nlibrary(ggthemes)\nmy_plot + \n  theme_economist() + \n  scale_fill_economist()\n\n\n\n\nNotice how the background changed colors, the axes were re-styled, and the legend changed positions? You can read more about available ggthemes and scales here."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#putting-it-all-together",
+    "href": "course-materials/lab-instructions/sds192-labs.html#putting-it-all-together",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Putting it all together",
+    "text": "Putting it all together\nNow it’s time to get creative! There are many more datasets available in R. Let’s take a look at what we’ve got to play with:\n\ndata()\n\nYou can learn more about any of the datasets by running ?<dataset> at the console (replacing <dataset> with the name of the dataset).\n\nUse ggplot to draw a plot of any dataset you like, and style it. Try combining both a theme and a color palette.\n\n\n# sample solution"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#your-learning",
+    "href": "course-materials/lab-instructions/sds192-labs.html#your-learning",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Your learning",
+    "text": "Your learning\nPlease respond to the following prompt on Slack in the #mod-viz channel.\n\nPrompt: post the data graphic you created in Exercise 6"
+  },
+  {
+    "objectID": "course-materials/in-class-activities/Color_exercises.html",
+    "href": "course-materials/in-class-activities/Color_exercises.html",
+    "title": "Color exercise",
+    "section": "",
+    "text": "library(openintro)\nlibrary(tidyverse)\nlibrary(RColorBrewer)\nlibrary(ggthemes)\n\nHere’s the presidents data set. Let’s play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()\n\npresident |>\n  ggplot(aes(x=start, y =end, color = party) )+\n  geom_point()+\n  theme_bw()\n\nWarning: Removed 1 rows containing missing values (geom_point).\n\n\n\n\n\n\ndisplay.brewer.all()\n\n\n\n\nThat’s alittle hard to see in the .rmd. Here are the color brewer choices\nAdd scale_fill_brewer\n\npresident |>\n  ggplot(aes( x = party,fill=party) )+\n  geom_bar()+\n  scale_fill_brewer(palette = \"Purples\") +\n  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))\n\n\n\n\nDoes color add anything to the graph above?\nLet’s make a count plot of assortative mating. Notice we are adding a shape aesthetic.\n\nassortative_mating |>\n  ggplot(aes(x = self_male, y= partner_female, fill=self_male),)+\n  geom_count(aes(color = partner_female), shape=23,stroke=1.5)  + \n  scale_fill_manual(values = c(\"blue\",\"brown\",\"green\")) +\n  scale_color_manual(values =  c(\"blue\",\"brown\",\"green\")) +\n  theme_bw()\n\n\n\n\nHow do you feel about color in the above graph?\nTry this:\n\nMake sure the above libraries are loaded.\nTake the cpr data set from the OpenIntro package\nMake a geom_bar() graph for the variable group\nUse the fill aesthetic to color the bars by outcome.\nAdd a scale_fill_brewer(palette=“” ) to play with different brewer choices.\n\n\ncpr \n\n# A tibble: 90 × 2\n   group   outcome \n   <fct>   <fct>   \n 1 control survived\n 2 control survived\n 3 control survived\n 4 control survived\n 5 control survived\n 6 control survived\n 7 control survived\n 8 control survived\n 9 control survived\n10 control survived\n# … with 80 more rows\n\n\nCopy most of the chunk you made above.\n\nAdd scale_fill_manual(values=c(“black”,“white”)) to manually set two colors for outcomes. Change black and white to other colors. Here’s a list of color choices in R.\nCopy most of the chunk again and try scale_fill_fivethirtyeight()"
+  },
+  {
+    "objectID": "index.html#color-exercise",
+    "href": "index.html#color-exercise",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Color exercise",
+    "text": "Color exercise"
   }
 ]

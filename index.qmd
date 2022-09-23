@@ -63,34 +63,27 @@ h1{font-weight: 400;}
 ```
 # Schedule
 
-
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK1_TZx6LCqC0Wfddr2T0Sb7sX0R1zuoAesmj-TYpXtMpikenrIqQz4LHmk83PFYF1Yk4MjQB14aec/pubhtml?gid=0&amp;single=false&amp;widget=true&amp;headers=false&amp;gid=0&amp;range=A1:D31" width="100%" height="850">
-
 
 </iframe>
 
-# Day 6: The verbs and coding 
-
-
-
+# Day 6: The verbs and coding
 
 # Day 5: Digestion Day
 
-## Let us talk about these 
+## Let us talk about these
 
-- [Chapter 2 Take Aways](https://docs.google.com/document/d/184nd7HdObXgeyuq7TUHYXjThkHWc0O45GDD1BG1m40E/edit?usp=sharing)
+-   [Chapter 2 Take Aways](https://docs.google.com/document/d/184nd7HdObXgeyuq7TUHYXjThkHWc0O45GDD1BG1m40E/edit?usp=sharing)
 
-- Discuss [Lab_01](./course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html)
+-   Discuss [Problems 1 & 6 & 3](https://mdsr-book.github.io/mdsr2e/ch-vizI.html#datavizI-exercises)
 
-- [HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html)
+-   Discuss [Lab_01](./course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html)
 
-## [Color excersise](./course-materials/in-class-activities/Color_exercises.html) 
+-   Quick check in [HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html)
+
+## [Color exercise](./course-materials/in-class-activities/Color_exercises.html)
 
 ## [Color lecture](./course-materials/lectures/mdsr_color.html)
-
-
-
-
 
 # Day 4: Using GGplot
 
@@ -100,14 +93,16 @@ h1{font-weight: 400;}
 
 # Day 3: Check in and Taxonomy
 
-## Updates: 
-- Issues with some packages installing on Server: 'coronavirus', 'ggimage', 'dsbox'
-- What times of the day do you do your homework. When would AJ's office hours work for you?  
+## Updates:
+
+-   Issues with some packages installing on Server: 'coronavirus', 'ggimage', 'dsbox'
+-   What times of the day do you do your homework. When would AJ's office hours work for you?
 
 ## Check in on HW 1
+
 [HW 1 Take Aways](https://docs.google.com/document/d/1jtF58XftxCVLf8DMDsrDLyxKY752puwckm1d6db-CYo/edit?usp=sharing)
 
-HW 1 due by midnight tonight. 
+HW 1 due by midnight tonight.
 
 ## Taxonomy
 
@@ -115,11 +110,9 @@ HW 1 due by midnight tonight.
 
 [Activity on Taxonomy](./course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html)
 
-
 ## Let's look at HW 2
 
-[HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html) should be shared with you through github
-You have to clone the repo and use your token as a password. 
+[HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html) should be shared with you through github You have to clone the repo and use your token as a password.
 
 ## Get a NYTimes account
 
@@ -160,11 +153,11 @@ or
 
 [COVID-19](./course-materials/application-exercises/ae-01b-covid/covid.html)
 
-## HW 1 should be shared with you via github. 
+## HW 1 should be shared with you via github.
 
-- Check your email. 
-- I'd like to start this in class so we're on the same page. 
-- [Here's a link just in case, but don't click it](./course-materials/hw-instructions/hw-01/hw-01-pet-names.html)
+-   Check your email.
+-   I'd like to start this in class so we're on the same page.
+-   [Here's a link just in case, but don't click it](./course-materials/hw-instructions/hw-01/hw-01-pet-names.html)
 
 # Day 1: First Day of Class
 
