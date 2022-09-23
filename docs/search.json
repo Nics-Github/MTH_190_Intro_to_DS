@@ -438,7 +438,7 @@
     "href": "course-materials/syllabus/syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Schwab” or “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.\nProf. Schwab’s hours:\n\nMWF 10:00 - 10:50\nFR 362 or set up a zoom appointment.\n\nAJ’s office hours\n\nOffice hours:\nSlack:\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
+    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Schwab” or “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.\nProf. Schwab’s hours:\n\nMWF 10:00 - 10:50\nFR 362 or set up a zoom appointment.\n\nAJ’s office hours\n\nOffice hours: MW 7-9pm\nSee the slack chanel for AJ’s zoom link\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
   },
   {
     "objectID": "course-materials/syllabus/syllabus.html#projects-40",
@@ -915,5 +915,61 @@
     "title": "MTH 190: Intro to Data Science",
     "section": "Color exercise",
     "text": "Color exercise"
+  },
+  {
+    "objectID": "index.html#well-do-problem-3.1-1-in-class",
+    "href": "index.html#well-do-problem-3.1-1-in-class",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "We’ll do problem 3.1 #1 in class",
+    "text": "We’ll do problem 3.1 #1 in class"
+  },
+  {
+    "objectID": "index.html#grammer-of-graphics-lecture",
+    "href": "index.html#grammer-of-graphics-lecture",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Grammer of Graphics lecture",
+    "text": "Grammer of Graphics lecture"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-Grammar-of-Graphics.html",
+    "href": "course-materials/lectures/mdsr-Grammar-of-Graphics.html",
+    "title": "Grammar of Graphics",
+    "section": "",
+    "text": "[Live Coding Demo]\nclass: inverse"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#ggplot2-1",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#ggplot2-1",
+    "title": "mdsr-grammar-of-graphics",
+    "section": "ggplot2",
+    "text": "ggplot2\n\nNo one uses ggplot1\nimplementation of the grammar of graphics\ncheatsheet\n\n[https://ggplot2.tidyverse.org/]"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#what-is-the-grammar-of-graphics",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#what-is-the-grammar-of-graphics",
+    "title": "mdsr-grammar-of-graphics",
+    "section": "What is the “Grammar of Graphics”?",
+    "text": "What is the “Grammar of Graphics”?\nBig idea: independently specify plot building blocks and combine them to create just about any kind of graphical display you want"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#building-blocks-of-data-graphics",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#building-blocks-of-data-graphics",
+    "title": "mdsr-grammar-of-graphics",
+    "section": "Building blocks of data graphics",
+    "text": "Building blocks of data graphics\n\ndata (obvi.)\n\ndata\n\ngeometric objects (the literal stuff we draw)\n\ngeom_*()\n\naesthetic mappings (how we draw that stuff)\n\naes()\n\nscales (range of values, colors, etc.)\n\nscale_*()\n\nfaceting (small multiples)\n\nfacet_wrap(), facet_grid()"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#basic-template",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#basic-template",
+    "title": "mdsr-grammar-of-graphics",
+    "section": "Basic template",
+    "text": "Basic template"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#more-complicated",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#more-complicated",
+    "title": "mdsr-grammar-of-graphics",
+    "section": "More complicated",
+    "text": "More complicated"
   }
 ]

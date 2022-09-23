@@ -35,7 +35,7 @@ website:
     
     right:
     - icon: github
-      href: https://github.com/Nics-Github/MTH_190
+      href: https://github.com/
   # - text: Problem Sets
   #   href: PS.html
   #  - text: Mini-Projects
@@ -43,7 +43,7 @@ website:
   # - text: Midterms
   #   href: midterms.html
     - text: Syllabus
-      href: syllabus.qmd
+      href: ./course-materials/syllabus/syllabus.html
   #  - icon: fa-github fa-lg
   #    href: https://github.com/rudeboybert/SDS192
   

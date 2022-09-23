@@ -67,7 +67,15 @@ h1{font-weight: 400;}
 
 </iframe>
 
-# Day 6: The verbs and coding
+# Day 6: The color and coding
+
+## [Color lecture](./course-materials/lectures/mdsr_color.html)
+
+## We'll do problem 3.1 #1 in class
+
+## [Grammer of Graphics lecture]() 
+
+
 
 # Day 5: Digestion Day
 
@@ -83,7 +91,7 @@ h1{font-weight: 400;}
 
 ## [Color exercise](./course-materials/in-class-activities/Color_exercises.html)
 
-## [Color lecture](./course-materials/lectures/mdsr_color.html)
+
 
 # Day 4: Using GGplot
 
