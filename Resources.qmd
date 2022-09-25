@@ -40,6 +40,10 @@ execute:
 
 [![](images/data-transformation.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf)
 
+## RMarkdown Cheat sheet
+
+[![](images/rmarkdown.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
+
 ## Style Guide
 
 [The Tidyverse Style Guide](https://style.tidyverse.org/index.html)
