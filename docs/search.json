@@ -25,7 +25,7 @@
     "href": "index.html#activity",
     "title": "MTH 190: Intro to Data Science",
     "section": "Activity",
-    "text": "Activity\nUNvotes\nor\nCOVID-19"
+    "text": "Activity\n\nWe’ll do problems 3.1 #1 and 3 in class\nHW2?\n\nload(), inline code, nrow()"
   },
   {
     "objectID": "index.html#lab",
@@ -940,36 +940,64 @@
   {
     "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#ggplot2-1",
     "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#ggplot2-1",
-    "title": "mdsr-grammar-of-graphics",
+    "title": "Grammar of Graphics",
     "section": "ggplot2",
-    "text": "ggplot2\n\nNo one uses ggplot1\nimplementation of the grammar of graphics\ncheatsheet\n\n[https://ggplot2.tidyverse.org/]"
+    "text": "ggplot2\n\nNo one uses ggplot1\nimplementation of the grammar of graphics\ncheatsheet\n\n[https://ggplot2.tidyverse.org/]\nLet’s example ggplot() and geom_point(). What attributes do they take?"
   },
   {
     "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#what-is-the-grammar-of-graphics",
     "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#what-is-the-grammar-of-graphics",
-    "title": "mdsr-grammar-of-graphics",
+    "title": "Grammar of Graphics",
     "section": "What is the “Grammar of Graphics”?",
     "text": "What is the “Grammar of Graphics”?\nBig idea: independently specify plot building blocks and combine them to create just about any kind of graphical display you want"
   },
   {
     "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#building-blocks-of-data-graphics",
     "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#building-blocks-of-data-graphics",
-    "title": "mdsr-grammar-of-graphics",
+    "title": "Grammar of Graphics",
     "section": "Building blocks of data graphics",
-    "text": "Building blocks of data graphics\n\ndata (obvi.)\n\ndata\n\ngeometric objects (the literal stuff we draw)\n\ngeom_*()\n\naesthetic mappings (how we draw that stuff)\n\naes()\n\nscales (range of values, colors, etc.)\n\nscale_*()\n\nfaceting (small multiples)\n\nfacet_wrap(), facet_grid()"
+    "text": "Building blocks of data graphics\n\ndata (obvi.)\ngeometric objects (the literal stuff we draw)\n\ngeom_*()\n\naesthetic mappings (how we draw that stuff)\n\naes()\n\nscales (range of values, colors, etc.)\n\nscale_*()\n\nfaceting (small multiples)\n\nfacet_wrap(), facet_grid()"
   },
   {
     "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#basic-template",
     "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#basic-template",
-    "title": "mdsr-grammar-of-graphics",
+    "title": "Grammar of Graphics",
     "section": "Basic template",
     "text": "Basic template"
   },
   {
     "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#more-complicated",
     "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#more-complicated",
-    "title": "mdsr-grammar-of-graphics",
+    "title": "Grammar of Graphics",
     "section": "More complicated",
     "text": "More complicated"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#lets-explore-the-history-of-our-names",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#lets-explore-the-history-of-our-names",
+    "title": "Grammar of Graphics",
+    "section": "Let’s explore the history of our names",
+    "text": "Let’s explore the history of our names\nWe’ll use:\n\ndata = babynames with a filter()\nggplot piped to geom_point()\naes(x=year, y=prop)\nHow could we scale? scale_*()\nWhat could we facet by? facet_wrap(), facet_grid()\nI’ll also use the <- operator."
+  },
+  {
+    "objectID": "index.html#grammar-of-graphics",
+    "href": "index.html#grammar-of-graphics",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Grammar of graphics",
+    "text": "Grammar of graphics"
+  },
+  {
+    "objectID": "index.html#activity-1",
+    "href": "index.html#activity-1",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Activity",
+    "text": "Activity\nUNvotes\nor\nCOVID-19"
+  },
+  {
+    "objectID": "Resources.html#data-transformation-rmarkdown",
+    "href": "Resources.html#data-transformation-rmarkdown",
+    "title": "Resources",
+    "section": "Data Transformation: RMarkdown",
+    "text": "Data Transformation: RMarkdown"
   }
 ]

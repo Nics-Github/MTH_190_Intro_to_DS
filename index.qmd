@@ -71,11 +71,15 @@ h1{font-weight: 400;}
 
 ## [Color lecture](./course-materials/lectures/mdsr_color.html)
 
-## We'll do problem 3.1 #1 in class
+## [Grammar of graphics](./course-materials/lectures/mdsr-grammar-of-graphics.html)
 
-## [Grammer of Graphics lecture]() 
+## Activity
 
+-   [We'll do problems 3.1 #1 and 3 in class](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#datavizII-exercises)
 
+-   HW2?
+
+    -   load(), inline code, nrow()
 
 # Day 5: Digestion Day
 
@@ -90,8 +94,6 @@ h1{font-weight: 400;}
 -   Quick check in [HW 02](./course-materials/hw-instructions/hw-02/hw-02-airbnb-edi.html)
 
 ## [Color exercise](./course-materials/in-class-activities/Color_exercises.html)
-
-
 
 # Day 4: Using GGplot
 
