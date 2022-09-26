@@ -53,7 +53,7 @@ ggplot(data = mtcars, aes(x = disp, y = mpg)) +
 
 ## More complicated
 
-```{r gg-complex, message=FALSE}
+```{r gg-complex, message=FALSE, echo=TRUE}
 ggplot(data = mtcars, aes(x = disp, y = mpg, color = factor(cyl))) + 
   geom_point() + 
   geom_line() + 

@@ -1,0 +1,27 @@
+---
+title: "Chapter 3.3 Extended Example"
+author: ""
+date: ""
+output: html_document
+---
+
+Change the author name to your name and add friday's date. 
+
+Your homework is to recreate [this graph](https://mdsr-book.github.io/mdsr2e/03-datavizII_files/figure-html/joseph-1.png) in [section 3.3](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#sec:babynames) with your name.  Its due Friday at midnight. Don't start this Thursday night, you will be sad. After you finish this assignment knit it, commit it, an push it to git so I can grade it over the weekend. 
+
+I've added a setup chunk and the first chunk from the text. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(mdsr)
+library(mosaicData)
+library(knitr)
+```
+
+```{r}
+library(babynames)
+BabynamesDist <- make_babynames_dist()
+BabynamesDist
+
+```
