@@ -40,7 +40,11 @@ execute:
 
 [![](images/data-transformation.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf)
 
+<<<<<<< HEAD
 ## RMarkdown Cheat sheet
+=======
+## Data Transformation: RMarkdown
+>>>>>>> 24ebe7e1f8bf008690c18545d68a1ba998095d97
 
 [![](images/rmarkdown.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
 
