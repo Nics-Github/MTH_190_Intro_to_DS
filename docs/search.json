@@ -25,7 +25,7 @@
     "href": "index.html#activity",
     "title": "MTH 190: Intro to Data Science",
     "section": "Activity",
-    "text": "Activity\n\nWe’ll do problems 3.1 #1 and 3 in class\nHW2?\n\nload(), inline code, nrow()"
+    "text": "Activity\n\nWe’ll do problems 3.1 #1 and 3 in class"
   },
   {
     "objectID": "index.html#lab",
@@ -1016,6 +1016,37 @@
     "title": "Chapter 3.3 Extended Example",
     "section": "",
     "text": "Your homework is to recreate this graph in section 3.3 with your name. Its due Friday at midnight. Don’t start this Thursday night, you will be sad. After you finish this assignment knit it, commit it, an push it to git so I can grade it over the weekend.\nI’ve added a setup chunk and the first chunk from the text.\n\nlibrary(babynames)\nBabynamesDist <- make_babynames_dist()\nBabynamesDist\n\n# A tibble: 1,639,722 × 9\n    year sex   name          n   prop alive_prob count_thousands age_t…¹ est_a…²\n   <dbl> <chr> <chr>     <int>  <dbl>      <dbl>           <dbl>   <dbl>   <dbl>\n 1  1900 F     Mary      16706 0.0526          0           16.7      114       0\n 2  1900 F     Helen      6343 0.0200          0            6.34     114       0\n 3  1900 F     Anna       6114 0.0192          0            6.11     114       0\n 4  1900 F     Margaret   5304 0.0167          0            5.30     114       0\n 5  1900 F     Ruth       4765 0.0150          0            4.76     114       0\n 6  1900 F     Elizabeth  4096 0.0129          0            4.10     114       0\n 7  1900 F     Florence   3920 0.0123          0            3.92     114       0\n 8  1900 F     Ethel      3896 0.0123          0            3.90     114       0\n 9  1900 F     Marie      3856 0.0121          0            3.86     114       0\n10  1900 F     Lillian    3414 0.0107          0            3.41     114       0\n# … with 1,639,712 more rows, and abbreviated variable names ¹​age_today,\n#   ²​est_alive_today"
+<<<<<<< HEAD
 >>>>>>> 24ebe7e1f8bf008690c18545d68a1ba998095d97
+=======
+  },
+  {
+    "objectID": "course-materials/in-class-activities/chapter-4-problem-1.html",
+    "href": "course-materials/in-class-activities/chapter-4-problem-1.html",
+    "title": "Chapter 4 problem 1",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.4 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.2      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(mdsr)\nlibrary(babynames)\n\n#This makes the Random_subset\n\nRandom_subset <- babynames %>%\n  filter(year==\"2003\" & name==\"Bilal\" & sex ==\"M\" |year==\"1999\" & name==\"Terria\" & sex ==\"F\" |year==\"2010\" & name==\"Naziyah\" & sex ==\"F\" |year==\"1989\" & name==\"Shawana\" & sex ==\"F\" |year==\"1989\" & name==\"Jessi\" & sex ==\"F\" |year==\"1928\" & name==\"Tillman\" & sex ==\"M\"|year==\"1981\" & name==\"Leslee\" & sex ==\"F\" |year==\"1981\" & name==\"Sherise\" & sex ==\"F\"|year==\"1920\" & name==\"Marquerite\" & sex ==\"F\" |year==\"1941\" & name==\"Lorraine\" & sex ==\"M\") \n\nBelow is how I would answer part a.\n\n# I'll do the first one for you. There may be other solutions.\n\nRandom_subset %>% filter( n>40 & n<85) \n\n# A tibble: 4 × 5\n   year sex   name        n      prop\n  <dbl> <chr> <chr>   <int>     <dbl>\n1  1928 M     Tillman    43 0.0000377\n2  1981 F     Leslee     83 0.0000464\n3  1989 F     Shawana    41 0.0000206\n4  2010 F     Naziyah    45 0.0000230"
+  },
+  {
+    "objectID": "index.html#i-expect-you-to-do-the-reading-and-try-problem-12-and-3-from-chapter-4.",
+    "href": "index.html#i-expect-you-to-do-the-reading-and-try-problem-12-and-3-from-chapter-4.",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "I expect you to do the reading and try problem 1,2, and 3 from chapter 4.",
+    "text": "I expect you to do the reading and try problem 1,2, and 3 from chapter 4.\nI made you the dataframe for exercise 4.4 number 1 so you can play with the code. You can copy it from here. We’ll discuss this problem, number 2 and also 3 on Friday."
+  },
+  {
+    "objectID": "index.html#go-over-interesting-bits-from-the-homework",
+    "href": "index.html#go-over-interesting-bits-from-the-homework",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Go over interesting bits from the homework:",
+    "text": "Go over interesting bits from the homework:\n\nHW2\n\nload(), inline code, nrow()\n\nquestion 4 and 5\n\nHW3\n\nbrief analysis of code\nstuck anywhere?\n\n\n\nPractice:\nChapter 3: Problem 3 and 7"
+  },
+  {
+    "objectID": "index.html#on-coding",
+    "href": "index.html#on-coding",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "On Coding",
+    "text": "On Coding"
+>>>>>>> 5f07acd9729769f3dc70bb01587881e355bae745
   }
 ]

@@ -67,7 +67,35 @@ h1{font-weight: 400;}
 
 </iframe>
 
-# Day 6: The color and coding
+# Day 8: Class is cancelled but...
+
+## I expect you to do the reading and try problem 1,2, and 3 from chapter 4. 
+
+I made you the dataframe for exercise 4.4 number 1 so you can play with the code. You can copy it from [here.](./course-materials/in-class-activities/chapter-4-problem-1.html) We'll discuss this problem, number 2 and also 3 on Friday. 
+
+# Day 7: Discuss Homework 
+
+## Go over interesting bits from the homework:
+
+-   HW2
+
+    -   load(), inline code, nrow()  
+    -   question 4 and 5
+
+-   HW3    
+    
+    -   brief analysis of code 
+    -   stuck anywhere? 
+
+### Practice:
+
+[Chapter 3: Problem 3 and 7](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#datavizII-exercises)
+
+
+## On Coding
+
+
+# Day 6: Color and Grammar of Graphics
 
 ## [Color lecture](./course-materials/lectures/mdsr_color.html)
 
@@ -77,9 +105,7 @@ h1{font-weight: 400;}
 
 -   [We'll do problems 3.1 #1 and 3 in class](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#datavizII-exercises)
 
--   HW2?
 
-    -   load(), inline code, nrow()
 
 # Day 5: Digestion Day
 
