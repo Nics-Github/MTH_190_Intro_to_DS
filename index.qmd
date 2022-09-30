@@ -96,6 +96,8 @@ I made you the dataframe for exercise 4.4 number 1 so you can play with the code
 
 ## On Coding
 
+[learning to code](./course-materials/lectures/mdsr-learning-to-code.html)
+
 
 # Day 6: Color and Grammar of Graphics
 
