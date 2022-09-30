@@ -67,6 +67,8 @@ h1{font-weight: 400;}
 
 </iframe>
 
+
+
 # Day 8: Class is cancelled but...
 
 ## I expect you to do the reading and try problem 1,2, and 3 from chapter 4. 
