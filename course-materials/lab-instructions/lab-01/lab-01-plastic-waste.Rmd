@@ -1,5 +1,5 @@
 ---
-title: "Lab 02 - Global plastic waste"
+title: "Lab 01 - Global plastic waste"
 output: 
   tufte::tufte_html:
     tufte_variant: "envisioned"
@@ -17,16 +17,17 @@ Plastic pollution is a major and growing problem, negatively affecting oceans an
 For this lab we focus on data from 2010.
 
 Additionally, National Geographic ran a data visualization communication contest on plastic waste as seen [here](https://www.nationalgeographic.org/funding-opportunities/innovation-challenges/plastic/dataviz/).
+The winner was [Perpetual Plastic](https://perpetual-plastic.net/)
 
 # Learning goals
 
--   Visualising numerical and categorical data and interpreting visualisations
+-   Visualizing numerical and categorical data and interpreting visualizations
 -   Recreating visualizations
 -   Getting more practice using with R, RStudio, Git, and GitHub
 
 # Getting started
 
-Go to the course GitHub organization and locate your assignment repo, which should be named `lab-02-plastic-waste-YOUR_GITHUB_USERNAME`.
+Go to the course GitHub organization and locate your assignment repo, which should be named `lab-01-plastic-waste-YOUR_GITHUB_USERNAME`.
 If you're in the right place, it should look like the following.
 
 ```{r echo=FALSE, eval=TRUE}
@@ -34,9 +35,9 @@ knitr::include_graphics("img/repo-begin.png")
 ```
 
 Grab the URL of the repo, and clone it in RStudio.
-Refer to [HW 00](https://ids-s1-20.github.io/homework/hw-00/hw-00-pet-names.html) if you would like to see step-by-step instructions for cloning a repo into an RStudio project.
+Refer to [HW 01](./course-materials/hw-instructions/hw-01/hw-01-pet-names.html) if you would like to see step-by-step instructions for cloning a repo into an RStudio project.
 
-First, open the R Markdown document `lab-02.Rmd` and Knit it.
+First, open the R Markdown document `lab-01.Rmd` and Knit it.
 Make sure it compiles without errors.
 The output will be in the file markdown `.md` file with the same name.
 
@@ -184,10 +185,10 @@ ggplot(data = plastic_waste,
 
 # Wrapping up
 
-We don't expect you to complete all of the exercises within the hour reserved for the live workshop.
+I don't expect you to complete all of the exercises within the hour reserved for class.
 Ideally, you should have got to this point.
 If you still have some time left, move on to the remaining exercises below.
-If not, you should find a time to meet with your team and complete them after the workshop.
+If not, you should find a time to meet with me and complete them outside of class.
 If you haven't had time to finish the exercises above, please ask for help before you leave!
 
 ```{marginfigure}

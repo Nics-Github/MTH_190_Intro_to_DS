@@ -51,8 +51,8 @@ h1{font-weight: 400;}
 
         -   FR 362 or [set up a zoom appointment.](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU10THFMNFV0NEJafGRlZmF1bHR8MzA4NTk0ZDE0OThjM2E4ZmU4ZjljYTU2NGYwZDJiMzk)
     -   AJ's office hours
-        -   Office hours:
-        -   Slack:
+        -   Office hours: MW 7-9pm
+        -   See the slack chanel for AJ's zoom link 
 
 ## Instructor work-life balance {#work-life-balance}
 

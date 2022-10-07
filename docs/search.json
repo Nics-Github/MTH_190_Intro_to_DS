@@ -25,7 +25,7 @@
     "href": "index.html#activity",
     "title": "MTH 190: Intro to Data Science",
     "section": "Activity",
-    "text": "Activity\nUNvotes\nor\nCOVID-19"
+    "text": "Activity\n\nWe’ll do problems 3.1 #1 and 3 in class"
   },
   {
     "objectID": "index.html#lab",
@@ -144,7 +144,7 @@
     "href": "course-materials/in-class-activities/Activity_Taxonomy_of_Graphics.html",
     "title": "Taxonomy of Graphics",
     "section": "",
-    "text": "From The Economist:\nLonger Constitutions\nAverted Deaths\nFrom Yougov:\nIce Cream\nFriend or Enemy -Russia"
+    "text": "Group 1: Ida, James, and Magdalen\nGroup 2: Ajani and Kathryn\nDiscuss the\n\nQ: What is the graph showing?\nvisual cues\ncoordinate system\nscales\ncontext\nQ: How do you feel about this graph?\n\nNYTimes:\n\nSerena Williams\nEndangered Biodiversity\nPandemic Stimulus\n\nFrom Yougov:\n\nIce Cream (Just the first graph, there is a lot here).\n\nFrom Five Thirty Eight:\n\nHow Unpopular is Joe Biden"
   },
   {
     "objectID": "course-materials/lab-instructions/lab-01/lab-01-hello-r-backup.html",
@@ -438,7 +438,7 @@
     "href": "course-materials/syllabus/syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Schwab” or “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.\nProf. Schwab’s hours:\n\nMWF 10:00 - 10:50\nFR 362 or set up a zoom appointment.\n\nAJ’s office hours\n\nOffice hours:\nSlack:\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
+    "text": "Course title: MTH 190: Introduction to Data Science\nInstructor: Nicholas Schwab (he/him) - Assistant Professor of Mathematics. Please call me “Schwab” or “Professor Schwab”\nOffice location: Frost 362\nEmail: nschwab@hcc.edu\nMeeting locations/times:\n\nMF: 11:00 AM - 12:15 PM / Kittredge Center 420\n\nGetting help:\n\nFor non personal/sensitive questions, ask on the #questions channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.\nProf. Schwab’s hours:\n\nMWF 10:00 - 10:50\nFR 362 or set up a zoom appointment.\n\nAJ’s office hours\n\nOffice hours: MW 7-9pm\nSee the slack chanel for AJ’s zoom link\n\n\n\n\n\n\nI will respond to Slack messages sent during the week within 24h. I will respond to Slack messages sent during the weekend at my own discretion.\nIf possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person as it takes me less energy to understand where you are at.\nI will do my best to return all grading as promptly as possible."
   },
   {
     "objectID": "course-materials/syllabus/syllabus.html#projects-40",
@@ -522,7 +522,7 @@
     "href": "index.html#check-in-on-hw-1",
     "title": "MTH 190: Intro to Data Science",
     "section": "Check in on HW 1",
-    "text": "Check in on HW 1\n\nknitting, Committing and pushing going ok?\ngo through the code and discuss aspects"
+    "text": "Check in on HW 1\nHW 1 Take Aways\nHW 1 due by midnight tonight."
   },
   {
     "objectID": "index.html#taxonomy",
@@ -593,5 +593,463 @@
     "title": "HW 01 - Pet names",
     "section": "Step 3. Push",
     "text": "Step 3. Push\nNow that you have made an update and committed this change, it’s time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only). In order to push your changes to GitHub, click on Push.\n\n\n\n\n\nThis will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me… I will teach you how to save your password so you don’t have to enter it every time. But for this one assignment you’ll have to manually enter each time you push in order to gain some experience with it.\nThought exercise: Which of the above steps (updating the YAML, committing, and pushing) needs to talk to GitHub?1"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Updates:",
+    "text": "Updates:\n\nIssues with some packages installing on Server: ‘coronavirus’, ‘ggimage’, ‘dsbox’\nWhat times of the day do you do your homework. When would AJ’s office hours work for you?"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html",
+    "title": "Lab 01 - Global plastic waste",
+    "section": "",
+    "text": "Plastic pollution is a major and growing problem, negatively affecting oceans and wildlife health. Our World in Data has a lot of great data at various levels including globally, per country, and over time. For this lab we focus on data from 2010.\nAdditionally, National Geographic ran a data visualization communication contest on plastic waste as seen here. The winner was Perpetual Plastic"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html#packages",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html#packages",
+    "title": "Lab 01 - Global plastic waste",
+    "section": "Packages",
+    "text": "Packages\nWe’ll use the tidyverse package for this analysis. Run the following code in the Console to load this package.\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html#data",
+    "href": "course-materials/lab-instructions/lab-01/lab-01-plastic-waste.html#data",
+    "title": "Lab 01 - Global plastic waste",
+    "section": "Data",
+    "text": "Data\nThe dataset for this assignment can be found as a csv file in the data folder of your repository. You can read it in using the following.\n\nplastic_waste <- read_csv(\"data/plastic-waste.csv\")\n\nThe variable descriptions are as follows:\n\ncode: 3 Letter country code\nentity: Country name\ncontinent: Continent name\nyear: Year\ngdp_per_cap: GDP per capita constant 2011 international $, rate\nplastic_waste_per_cap: Amount of plastic waste per capita in kg/day\nmismanaged_plastic_waste_per_cap: Amount of mismanaged plastic waste per capita in kg/day\nmismanaged_plastic_waste: Tonnes of mismanaged plastic waste\ncoastal_pop: Number of individuals living on/near coast\ntotal_pop: Total population according to Gapminder"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html",
+    "title": "Lab 01 - Hello R!",
+    "section": "",
+    "text": "R is the name of the programming language itself and RStudio is a convenient interface.\nThe main goal of this lab is to introduce you to R and RStudio, which we will be using throughout the course both to learn the statistical concepts discussed in the course and to analyze real data and come to informed conclusions.\nAn additional goal is to introduce you to Git and GitHub, which is the collaboration and version control system that we will be using throughout the course.\nAs the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.\nAnd to make versioning simpler, this is a solo lab. Additionally, we want to make sure everyone gets a significant amount of time at the steering wheel. In future labs you’ll learn about collaborating on GitHub and produce a single lab report for your team."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html#warm-up",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html#warm-up",
+    "title": "Lab 01 - Hello R!",
+    "section": "Warm up",
+    "text": "Warm up\nBefore we introduce the data, let’s warm up with some simple exercises.\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for \"YAML Ain't Markup Language\". It is a human friendly data serialization standard for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\nYAML\nOpen the R Markdown (Rmd) file in your project, change the author name to your name, and knit the document."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html#packages",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html#packages",
+    "title": "Lab 01 - Hello R!",
+    "section": "Packages",
+    "text": "Packages\nIn this lab we will work with two packages: datasauRus which contains the dataset we’ll be using and tidyverse which is a collection of packages for doing data analysis in a “tidy” way. These packages are already installed for you. You can load the packages by running the following in the Console.\n\nlibrary(tidyverse) \nlibrary(datasauRus)\n\nNote that the packages are also loaded with the same commands in your R Markdown document."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html#data",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r-backup.html#data",
+    "title": "Lab 01 - Hello R!",
+    "section": "Data",
+    "text": "Data\n\nIf it's confusing that the data frame is called `datasaurus_dozen` when it contains 13 datasets, you're not alone! Have you heard of a [baker's dozen](https://en.wikipedia.org/wiki/Dozen#Baker's_dozen)?\n\nThe data frame we will be working with today is called datasaurus_dozen and it’s in the datasauRus package. Actually, this single data frame contains 13 datasets, designed to show us why data visualisation is important and how summary statistics alone can be misleading. The different datasets are marked by the dataset variable.\nTo find out more about the dataset, type the following in your Console: ?datasaurus_dozen. A question mark before the name of an object will always bring up its help file. This command must be ran in the Console."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html",
+    "title": "Lab 01 - Hello R!",
+    "section": "",
+    "text": "R is the name of the programming language itself and RStudio is a convenient interface.\nThe main goal of this lab is to introduce you to R and RStudio, which we will be using throughout the course both to learn the statistical concepts discussed in the course and to analyze real data and come to informed conclusions.\nAn additional goal is to introduce you to Git and GitHub, which is the collaboration and version control system that we will be using throughout the course.\nAs the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.\nAnd to make versioning simpler, this is a solo lab. Additionally, we want to make sure everyone gets a significant amount of time at the steering wheel. In future labs you’ll learn about collaborating on GitHub and produce a single lab report for your team."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html#warm-up",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html#warm-up",
+    "title": "Lab 01 - Hello R!",
+    "section": "Warm up",
+    "text": "Warm up\nBefore we introduce the data, let’s warm up with some simple exercises.\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for \"YAML Ain't Markup Language\". It is a human friendly data serialization standard for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\nYAML\nOpen the R Markdown (Rmd) file in your project, change the author name to your name, and knit the document.\n\n\n\n\n\n\n\nCommitting changes\nThen go to the Git pane in your RStudio.\nIf you have made changes to your Rmd file, you should see it listed here. Click on it to select it in this list and then click on Diff. This shows you the difference between the last committed state of the document and its current state that includes your changes. If you’re happy with these changes, write “Update author name” in the Commit message box and hit Commit.\n\n\n\n\n\nYou don’t have to commit after every change, this would get quite cumbersome. You should consider committing states that are meaningful to you for inspection, comparison, or restoration. In the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions.\n\n\nPushing changes\nNow that you have made an update and committed this change, it’s time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only).\nIn order to push your changes to GitHub, click on Push. This will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me… We will teach you how to save your password so you don’t have to enter it every time. But for this one assignment you’ll have to manually enter each time you push in order to gain some experience with it."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html#packages",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html#packages",
+    "title": "Lab 01 - Hello R!",
+    "section": "Packages",
+    "text": "Packages\nIn this lab we will work with two packages: datasauRus which contains the dataset we’ll be using and tidyverse which is a collection of packages for doing data analysis in a “tidy” way. These packages are already installed for you. You can load the packages by running the following in the Console.\n\nlibrary(tidyverse) \nlibrary(datasauRus)\n\nNote that the packages are also loaded with the same commands in your R Markdown document."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html#data",
+    "href": "course-materials/lab-instructions/Did not use/lab-01/lab-01-hello-r.html#data",
+    "title": "Lab 01 - Hello R!",
+    "section": "Data",
+    "text": "Data\n\nIf it's confusing that the data frame is called `datasaurus_dozen` when it contains 13 datasets, you're not alone! Have you heard of a [baker's dozen](https://en.wikipedia.org/wiki/Dozen#Baker's_dozen)?\n\nThe data frame we will be working with today is called datasaurus_dozen and it’s in the datasauRus package. Actually, this single data frame contains 13 datasets, designed to show us why data visualisation is important and how summary statistics alone can be misleading. The different datasets are marked by the dataset variable.\nTo find out more about the dataset, type the following in your Console: ?datasaurus_dozen. A question mark before the name of an object will always bring up its help file. This command must be ran in the Console."
+  },
+  {
+    "objectID": "course-materials/in-class-activities/Activity-ggplot2.html",
+    "href": "course-materials/in-class-activities/Activity-ggplot2.html",
+    "title": "Activity - ggplot 2",
+    "section": "",
+    "text": "Here’s a quick rundown of how things work in ggplot. We’ll learn more as we go.\nMake a chunk just to look at the data.\n\nmammals\n\nMake another one to dotplot the data. You need: - a pipe |> - ggplot() with some aesthetics - a +, - geom_point()\n\nmammals |>\n  ggplot(aes(x=total_sleep, y =brain_wt)) +\n  geom_point()\n\nLets add a color aesthetic.\n\nmammals |>\n  ggplot(aes(x=total_sleep, y =brain_wt, color = exposure)) +\n  geom_point()\n\nLet’s add a facet()\n\nmammals |>\n  ggplot(aes(x=total_sleep, y =brain_wt, color = exposure)) +\n  geom_point() +\n  facet_wrap(~danger)\n\nHow do you know which aesthetics can be added?\n?geom_point()\nHow do you choose a facet?\nChoose something witih finite options.\nAlso see the ggplot cheatsheet under Resources"
+  },
+  {
+    "objectID": "index.html#chapter-2-take-aways",
+    "href": "index.html#chapter-2-take-aways",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Chapter 2 Take Aways",
+    "text": "Chapter 2 Take Aways"
+  },
+  {
+    "objectID": "index.html#activity-intro-to-ggplot2",
+    "href": "index.html#activity-intro-to-ggplot2",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Activity: Intro to ggplot2",
+    "text": "Activity: Intro to ggplot2"
+  },
+  {
+    "objectID": "index.html#lab_01",
+    "href": "index.html#lab_01",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Lab_01",
+    "text": "Lab_01"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#three-color-schemes",
+    "href": "course-materials/lectures/mdsr_color.html#three-color-schemes",
+    "title": "Color",
+    "section": "Three color schemes",
+    "text": "Three color schemes\n\nSequential\n\nSingle hue\nMulti-hue\n\nDiverging\nCategorical"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#sequential-single-hue",
+    "href": "course-materials/lectures/mdsr_color.html#sequential-single-hue",
+    "title": "Color",
+    "section": "Sequential, single hue",
+    "text": "Sequential, single hue\n\nMap saturation to numeric variable\nNo more than 5–6 levels\nPeople interpret high saturation as more"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#sequential-double-hue",
+    "href": "course-materials/lectures/mdsr_color.html#sequential-double-hue",
+    "title": "Color",
+    "section": "Sequential, double hue",
+    "text": "Sequential, double hue\n\nMap hue to numeric variable\nGenerally, no more than 2 anchor colors\nPeople interpret darker hue as more"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#diverging",
+    "href": "course-materials/lectures/mdsr_color.html#diverging",
+    "title": "Color",
+    "section": "Diverging",
+    "text": "Diverging\n\nTwo colors used to indicate extremes of a range\nNeutral color in the middle\ndistinguish between zero and missing"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#sorry-no-rainbows",
+    "href": "course-materials/lectures/mdsr_color.html#sorry-no-rainbows",
+    "title": "Color",
+    "section": "Sorry, no rainbows",
+    "text": "Sorry, no rainbows\n\n\nNO RAINBOWS!!\nWhy rainbow colors aren’t the best option for data visualizations\nHow The Rainbow Color Map Misleads\n\ndataviz cheatsheet"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#colorbrewer-ylgn-palette",
+    "href": "course-materials/lectures/mdsr_color.html#colorbrewer-ylgn-palette",
+    "title": "Color",
+    "section": "ColorBrewer YlGn palette",
+    "text": "ColorBrewer YlGn palette"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#take-any-ggplot",
+    "href": "course-materials/lectures/mdsr_color.html#take-any-ggplot",
+    "title": "Color",
+    "section": "Take any ggplot…",
+    "text": "Take any ggplot…"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#built-in-color-palettes",
+    "href": "course-materials/lectures/mdsr_color.html#built-in-color-palettes",
+    "title": "Color",
+    "section": "Built-in color palettes",
+    "text": "Built-in color palettes\n\nCynthia Brewer\nRColorBrewer package\nscale_color_brewer() function\nviridis palettes mimic matplotlib Python library"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#categorical",
+    "href": "course-materials/lectures/mdsr_color.html#categorical",
+    "title": "Color",
+    "section": "Categorical",
+    "text": "Categorical\nDifferent color = different category\nchoose colors that are - perceptually distant - roughly the same saturation"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#distinguish-between-zero-and-missing",
+    "href": "course-materials/lectures/mdsr_color.html#distinguish-between-zero-and-missing",
+    "title": "Color",
+    "section": "distinguish between zero and missing",
+    "text": "distinguish between zero and missing"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#viridis-palette",
+    "href": "course-materials/lectures/mdsr_color.html#viridis-palette",
+    "title": "Color",
+    "section": "Viridis palette",
+    "text": "Viridis palette"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#and-change-themes-with-ggthemes",
+    "href": "course-materials/lectures/mdsr_color.html#and-change-themes-with-ggthemes",
+    "title": "Color",
+    "section": "…and change themes with ggthemes",
+    "text": "…and change themes with ggthemes"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#ggplot2-default-color",
+    "href": "course-materials/lectures/mdsr_color.html#ggplot2-default-color",
+    "title": "Color",
+    "section": "ggplot2 default color",
+    "text": "ggplot2 default color"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#colorbrewer-purples-palette",
+    "href": "course-materials/lectures/mdsr_color.html#colorbrewer-purples-palette",
+    "title": "Color",
+    "section": "ColorBrewer Purples palette",
+    "text": "ColorBrewer Purples palette"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "",
+    "text": "#Day 6: The verbs and coding"
+  },
+  {
+    "objectID": "index.html#let-us-talk-about-these",
+    "href": "index.html#let-us-talk-about-these",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Let us talk about these",
+    "text": "Let us talk about these\n\nChapter 2 Take Aways\nDiscuss Problems 1 & 6 & 3\nDiscuss Lab_01\nQuick check in HW 02"
+  },
+  {
+    "objectID": "index.html#color-lecture",
+    "href": "index.html#color-lecture",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Color lecture",
+    "text": "Color lecture"
+  },
+  {
+    "objectID": "index.html#color-excersise",
+    "href": "index.html#color-excersise",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Color excersise",
+    "text": "Color excersise"
+  },
+  {
+    "objectID": "course-materials/in-class-activities/Color_exercises .html",
+    "href": "course-materials/in-class-activities/Color_exercises .html",
+    "title": "Color exercise",
+    "section": "",
+    "text": "library(openintro)\nlibrary(tidyverse)\nlibrary(RColorBrewer)\nlibrary(ggthemes)\n\nLet’s play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()\n\npresident |>\n  ggplot(aes(x=start, y =end, color = party) )+\n  geom_point()+\n  theme_bw()\n\nWarning: Removed 1 rows containing missing values (geom_point).\n\n\n\n\n\nLet’s play with some colors. Here are the color brewer choices\nAdd scale_fill_brewer\n\npresident |>\n  ggplot(aes( x = party,fill=party) )+\n  geom_bar()+\n  scale_fill_brewer(palette = \"Purples\") +\n  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))\n\n\n\n\nDoes color add anything to the graph above?\nLet’s make a count plot of assortative mating. Notice we are adding a shape aesthetic.\n\nassortative_mating |>\n  ggplot(aes(x = self_male, y= partner_female, fill=self_male),)+\n  geom_count(aes(color = partner_female), shape=23,stroke=1.5)  + \n  scale_fill_manual(values = c(\"blue\",\"brown\",\"green\")) +\n  scale_color_manual(values =  c(\"blue\",\"brown\",\"green\")) +\n  theme_bw()\n\n\n\n\nHow do you feel about color in the above graph?\nTry this: - Make sure the above libraries are loaded. - Take the cpr data set from the OpenIntro package - Make a geom_bar() graph for the variable group - Use the fill aesthetic to color the bars by outcome. - Add a scale_fill_brewer(palette= ) to play with different brewer choices.\n\ncpr \n\n# A tibble: 90 × 2\n   group   outcome \n   <fct>   <fct>   \n 1 control survived\n 2 control survived\n 3 control survived\n 4 control survived\n 5 control survived\n 6 control survived\n 7 control survived\n 8 control survived\n 9 control survived\n10 control survived\n# … with 80 more rows\n\n\nCopy most of the chunk you made above. - Try scale_fill_manual(values=c(““,”“)) to manually set two colors for outcomes.\nCopy most of the chunck again and try scale_fill_fivethirtyeight()"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr_color.html#colors-can-be-added-to-aestheitcs-or-for-the-whole-graph.",
+    "href": "course-materials/lectures/mdsr_color.html#colors-can-be-added-to-aestheitcs-or-for-the-whole-graph.",
+    "title": "Color",
+    "section": "Colors can be added to aestheitcs, or for the whole graph.",
+    "text": "Colors can be added to aestheitcs, or for the whole graph.\nType ?geom_point() to see which asthetics are allowed for the point plot"
+  },
+  {
+    "objectID": "Resources.html#style-guide",
+    "href": "Resources.html#style-guide",
+    "title": "Resources",
+    "section": "Style Guide",
+    "text": "Style Guide\nThe Tidyverse Style Guide"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html",
+    "href": "course-materials/lab-instructions/sds192-labs.html",
+    "title": "ColorBrewer and ggthemes",
+    "section": "",
+    "text": "Goal: by the end of this lab, you will be able to use colorbrewer and ggthemes to customize the look of your visualization.\n\n\nFor this lab, we’re going to be using the ToothGrowth dataset, which is one of the example datasets included in R. It contains data on how fast guinea pigs’ teeth grow if you give them vitamin C supplements in various forms and at various doses. You can learn more about this dataset by typing ?ToothGrowth at the console.\n\nLet’s take a look:\n\nlibrary(tidyverse)\nglimpse(ToothGrowth)\n\nRows: 60\nColumns: 3\n$ len  <dbl> 4.2, 11.5, 7.3, 5.8, 6.4, 10.0, 11.2, 11.2, 5.2, 7.0, 16.5, 16.5,…\n$ supp <fct> VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, VC, V…\n$ dose <dbl> 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1.0, 1.0, 1.0, …\n\nsummary(ToothGrowth)\n\n      len        supp         dose      \n Min.   : 4.20   OJ:30   Min.   :0.500  \n 1st Qu.:13.07   VC:30   1st Qu.:0.500  \n Median :19.25           Median :1.000  \n Mean   :18.81           Mean   :1.167  \n 3rd Qu.:25.27           3rd Qu.:2.000  \n Max.   :33.90           Max.   :2.000  \n\n\nHmm…the dose column looks a little funny. There are only three dosage values [0.5, 1 ,2], but R is interpreting them as continuous. We can tell R that we want to convert them to categories (a.k.a. factors) using dplyr like this:\n\nToothGrowth <- ToothGrowth %>%\n  mutate(dose = factor(dose))\n\nNow let’s look again:\n\nsummary(ToothGrowth)\n\n      len        supp     dose   \n Min.   : 4.20   OJ:30   0.5:20  \n 1st Qu.:13.07   VC:30   1  :20  \n Median :19.25           2  :20  \n Mean   :18.81                   \n 3rd Qu.:25.27                   \n Max.   :33.90                   \n\n\nMuch better! Now let’s draw a graph."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#drawing-a-ggplot",
+    "href": "course-materials/lab-instructions/sds192-labs.html#drawing-a-ggplot",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Drawing a ggplot",
+    "text": "Drawing a ggplot\nRemember the basic recipe for building a plot with ggplot2? Don’t forget to load the library!\n\nMake a boxplot of the ToothGrowth data, with x = dose, y = len, and fill = dose. Store it in a variable called my_plot.\n\n\n# sample solution\nmy_plot <- ggplot(ToothGrowth, aes(x = dose, y = len, fill = dose)) + \n  geom_boxplot()"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#changing-colors-manually",
+    "href": "course-materials/lab-instructions/sds192-labs.html#changing-colors-manually",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Changing colors manually",
+    "text": "Changing colors manually\nThe default colors R selects are okay, but maybe we can do better. Let’s try using colors from the official Smith College Color Palette. We can specify the color values we want using scale_fill_manual() like this:\n\nmy_plot + \n  scale_fill_manual(values = c(\"#004f71\", \"#465a01\", \"#981d97\"))"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#changing-colors-with-rcolorbrewer",
+    "href": "course-materials/lab-instructions/sds192-labs.html#changing-colors-with-rcolorbrewer",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Changing colors with RColorBrewer",
+    "text": "Changing colors with RColorBrewer\nThat looks pretty nice, but we could spend an awful lot of time making tiny tweaks to color palettes. Luckily Cynthia Brewer over at ColorBrewer has come up with some really good ones we can borrow! Let’s load the RColorBrewer library and check it out. Note: you might need to install.packages('RColorBrewer') if you’re running R on your laptop.\n\nlibrary(RColorBrewer)\ndisplay.brewer.all()\n\n\n\n\nOoh, so many choices! We can now use these palettes along with scale_fill_brewer() to make perceptually-optimized plots:\n\nmy_plot + \n  scale_fill_brewer(palette = \"Set3\")\n\n\n\n\nThat looks a little bit… Valentine-y?\n\n\nTry out a few other color palettes!\n\n\n# sample solution\nmy_plot + \n  scale_fill_brewer(palette = \"Dark2\")\n\n\n\n\n\nInstall the nasaweather package, and load it.\n\n\n# sample solution\ninstall.packages(\"nasaweather\")\nlibrary(nasaweather)\n\nTo make the plot easier to read, we will first filter the storms data frame to include only storms from 1995.\n\nmy_storms <- storms %>%\n  filter(year == 1995)\n\n\nPlot the storms in my_storms, mapping horizontal position to longitude, vertical position to latitude, and color to wind speed. Also use a facet_wrap() to make small multiples according to the name of each storm.\n\n\n# sample solution\nggplot(my_storms, aes(x = long, y = lat, color = wind)) + \n  geom_point() + \n  facet_wrap(~name)\n\n\n\n\n\nDo you think a sequential or diverging color scheme is most appropriate for wind speed? Justify your answer."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#stylizing-using-ggthemes",
+    "href": "course-materials/lab-instructions/sds192-labs.html#stylizing-using-ggthemes",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Stylizing using ggthemes",
+    "text": "Stylizing using ggthemes\nIf we want even more control, we can use the ggthemes package to define not only the color palette, but the overall style of the plot as well. For example, if we want the minic the style used by the graphic design team at The Economist, we could say:\n\nlibrary(ggthemes)\nmy_plot + \n  theme_economist() + \n  scale_fill_economist()\n\n\n\n\nNotice how the background changed colors, the axes were re-styled, and the legend changed positions? You can read more about available ggthemes and scales here."
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#putting-it-all-together",
+    "href": "course-materials/lab-instructions/sds192-labs.html#putting-it-all-together",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Putting it all together",
+    "text": "Putting it all together\nNow it’s time to get creative! There are many more datasets available in R. Let’s take a look at what we’ve got to play with:\n\ndata()\n\nYou can learn more about any of the datasets by running ?<dataset> at the console (replacing <dataset> with the name of the dataset).\n\nUse ggplot to draw a plot of any dataset you like, and style it. Try combining both a theme and a color palette.\n\n\n# sample solution"
+  },
+  {
+    "objectID": "course-materials/lab-instructions/sds192-labs.html#your-learning",
+    "href": "course-materials/lab-instructions/sds192-labs.html#your-learning",
+    "title": "ColorBrewer and ggthemes",
+    "section": "Your learning",
+    "text": "Your learning\nPlease respond to the following prompt on Slack in the #mod-viz channel.\n\nPrompt: post the data graphic you created in Exercise 6"
+  },
+  {
+    "objectID": "course-materials/in-class-activities/Color_exercises.html",
+    "href": "course-materials/in-class-activities/Color_exercises.html",
+    "title": "Color exercise",
+    "section": "",
+    "text": "library(openintro)\nlibrary(tidyverse)\nlibrary(RColorBrewer)\nlibrary(ggthemes)\n\nHere’s the presidents data set. Let’s play with themes. Add theme_bw(), theme_economist(), theme_dark(), theme_classic()\n\npresident |>\n  ggplot(aes(x=start, y =end, color = party) )+\n  geom_point()+\n  theme_bw()\n\nWarning: Removed 1 rows containing missing values (geom_point).\n\n\n\n\n\n\ndisplay.brewer.all()\n\n\n\n\nThat’s alittle hard to see in the .rmd. Here are the color brewer choices\nAdd scale_fill_brewer\n\npresident |>\n  ggplot(aes( x = party,fill=party) )+\n  geom_bar()+\n  scale_fill_brewer(palette = \"Purples\") +\n  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))\n\n\n\n\nDoes color add anything to the graph above?\nLet’s make a count plot of assortative mating. Notice we are adding a shape aesthetic.\n\nassortative_mating |>\n  ggplot(aes(x = self_male, y= partner_female, fill=self_male),)+\n  geom_count(aes(color = partner_female), shape=23,stroke=1.5)  + \n  scale_fill_manual(values = c(\"blue\",\"brown\",\"green\")) +\n  scale_color_manual(values =  c(\"blue\",\"brown\",\"green\")) +\n  theme_bw()\n\n\n\n\nHow do you feel about color in the above graph?\nTry this:\n\nMake sure the above libraries are loaded.\nTake the cpr data set from the OpenIntro package\nMake a geom_bar() graph for the variable group\nUse the fill aesthetic to color the bars by outcome.\nAdd a scale_fill_brewer(palette=“” ) to play with different brewer choices.\n\n\ncpr \n\n# A tibble: 90 × 2\n   group   outcome \n   <fct>   <fct>   \n 1 control survived\n 2 control survived\n 3 control survived\n 4 control survived\n 5 control survived\n 6 control survived\n 7 control survived\n 8 control survived\n 9 control survived\n10 control survived\n# … with 80 more rows\n\n\nCopy most of the chunk you made above.\n\nAdd scale_fill_manual(values=c(“black”,“white”)) to manually set two colors for outcomes. Change black and white to other colors. Here’s a list of color choices in R.\nCopy most of the chunk again and try scale_fill_fivethirtyeight()"
+  },
+  {
+    "objectID": "index.html#color-exercise",
+    "href": "index.html#color-exercise",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Color exercise",
+    "text": "Color exercise"
+  },
+  {
+    "objectID": "index.html#well-do-problem-3.1-1-in-class",
+    "href": "index.html#well-do-problem-3.1-1-in-class",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "We’ll do problem 3.1 #1 in class",
+    "text": "We’ll do problem 3.1 #1 in class"
+  },
+  {
+    "objectID": "index.html#grammer-of-graphics-lecture",
+    "href": "index.html#grammer-of-graphics-lecture",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Grammer of Graphics lecture",
+    "text": "Grammer of Graphics lecture"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-Grammar-of-Graphics.html",
+    "href": "course-materials/lectures/mdsr-Grammar-of-Graphics.html",
+    "title": "Grammar of Graphics",
+    "section": "",
+    "text": "[Live Coding Demo]\nclass: inverse"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#ggplot2-1",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#ggplot2-1",
+    "title": "Grammar of Graphics",
+    "section": "ggplot2",
+    "text": "ggplot2\n\nNo one uses ggplot1\nimplementation of the grammar of graphics\ncheatsheet\n\n[https://ggplot2.tidyverse.org/]\nLet’s example ggplot() and geom_point(). What attributes do they take?"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#what-is-the-grammar-of-graphics",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#what-is-the-grammar-of-graphics",
+    "title": "Grammar of Graphics",
+    "section": "What is the “Grammar of Graphics”?",
+    "text": "What is the “Grammar of Graphics”?\nBig idea: independently specify plot building blocks and combine them to create just about any kind of graphical display you want"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#building-blocks-of-data-graphics",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#building-blocks-of-data-graphics",
+    "title": "Grammar of Graphics",
+    "section": "Building blocks of data graphics",
+    "text": "Building blocks of data graphics\n\ndata (obvi.)\ngeometric objects (the literal stuff we draw)\n\ngeom_*()\n\naesthetic mappings (how we draw that stuff)\n\naes()\n\nscales (range of values, colors, etc.)\n\nscale_*()\n\nfaceting (small multiples)\n\nfacet_wrap(), facet_grid()"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#basic-template",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#basic-template",
+    "title": "Grammar of Graphics",
+    "section": "Basic template",
+    "text": "Basic template"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#more-complicated",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#more-complicated",
+    "title": "Grammar of Graphics",
+    "section": "More complicated",
+<<<<<<< HEAD
+    "text": "More complicated"
+  },
+  {
+    "objectID": "Resources.html#rmarkdown-cheat-sheet",
+    "href": "Resources.html#rmarkdown-cheat-sheet",
+    "title": "Resources",
+    "section": "RMarkdown Cheat sheet",
+    "text": "RMarkdown Cheat sheet"
+=======
+    "text": "More complicated\n\nggplot(data = mtcars, aes(x = disp, y = mpg, color = factor(cyl))) + \n  geom_point() + \n  geom_line() + \n  facet_wrap(~am) + \n  scale_colour_brewer(palette = \"Set1\")"
+  },
+  {
+    "objectID": "course-materials/lectures/mdsr-grammar-of-graphics.html#lets-explore-the-history-of-our-names",
+    "href": "course-materials/lectures/mdsr-grammar-of-graphics.html#lets-explore-the-history-of-our-names",
+    "title": "Grammar of Graphics",
+    "section": "Let’s explore the history of our names",
+    "text": "Let’s explore the history of our names\nWe’ll use:\n\ndata = babynames with a filter()\nggplot piped to geom_point()\naes(x=year, y=prop)\nHow could we scale? scale_*()\nWhat could we facet by? facet_wrap(), facet_grid()\nI’ll also use the <- operator."
+  },
+  {
+    "objectID": "index.html#grammar-of-graphics",
+    "href": "index.html#grammar-of-graphics",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Grammar of graphics",
+    "text": "Grammar of graphics"
+  },
+  {
+    "objectID": "index.html#activity-1",
+    "href": "index.html#activity-1",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Activity",
+    "text": "Activity\nUNvotes\nor\nCOVID-19"
+  },
+  {
+    "objectID": "Resources.html#data-transformation-rmarkdown",
+    "href": "Resources.html#data-transformation-rmarkdown",
+    "title": "Resources",
+    "section": "Data Transformation: RMarkdown",
+    "text": "Data Transformation: RMarkdown"
+  },
+  {
+    "objectID": "course-materials/hw-instructions/hw-03/chapter3-3-babynames-ex.html",
+    "href": "course-materials/hw-instructions/hw-03/chapter3-3-babynames-ex.html",
+    "title": "Chapter 3.3 Extended Example",
+    "section": "",
+    "text": "Your homework is to recreate this graph in section 3.3 with your name. Its due Friday at midnight. Don’t start this Thursday night, you will be sad. After you finish this assignment knit it, commit it, an push it to git so I can grade it over the weekend.\nI’ve added a setup chunk and the first chunk from the text.\n\nlibrary(babynames)\nBabynamesDist <- make_babynames_dist()\nBabynamesDist\n\n# A tibble: 1,639,722 × 9\n    year sex   name          n   prop alive_prob count_thousands age_t…¹ est_a…²\n   <dbl> <chr> <chr>     <int>  <dbl>      <dbl>           <dbl>   <dbl>   <dbl>\n 1  1900 F     Mary      16706 0.0526          0           16.7      114       0\n 2  1900 F     Helen      6343 0.0200          0            6.34     114       0\n 3  1900 F     Anna       6114 0.0192          0            6.11     114       0\n 4  1900 F     Margaret   5304 0.0167          0            5.30     114       0\n 5  1900 F     Ruth       4765 0.0150          0            4.76     114       0\n 6  1900 F     Elizabeth  4096 0.0129          0            4.10     114       0\n 7  1900 F     Florence   3920 0.0123          0            3.92     114       0\n 8  1900 F     Ethel      3896 0.0123          0            3.90     114       0\n 9  1900 F     Marie      3856 0.0121          0            3.86     114       0\n10  1900 F     Lillian    3414 0.0107          0            3.41     114       0\n# … with 1,639,712 more rows, and abbreviated variable names ¹​age_today,\n#   ²​est_alive_today"
+<<<<<<< HEAD
+>>>>>>> 24ebe7e1f8bf008690c18545d68a1ba998095d97
+=======
+  },
+  {
+    "objectID": "course-materials/in-class-activities/chapter-4-problem-1.html",
+    "href": "course-materials/in-class-activities/chapter-4-problem-1.html",
+    "title": "Chapter 4 problem 1",
+    "section": "",
+    "text": "library(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──\n✔ ggplot2 3.3.6      ✔ purrr   0.3.4 \n✔ tibble  3.1.8      ✔ dplyr   1.0.10\n✔ tidyr   1.2.1      ✔ stringr 1.4.1 \n✔ readr   2.1.2      ✔ forcats 0.5.2 \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\nlibrary(mdsr)\nlibrary(babynames)\n\n#This makes the Random_subset\n\nRandom_subset <- babynames %>%\n  filter(year==\"2003\" & name==\"Bilal\" & sex ==\"M\" |year==\"1999\" & name==\"Terria\" & sex ==\"F\" |year==\"2010\" & name==\"Naziyah\" & sex ==\"F\" |year==\"1989\" & name==\"Shawana\" & sex ==\"F\" |year==\"1989\" & name==\"Jessi\" & sex ==\"F\" |year==\"1928\" & name==\"Tillman\" & sex ==\"M\"|year==\"1981\" & name==\"Leslee\" & sex ==\"F\" |year==\"1981\" & name==\"Sherise\" & sex ==\"F\"|year==\"1920\" & name==\"Marquerite\" & sex ==\"F\" |year==\"1941\" & name==\"Lorraine\" & sex ==\"M\") \n\nBelow is how I would answer part a.\n\n# I'll do the first one for you. There may be other solutions.\n\nRandom_subset %>% filter( n>40 & n<85) \n\n# A tibble: 4 × 5\n   year sex   name        n      prop\n  <dbl> <chr> <chr>   <int>     <dbl>\n1  1928 M     Tillman    43 0.0000377\n2  1981 F     Leslee     83 0.0000464\n3  1989 F     Shawana    41 0.0000206\n4  2010 F     Naziyah    45 0.0000230"
+  },
+  {
+    "objectID": "index.html#i-expect-you-to-do-the-reading-and-try-problem-12-and-3-from-chapter-4.",
+    "href": "index.html#i-expect-you-to-do-the-reading-and-try-problem-12-and-3-from-chapter-4.",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "I expect you to do the reading and try problem 1,2, and 3 from chapter 4.",
+    "text": "I expect you to do the reading and try problem 1,2, and 3 from chapter 4.\nI made you the dataframe for exercise 4.4 number 1 so you can play with the code. You can copy it from here. We’ll discuss this problem, number 2 and also 3 on Friday."
+  },
+  {
+    "objectID": "index.html#go-over-interesting-bits-from-the-homework",
+    "href": "index.html#go-over-interesting-bits-from-the-homework",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "Go over interesting bits from the homework:",
+    "text": "Go over interesting bits from the homework:\n\nHW2\n\nload(), inline code, nrow()\n\nquestion 4 and 5\n\nHW3\n\nbrief analysis of code\nstuck anywhere?\n\n\n\nPractice:\nChapter 3: Problem 3 and 7"
+  },
+  {
+    "objectID": "index.html#on-coding",
+    "href": "index.html#on-coding",
+    "title": "MTH 190: Intro to Data Science",
+    "section": "On Coding",
+    "text": "On Coding"
+>>>>>>> 5f07acd9729769f3dc70bb01587881e355bae745
+>>>>>>> 2e299d1f8f55a3144ce217c8c70b930c26cb8039
   }
 ]
