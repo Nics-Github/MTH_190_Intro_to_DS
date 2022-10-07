@@ -1,0 +1,32 @@
+---
+title: "Chapter 15 text"
+author: "Schwab"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(mdsr)
+library(tidyverse)
+library(mosaic)
+library(RMySQL)
+
+con <- dbConnect(
+  MySQL(), host = "scidb.smith.edu",
+  user = "waiuser", password = "smith_waiDB", 
+  dbname = "wai"
+)
+Measurements <- tbl(con, "Measurements")
+```
+
+Problem 1 (Easy): How many rows are available in the Measurements table of the Smith College Wideband Auditory Immittance database?
+
+There are 1,349,667 rows available. 
+
+```{r } 
+Measurements %>%
+  collect() #This collect function gets all the data from the server and stores it on my machine. I haven't saved it as anything. 
+
+```
