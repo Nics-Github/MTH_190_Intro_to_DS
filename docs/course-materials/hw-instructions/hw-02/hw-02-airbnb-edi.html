@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.0.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -135,10 +135,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://mdsr-book.github.io/mdsr2e/">MDSR</a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../../Resources.html">Resources</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://mdsr-book.github.io/mdsr2e/"><i class="bi bi-book" role="img">
+</i> 
+ </a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://moderndive.com/C-appendixC.html">T &amp; T</a>
@@ -159,7 +161,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  </a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../syllabus.html">Syllabus</a>
+    <a class="nav-link" href="../../../syllabus.qmd">Syllabus</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -201,7 +203,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<p>Once upon a time, people travelled all over the world, and some stayed in hotels and others chose to stay in other people’s houses that they booked through Airbnb. Recent developments in Edinburgh regarding the growth of Airbnb and its impact on the housing market means a better understanding of the Airbnb listings is needed. Using data provided by Airbnb, we can explore how Airbnb availability and prices vary by neighbourhood.</p>
+<p>Once upon a time, people traveled all over the world, and some stayed in hotels and others chose to stay in other people’s houses that they booked through Airbnb. Recent developments in Edinburgh regarding the growth of Airbnb and its impact on the housing market means a better understanding of the Airbnb listings is needed. Using data provided by Airbnb, we can explore how Airbnb availability and prices vary by neighborhood.</p>
 <section id="getting-started" class="level1">
 <h1>Getting started</h1>
 <div class="cell">
@@ -220,15 +222,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="packages" class="level2">
 <h2 class="anchored" data-anchor-id="packages">Packages</h2>
-<p>We’ll use the <strong>tidyverse</strong> package for much of the data wrangling and visualisation and the data lives in the <strong>dsbox</strong> package. These packages are already installed for you. You can load them by running the following in your Console:</p>
+<p>We’ll use the <strong>tidyverse</strong> package for much of the data wrangling and visualisation. The data is in the <strong>edibnb.rda</strong> file, double click it. These packages are already installed for you. You can load them by running the following in your Console:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dsbox)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>The data can be found in the <strong>dsbox</strong> package, and it’s called <code>edibnb</code>. Since the dataset is distributed with the package, we don’t need to load it separately; it becomes available to us when we load the package.</p>
+<p>The data is called <code>edibnb</code>. Since the dataset is distributed without a package, we need to load it separately, just double click it. It lives in the file pane that HW-02 is in.</p>
 <p>You can view the dataset as a spreadsheet using the <code>View()</code> function. Note that you should not put this function in your R Markdown document, but instead type it directly in the Console, as it pops open a new window (and the concept of popping open a window in a static document doesn’t really make sense…). When you run this in the console, you’ll see the following <strong>data viewer</strong> window pop up.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">View</span>(edibnb)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
