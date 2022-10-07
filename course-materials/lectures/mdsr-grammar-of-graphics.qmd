@@ -25,7 +25,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', fig.height = 5)
 
 \[https://ggplot2.tidyverse.org/\]
 
-Let's example `ggplot()` and `geom_point()`. What attributes do they take? 
+Let's example `ggplot()` and `geom_point()`. What attributes do they take?
 
 ## What is the "Grammar of Graphics"?
 
@@ -51,11 +51,9 @@ ggplot(data = mtcars, aes(x = disp, y = mpg)) +
   geom_point()
 ```
 
-
 ## More complicated
 
 ```{r gg-complex, message=FALSE}
-```{r gg-complex, message=FALSE, echo=TRUE}
 ggplot(data = mtcars, aes(x = disp, y = mpg, color = factor(cyl))) + 
   geom_point() + 
   geom_line() + 
@@ -67,15 +65,16 @@ ggplot(data = mtcars, aes(x = disp, y = mpg, color = factor(cyl))) +
 
 We'll use:
 
--   `data` = babynames with a `filter()` 
+-   `data` = babynames with a `filter()`
 
 -   `ggplot` piped to `geom_point()`
 
 -   `aes(x=year, y=prop)`
 
-# [Live Coding Demo]
+# \[Live Coding Demo\]
+
 -   How could we scale? `scale_*()`
 
 -   What could we facet by? `facet_wrap()`, `facet_grid()`
 
--   I'll also use the <- operator. 
+-   I'll also use the \<- operator.

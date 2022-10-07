@@ -69,6 +69,14 @@ h1{font-weight: 400;}
 
 # Day 9: The verbs
 
+[The Verbs](./docs/course-materials/lectures/mdsr-the-verbs.html)
+
+Discuss exercises 1,2,3 from chapter 4. 
+
+Problem 5 and 6 for Classwork
+
+[Chapter 3: Problem 3 and 7](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#datavizII-exercises)
+
 # Day 8: Class is cancelled but...
 
 ## I expect you to do the reading and try problem 1,2, and 3 from chapter 4. 
