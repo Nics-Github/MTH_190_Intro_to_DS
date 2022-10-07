@@ -1,4 +1,5 @@
 Make list of students= c(“kathrineshev”, “Mentor0fHeroes”, “Iserrano364”, ”Practice-Student”)
+Make list of students= c("kathrineshev", "Mentor0fHeroes", "Iserrano364", "Practice-Student","JamesLeclerc","MagdalenMackowiak","ajhaller")
 
 org_invite(org= “MTH190”, user = students)
 
@@ -9,6 +10,10 @@ org_create_assignment(
   repo = paste0("hw-01-", students),
   user = students,
   source_repo = “MTH190/hw-01”
+    org = "MTH190",
+    repo = paste0("hw-02-", students),
+    user = students,
+    source_repo = "MTH190/hw-02"
 )
 
 This site will be helpful: 

@@ -593,6 +593,8 @@
     "title": "HW 01 - Pet names",
     "section": "Step 3. Push",
     "text": "Step 3. Push\nNow that you have made an update and committed this change, it’s time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only). In order to push your changes to GitHub, click on Push.\n\n\n\n\n\nThis will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me… I will teach you how to save your password so you don’t have to enter it every time. But for this one assignment you’ll have to manually enter each time you push in order to gain some experience with it.\nThought exercise: Which of the above steps (updating the YAML, committing, and pushing) needs to talk to GitHub?1"
+<<<<<<< HEAD
+=======
   },
   {
     "objectID": "index.html#updates",
@@ -1048,5 +1050,6 @@
     "section": "On Coding",
     "text": "On Coding"
 >>>>>>> 5f07acd9729769f3dc70bb01587881e355bae745
+>>>>>>> 2e299d1f8f55a3144ce217c8c70b930c26cb8039
   }
 ]
