@@ -11,7 +11,7 @@ knitr::opts_chunk$set(fig.path = 'figures/', fig.height = 5)
 ```
 
 
-## dplyr lives in the tidyverse
+## dplyr lives in the tidyverse 
 
 ![](https://raw.githubusercontent.com/tidyverse/dplyr/master/man/figures/logo.png){fig-align="center"}
 

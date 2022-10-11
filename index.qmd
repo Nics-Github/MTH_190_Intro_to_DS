@@ -67,6 +67,20 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 10: 
+
+Discuss exercises 1,2,3,5 and 6 from chapter 4. 
+
+
+## On Coding
+
+[learning to code](./course-materials/lectures/mdsr-learning-to-code.html)
+
+## Project 1
+
+Copy it from github. [Here's the outline](./course) 
+
+
 # Day 9: The verbs
 
 [The Verbs](./docs/course-materials/lectures/mdsr-the-verbs.html)
@@ -102,9 +116,7 @@ I made you the dataframe for exercise 4.4 number 1 so you can play with the code
 [Chapter 3: Problem 3 and 7](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#datavizII-exercises)
 
 
-## On Coding
 
-[learning to code](./course-materials/lectures/mdsr-learning-to-code.html)
 
 
 # Day 6: Color and Grammar of Graphics
