@@ -84,6 +84,7 @@ Copy it from github. [Here's the outline](./course)
 # Day 9: The verbs
 
 [The Verbs](./docs/course-materials/lectures/mdsr-the-verbs.html)
+[The Verbs](./course-materials/lectures/mdsr-the-verbs.html)
 
 Discuss exercises 1,2,3 from chapter 4. 
 
