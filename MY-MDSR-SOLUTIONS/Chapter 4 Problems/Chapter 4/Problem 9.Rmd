@@ -23,6 +23,6 @@ flights %>%
   
   filter(is.na(air_time))%>% #filters the flights that are cancelled
   count(month) %>% #counts by month
-  summarize( prop=100*n/sum(n)) 
+  summarize(month, prop=100*n/sum(n)) 
 
 ```
