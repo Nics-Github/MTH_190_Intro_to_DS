@@ -3,3 +3,4 @@ title: "merge conflict practice"
 format: html
 ---
 
+In Rstudio I am writing a line
