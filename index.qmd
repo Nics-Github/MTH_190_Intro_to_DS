@@ -67,6 +67,12 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 11: Project 1 workday and group_by()
+
+## [group_by() (and rename)](./course-materials/lectures/mdsr-group_by-and-rename.html) 
+
+## Project_time
+
 # Day 10: Project 1
 
 Discuss exercises 1,2,3,5 and 6 from chapter 4. 

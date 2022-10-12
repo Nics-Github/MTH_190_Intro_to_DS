@@ -10,12 +10,8 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(fig.path = 'figures/', fig.height = 5)
 ```
 
-<<<<<<< HEAD
 
-## dplyr lives in the tidyverse 
-=======
 ## dplyr lives in the tidyverse
->>>>>>> abac5496fd404bd4b4e6f01f684e1f6148560017
 
 ![](https://raw.githubusercontent.com/tidyverse/dplyr/master/man/figures/logo.png){fig-align="center"}
 
