@@ -67,6 +67,10 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 12: Joins
+
+
+
 # Day 11: Project 1 workday and group_by()
 
 ## [group_by() (and rename)](./course-materials/lectures/mdsr-group_by-and-rename.html) 
