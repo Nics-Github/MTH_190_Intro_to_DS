@@ -39,6 +39,12 @@ planes %>%
 ```
 
 ```{r part_b}
+# I think this is a simpler solution. 
+
+planes %>%
+  count(manufacturer) %>%
+  slice_max(order_by = n,n=5)
+
 #The following table shows the most common manufacturer by counts. The case_when() checks to see if the count is larger or smaller than 121 and renames the manufacturer variable appropriately. 
 
 manufactured_counts<- planes %>%
@@ -62,21 +68,36 @@ manufactured_counts
 ```
 
 ```{r part_c}
-#I need to join manufactured_counts with joined_flights_planes 
 
-#I had to group by month, you can also group by month,day 
-joined_fl_pl_manufactured_counts<- inner_join(joined_flights_planes,manufactured_counts,by="manufacturer") %>%
-  group_by(month) %>%
-  count(manufacturer)
+top_five_manufactures <-planes %>%
+  count(manufacturer) %>%
+  slice_max(order_by = n,n=5) %>%
+  select(-n)
 
-#This shows the number of flights from each type of carrier every month. I think this answers the question. 
+top_five_manufactures <- as.vector(top_five_manufactures)
 
-joined_fl_pl_manufactured_counts %>%
-   
-   ggplot(aes(month,n,color=manufacturer))+
+joined_flights_planes |>
+  ggplot(aes(month,n,color=manufacturer))+
    
    geom_point()
-   
+
+#I need to join manufactured_counts with joined_flights_planes 
+
+
+
+# #I had to group by month, you can also group by month,day 
+# joined_fl_pl_manufactured_counts<- inner_join(joined_flights_planes,manufactured_counts,by="manufacturer") %>%
+#   group_by(month) %>%
+#   count(manufacturer)
+# 
+# #This shows the number of flights from each type of carrier every month. I think this answers the question. 
+# 
+# joined_fl_pl_manufactured_counts %>%
+#    
+#    ggplot(aes(month,n,color=manufacturer))+
+#    
+#    geom_point()
+#    
 ```
 
 ```{r part_c}
