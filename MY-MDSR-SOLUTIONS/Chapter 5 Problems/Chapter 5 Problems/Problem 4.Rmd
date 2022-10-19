@@ -24,7 +24,7 @@ inner_joined_flights_planes <-inner_join(flights,planes,by="tailnum",suffix=c("_
 
 ```
 ```{r part_a}
-#I'm doing a full join to keept the year manufacture date. 
+#I'm doing a full join to keep the year manufacture date. 
 head(joined_flights_planes)
 
 full_joined_flights_planes %>%

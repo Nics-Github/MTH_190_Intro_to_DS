@@ -33,7 +33,8 @@ joined_state_tibbles <-inner_join(x=statenames,y=statedata,by="names")
 
 joined_state_tibbles %>%
   ggplot(aes(x=illiteracy,y=income)) +
+  geom_point()+
   geom_text_repel(aes(label=twoletter))+
-  geom_smooth()
+  geom_smooth(se=FALSE)
 
 ```
