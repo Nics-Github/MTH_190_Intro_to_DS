@@ -67,6 +67,10 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 13: Joins Practice
+
+
+
 # Day 12: Joins
 
 ## [The Joins](./course-materials/lectures/mdsr-the-joins.html)
