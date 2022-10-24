@@ -67,6 +67,19 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 14: Ok Really Start HW 4
+
+Discuss Problems 1 and 3  from Chapter 5
+
+Start work on HW 4
+
+# Day 13: More Practice
+
+Push HW 3 to Github
+
+Discuss Problems 1 and 3  from Chapter 5
+
+
 # Day 12: Joins
 
 ## [The Joins](./course-materials/lectures/mdsr-the-joins.html)
