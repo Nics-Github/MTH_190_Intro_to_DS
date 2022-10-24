@@ -77,9 +77,10 @@ top_five_manufactures <-planes %>%
 top_five_manufactures <- as.vector(top_five_manufactures)
 
 joined_flights_planes |>
-  ggplot(aes(month,n,color=manufacturer))+
-   
-   geom_point()
+  filter(manufacturer %in% unlist(top_five_manufactures)) |>
+  ggplot(aes(x= month,y=manufacturer))+
+  geom_count()
+  
 
 #I need to join manufactured_counts with joined_flights_planes 
 
