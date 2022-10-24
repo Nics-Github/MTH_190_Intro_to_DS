@@ -57,7 +57,11 @@ planes_other |>
            )
          ) |>
   group_by(manufacturer) |>
-  summarise(ave.year= mean(year,na.rm=TRUE,1) )
+```
+
+
+```{r part_c}
+summarise(ave.year= mean(year,na.rm=TRUE,1) )
   
 
 ```
@@ -75,3 +79,25 @@ planes |>
 planes |>
   full_join(planes_other, by="tailnum")
 ```
+
+```{r kathrine_answer}
+planes |>
+  mutate(manufacturer=
+           case_when(manufacturer=="AIRBUS INDUSTRIE"~"AIRBUS",
+                     manufacturer=="MCDONNELL DOUGLAS AIRCRAFT CO" ~"MCDONNELL DOUGLAS",
+                     manufacturer=="MCDONNELL DOUGLAS CORPORATION" ~"MCDONNELL DOUGLAS",
+                     TRUE~manufacturer)) |>
+  mutate(manufacturer=
+           case_when((manufacturer!="AIRBUS" &
+                      manufacturer!="BOEING" &
+                      manufacturer!="BOMBARDIER INC" &
+                      manufacturer!="EMBRAER" &
+                      manufacturer!="MCDONNELL DOUGLAS")~"OTHER",
+                     TRUE~manufacturer)) |>
+  filter(year > "2000") |>
+  ggplot(aes(x=year,fill=manufacturer)) +
+  geom_bar(position= "dodge")
+#facet_wrap(~manufacturer)
+
+```
+

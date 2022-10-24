@@ -49,6 +49,6 @@ babynames %>% group_by(name) %>% summarize(ave = mean(n))
 ```
 
 ```{r part_g}
-babynames %>% group_by(n > 100) %>% summarize(total = sum(n))
+babynames %>% group_by(n > 100) %>% summarize(total = n())
 # I don't think this is wrong. Its counting the number of times a name is used more than 100 times in a year for a baby. 
 ```

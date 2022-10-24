@@ -10,11 +10,7 @@ org_create_assignment(
   repo = paste0("hw-01-", students),
   user = students,
   source_repo = “MTH190/hw-01”
-    org = "MTH190",
-    repo = paste0("hw-02-", students),
-    user = students,
-    source_repo = "MTH190/hw-02"
-)
+    
 
 This site will be helpful: 
 https://mine-cetinkaya-rundel.github.io/teach-r-online/03-git/03-git.html#31
