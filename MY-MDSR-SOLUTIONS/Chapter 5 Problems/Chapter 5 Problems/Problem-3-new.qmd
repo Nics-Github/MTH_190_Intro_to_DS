@@ -56,31 +56,11 @@ planes_other |>
              TRUE ~ manufacturer
            )
          ) |>
-  group_by(manufacturer) |>
+  group_by(manufacturer) 
 ```
 
 
-```{r part_c}
-summarise(ave.year= mean(year,na.rm=TRUE,1) )
-  
-
-```
-
-```{r}
-planes |>
-  group_by(manufacturer) |>
-  mutate(count= n()) |>
-  mutate(manufacturer = 
-           case_when(
-             count < 100 ~ "other",
-             TRUE ~ manufacturer
-        )
-  )
-planes |>
-  full_join(planes_other, by="tailnum")
-```
-
-```{r kathrine_answer}
+```{r kathrines_answer}
 planes |>
   mutate(manufacturer=
            case_when(manufacturer=="AIRBUS INDUSTRIE"~"AIRBUS",

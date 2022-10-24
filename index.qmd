@@ -73,6 +73,8 @@ Discuss Problems 1 and 3  from Chapter 5
 
 Start work on HW 4
 
+[Problem 3 solution](./MY-MDSR-SOLUTIONS/Chapter 5 Problems/Chapter 5 Problems/Problem-3-new.html)
+
 # Day 13: More Practice
 
 Push HW 3 to Github
