@@ -1,0 +1,7 @@
+---
+title: "Practice with Merge Conflicts"
+author: "Schwab"
+format: html
+---
+
+Ajani put your name on the next line then save knit and commit and push your changes to git. 

@@ -47,9 +47,12 @@ h1{font-weight: 400;}
 -   **Getting help**:
     -   For non personal/sensitive questions, ask on the `#questions` channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.
     -   Prof. Schwab's hours:
-        -   MWF 10:00 - 10:50
+        -   MF 10:00am - 10:50
+        -   W 1:00 - 1:50pm 
+        -   W 4:00 - 5:00pm by appointment only.  
 
         -   FR 362 or [set up a zoom appointment.](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU10THFMNFV0NEJafGRlZmF1bHR8MzA4NTk0ZDE0OThjM2E4ZmU4ZjljYTU2NGYwZDJiMzk)
+        
     -   AJ's office hours
         -   Office hours: MW 7-9pm
         -   See the slack chanel for AJ's zoom link 
@@ -183,16 +186,5 @@ It is difficult to explicit codify what constitutes "an engaged student," so ins
 ## Policies
 
 1.  **Collaboration**: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another's work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.
-2.  **Honor Code**: All your work must follow the [Smith College Academic Honor Code Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"}; in particular all external sources must be cited in your submissions. <!--
-                            1. **Problem sets**:
-                                + No extensions on problem sets. However, only top 5 out of 7 scores count for your grade.
-                            1. **Mini-projects**:
-                                + Extensions only with a dean's note.
-                            1. **Midterms**:
-                                + No make-up midterms will be allowed without a dean's note. 
-                                + Timestamps for all midterms will be strictly enforced.
-                           
 
-------------------------------------------------------------------------
 
-#  {#accommodations}

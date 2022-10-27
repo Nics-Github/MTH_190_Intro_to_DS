@@ -67,37 +67,53 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 15: Work on HW 4.
+
+Questions on HW 4
+
+Point out the tidyverse [Coding Style Guide](https://style.tidyverse.org/)
+
+-   [Files](https://style.tidyverse.org/files.html)
+
+-   [Syntax](https://style.tidyverse.org/syntax.html)
+
+-   [Pipes](https://style.tidyverse.org/pipes.html)
+
+-   [ggplot2](https://style.tidyverse.org/ggplot2.html)
+
+Practice: Merge Conflicts with github together
+
+In preparation for Project 2: `install.packages("remotes")` `remotes::install_github("baumer-lab/fec20")`
+
 # Day 14: Ok Really Start HW 4
 
-Discuss Problems 1 and 3  from Chapter 5
+Discuss Problems 1 and 3 from Chapter 5
 
 Start work on HW 4
 
-[Problem 3 solution](./MY-MDSR-SOLUTIONS/Chapter 5 Problems/Chapter 5 Problems/Problem-3-new.html)
+[Problem 3 solution](./MY-MDSR-SOLUTIONS/Chapter%205%20Problems/Chapter%205%20Problems/Problem-3-new.html)
 
 # Day 13: More Practice
 
 Push HW 3 to Github
 
-Discuss Problems 1 and 3  from Chapter 5
-
+Discuss Problems 1 and 3 from Chapter 5
 
 # Day 12: Joins
 
 ## [The Joins](./course-materials/lectures/mdsr-the-joins.html)
 
-Try [Chapter 5 problems 1, 3 and 4](https://mdsr-book.github.io/mdsr2e/ch-join.html#join-exercises) start in class continue  for homework we'll discuss Friday
+Try [Chapter 5 problems 1, 3 and 4](https://mdsr-book.github.io/mdsr2e/ch-join.html#join-exercises) start in class continue for homework we'll discuss Friday
 
 # Day 11: Project 1 workday and group_by()
 
-## [group_by() (and rename)](./course-materials/lectures/mdsr-group_by-and-rename.html) 
+## [group_by() (and rename)](./course-materials/lectures/mdsr-group_by-and-rename.html)
 
 ## Project_time
 
 # Day 10: Project 1
 
-Discuss exercises 1,2,3,5 and 6 from chapter 4. 
-
+Discuss exercises 1,2,3,5 and 6 from chapter 4.
 
 ## On Coding
 
@@ -105,15 +121,13 @@ Discuss exercises 1,2,3,5 and 6 from chapter 4.
 
 ## Project 1
 
-Copy it from github. [Here's the outline](./course-materials/project-instructions/project-1/project-1-hcc-data-outline.html) 
-
+Copy it from github. [Here's the outline](./course-materials/project-instructions/project-1/project-1-hcc-data-outline.html)
 
 # Day 9: The verbs
 
-[The Verbs](./docs/course-materials/lectures/mdsr-the-verbs.html)
-[The Verbs](./course-materials/lectures/mdsr-the-verbs.html)
+[The Verbs](./docs/course-materials/lectures/mdsr-the-verbs.html) [The Verbs](./course-materials/lectures/mdsr-the-verbs.html)
 
-Discuss exercises 1,2,3 from chapter 4. 
+Discuss exercises 1,2,3 from chapter 4.
 
 Problem 5 and 6 for Classwork
 
@@ -121,31 +135,27 @@ Problem 5 and 6 for Classwork
 
 # Day 8: Class is cancelled but...
 
-## I expect you to do the reading and try problem 1,2, and 3 from chapter 4. 
+## I expect you to do the reading and try problem 1,2, and 3 from chapter 4.
 
-I made you the dataframe for exercise 4.4 number 1 so you can play with the code. You can copy it from [here.](./course-materials/in-class-activities/chapter-4-problem-1.html) We'll discuss this problem, number 2 and also 3 on Friday. 
+I made you the dataframe for exercise 4.4 number 1 so you can play with the code. You can copy it from [here.](./course-materials/in-class-activities/chapter-4-problem-1.html) We'll discuss this problem, number 2 and also 3 on Friday.
 
-# Day 7: Discuss Homework 
+# Day 7: Discuss Homework
 
 ## Go over interesting bits from the homework:
 
 -   HW2
 
-    -   load(), inline code, nrow()  
+    -   load(), inline code, nrow()\
     -   question 4 and 5
 
--   HW3    
-    
-    -   brief analysis of code 
-    -   stuck anywhere? 
+-   HW3
+
+    -   brief analysis of code
+    -   stuck anywhere?
 
 ### Practice:
 
 [Chapter 3: Problem 3 and 7](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#datavizII-exercises)
-
-
-
-
 
 # Day 6: Color and Grammar of Graphics
 
@@ -156,8 +166,6 @@ I made you the dataframe for exercise 4.4 number 1 so you can play with the code
 ## Activity
 
 -   [We'll do problems 3.1 #1 and 3 in class](https://mdsr-book.github.io/mdsr2e/ch-vizII.html#datavizII-exercises)
-
-
 
 # Day 5: Digestion Day
 
