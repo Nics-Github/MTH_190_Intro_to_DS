@@ -67,6 +67,26 @@ h1{font-weight: 400;}
 
 </iframe>
 
+# Day 16: Project 2
+
+Github:
+
+-   Together: Push to github HW-03, HW-04, and Project-1.
+
+-   Working on separate branches when editing your code for project 2.
+
+[Github Lecture]()
+
+[FEC Data Lecture](./course-materials/lectures/mdsr-wrangling-fec20.html)
+
+[Project 2](./course-materials/project-instructions/project-2/project-2-fec-20.html)
+
+Project 2 teams:
+
+-   Ajani, Ida, Magdalena
+
+-   James & Kathrine
+
 # Day 15: Work on HW 4.
 
 Questions on HW 4
