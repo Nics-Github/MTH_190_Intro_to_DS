@@ -73,9 +73,14 @@ Github:
 
 -   Together: Push to github HW-03, HW-04, and Project-1.
 
--   Working on separate branches when editing your code for project 2.
+Remember:
 
-[Github Lecture]()
+-   **pull** new changes
+-   make edits on your computer
+-   **commit** your local changes
+    -   this step may be repeated
+-   **pull** again to avoid merge conflicts
+-   **push** your commit(s) to GitHub
 
 [FEC Data Lecture](./course-materials/lectures/mdsr-wrangling-fec20.html)
 
