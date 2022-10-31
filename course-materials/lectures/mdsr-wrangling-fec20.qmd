@@ -34,6 +34,9 @@ library(fec20)
 Link to [committee types](https://www.fec.gov/campaign-finance-data/committee-type-code-descriptions/) 
 
 
+
+
+
 ## `fec20`: the money
 
 `pac`: **Summary** of PAC activity ~12,000 rows
@@ -46,6 +49,10 @@ Sampled data: 1,000 records each
 -   transactions
 
 contributions: Contributions from committees to candidates \~500,000 transactions
+
+## How is the data relational?
+
+## {background-image="https://github.com/baumer-lab/fec20/raw/main/inst/fec20-dm.jpeg"}
 
 ## For un sampled Data
 
