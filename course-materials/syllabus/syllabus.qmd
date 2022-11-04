@@ -145,7 +145,7 @@ Students who complete this course will be able to: 
 
 # Lecture schedule
 
-The lecture schedule and associated readings can be found on the [main page](../index.html) of this course webpage. The Modern Data Science with R *textbook* is accessible on the navigational bar of this webpage as well as via [this link](https://mdsr-book.github.io/mdsr2e/).
+The lecture schedule and associated readings can be found on the [main page](https://nics-github.github.io/MTH_190_Intro_to_DS/) of this course webpage. The Modern Data Science with R **textbook** is accessible on the navigational bar of this webpage as well as via [this link](https://mdsr-book.github.io/mdsr2e/).
 
 # Class norms {#policies}
 
