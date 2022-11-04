@@ -67,6 +67,20 @@ h1{font-weight: 400;}
 
 </iframe>
 
+
+
+# Day 18: Tidy Data
+
+-   45 minutes on tidy data and an example. 
+
+-   30 minutes on project 
+
+# Day 17: Continue working on Project 2
+
+-   Comment your data with `#`
+-   Use pull to save data to avoid retyping. 
+-   I'll continue to check slack and github to give feedback.
+
 # Day 16: Project 2
 
 Github:
