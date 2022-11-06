@@ -71,9 +71,11 @@ h1{font-weight: 400;}
 
 # Day 18: Tidy Data
 
--   45 minutes on tidy data and an example. 
+-   45 minutes on tidy data with [hw-05](https://github.com/MTH190/hw-05)
 
 -   30 minutes on project 
+
+-   No class on Friday Nov 11th or Nov 23rd
 
 # Day 17: Continue working on Project 2
 
