@@ -34,15 +34,17 @@ execute:
 
 ## Data Visualization: [ggplot2](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)
 
-[![](images/data-visualization.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)
+[![](images/ggplot2.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf)
 
 ## Data transformation: dplyr
 
-[![](images/data-transformation.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf)
+[![](images/dplyr.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf)
 
-<<<<<<< HEAD
+## Data Import: tidyr
+
+[![](images/tidyr.png){width="360"}](https://posit.co/wp-content/uploads/2022/10/tidyr.pdf)
+
 ## RMarkdown Cheat sheet
-
 
 [![](images/rmarkdown.png){width="360"}](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown.pdf)
 
