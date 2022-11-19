@@ -23,10 +23,13 @@ Measurements <- tbl(con, "Measurements")
 
 Problem 1 (Easy): How many rows are available in the Measurements table of the Smith College Wideband Auditory Immittance database?
 
-There are 1,349,667 rows available. 
+There are 4,203,645 rows available.
 
-```{r } 
-Measurements %>%
-  collect() #This collect function gets all the data from the server and stores it on my machine. I haven't saved it as anything. 
+```{sql connection=con}
+DESCRIBE Measurements;
+```
 
+```{sql connection=con}
+SELECT COUNT(*) AS N
+FROM Measurements;
 ```

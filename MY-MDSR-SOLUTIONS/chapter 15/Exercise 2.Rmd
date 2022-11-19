@@ -19,15 +19,17 @@ carriers <- tbl(con, "carriers")
 
 ```{r }
 #Here flights is a table that was made in the setup. I'm using the normal dplyr verbs to show the years. 
-flights %>%
+years_flights<- flights %>%
   select(year) %>%
   distinct()
+show_query(years_flights)
 ```
 
 ```{sql connection=con}
 /*Below Here is the same result in SQL as opposed to R. I kind of can't believe I did it.
 Also I had to look up how to comment in SQL*/ 
 
-SELECT DISTINCT year FROM flights LIMIT 10;
+SELECT DISTINCT year 
+FROM flights LIMIT 10;
 ```
 

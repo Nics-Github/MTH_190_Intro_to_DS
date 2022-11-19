@@ -1,5 +1,5 @@
 ---
-title: "Excersie 3"
+title: "Excersie 5"
 author: "Schwab"
 date: "`r Sys.Date()`"
 output: pdf_document
@@ -19,6 +19,8 @@ airports <- tbl(con, "airports")
 
 ```
 
+Problem 5 (Medium): Use the dbConnect_scidb function to connect to the airlines database to answer the following problem. Of all the destinations from Chicago O’Hare (ORD), which were the most common in 2010?
+
 ```{sql connection=con}
 /*Below is how we can see the tables*/
 SHOW TABLES;
@@ -29,33 +31,25 @@ SHOW TABLES;
 DESCRIBE flights;
 ```
 
-```{r }
-#Here flights is a table that was made in the setup. I'm using the normal dplyr verbs to show the years. How many are going to US
-airports %>%
-  select(country) %>%
-  distinct()
-#Haha, they are all domestic flights. Unless I'm misunderstanding the variable 
-```
-
 ```{r}
 #I cannot get the n() function to work here. I'll try in SQL code
-flights %>%
-  filter(dest == "DFW" & year=="2010" & month =="05" & day == "14") |>
-  group_by(year) |>
-  summarise(total=n())
-
+most_common<- flights %>%
+  filter(origin == "ORD" & year== 2010 ) |>
+  group_by(dest) |>
+  summarise(total_flights=n()) |>
+  arrange(desc(total_flights))
   
-  
+show_query(most_common)
 ```
 
 ```{sql connection=con}
 /*Below Here is the same result in SQL as opposed to R. It looks like there were 754 flights into DFW */ 
 
-SELECT 
-  count(dest)
-FROM 
-  flights 
-WHERE dest= 'DFW' AND year = 2010 AND month = 5 AND day = 14;
+SELECT `dest`, COUNT(*) AS `total_flights`
+FROM `flights`
+WHERE (`origin` = 'ORD' AND `year` = 2010.0)
+GROUP BY `dest`
+ORDER BY `total_flights` DESC;
 
 
 
