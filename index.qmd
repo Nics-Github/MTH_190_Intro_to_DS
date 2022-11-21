@@ -70,6 +70,7 @@ h1{font-weight: 400;}
 
 -   [Example](./course-materials/lectures/SQL-example-yelp.html)
 -   Try Problems 1,2,3 and 5 from chapter 15 with dbplyr and SQL
+-   A [Cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/email/other/SQL+for+Data+Science.pdf) and here's [another one](https://intellipaat.com/blog/wp-content/uploads/2022/10/SQL-Commands-Cheat-Sheet-2022.jpg)
 
 # Day 20: Scraping Data
 
