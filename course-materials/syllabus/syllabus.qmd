@@ -145,7 +145,10 @@ Students who complete this course will be able to: 
 
 # Lecture schedule
 
-The lecture schedule and associated readings can be found on the [main page](https://nics-github.github.io/MTH_190_Intro_to_DS/) of this course webpage. The Modern Data Science with R **textbook** is accessible on the navigational bar of this webpage as well as via [this link](https://mdsr-book.github.io/mdsr2e/).
+The lecture schedule and associated readings can be found on the [main page](https://nics-github.github.io/MTH_190_Intro_to_DS/) of this course webpage. 
+
+# Book and software
+The Modern Data Science with R **textbook** is accessible on the navigational bar of this webpage as well as via [this link](https://mdsr-book.github.io/mdsr2e/). Students will use the HCC RStudio workbench to do computations in R find it [here](http://hcc-rstudiosrv1.hcc.edu:8787/s/93126cfc78a31806f480a/auth-sign-in?appUri=%2F).
 
 # Class norms {#policies}
 
@@ -158,7 +161,7 @@ The lecture schedule and associated readings can be found on the [main page](htt
 
 # Evaluation
 
-All due dates can be found on the [main page](./index.html) of this course webpage.
+All due dates can be found on the [main page](https://nics-github.github.io/MTH_190_Intro_to_DS/) of this course webpage.
 
 This class is project based. As such your evaluations will be based on projects you create.
 
