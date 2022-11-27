@@ -1,0 +1,83 @@
+---
+title: "Project-3-start"
+format: revealjs
+---
+
+```{r setup}
+
+library(tidyverse)
+library(RMySQL)
+
+db <- dbConnect(
+  MySQL(),
+  host = "scidb.smith.edu",
+  user = "sds192",
+  password = "DSismfc@S",
+  dbname = "imdb"
+)
+knitr::opts_chunk$set(connection = db, max.print = 20)
+```
+
+# Keys and Indexing
+
+# Keys
+
+-   Primary Key on a table only 1 allowed
+-   Foreign Key references a different table
+-   Unique Key
+
+IMDB graph is helpful here.
+
+-   Ways to organize a database
+
+# Indexing
+
+-   Ways to speed up a database.
+-   Think of the database as organizing a column (maybe a key).
+-   The Database Admin has to do this. But you can see the indexing with: SHOW INDEXES FROM `table_name`
+
+# Let's consider the imdb table.
+
+## Q: How many movies is Sean Connery listed on IMDB? 
+
+[This diagram is helpful](https://beanumber.github.io/sds192/lectures/mdsr_sql_03-imdb.html#14)
+
+```{sql connection=db}
+
+SHOW TABLES;
+
+```
+
+```{sql connection=db}
+
+DESCRIBE name;
+
+```
+
+```{sql connection=db}
+
+SELECT *
+FROM movie_info
+WHERE info LIKE 'movie';
+
+```
+
+```{sql connection=db}
+ 
+SELECT name.id 
+FROM name
+WHERE name.name LIKE 'Connery, Sean'
+```
+
+```{sql connection=db}
+
+SELECT DISTINCT title.title, name.name, title.season_nr
+FROM cast_info 
+JOIN title 
+ON title.id = cast_info.movie_id
+JOIN name
+ON name.id = cast_info.person_id
+WHERE name.name LIKE 'Connery%' ;
+```
+
+Not perfect
