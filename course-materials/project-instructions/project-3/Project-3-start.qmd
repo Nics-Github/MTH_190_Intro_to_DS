@@ -1,6 +1,5 @@
 ---
 title: "Project-3-start"
-format: revealjs
 ---
 
 ```{r setup}
@@ -13,34 +12,14 @@ db <- dbConnect(
   host = "scidb.smith.edu",
   user = "sds192",
   password = "DSismfc@S",
-  dbname = "imdb"
+  dbname = "yelp"
 )
 knitr::opts_chunk$set(connection = db, max.print = 20)
 ```
 
-# Keys and Indexing
+# My Project 3
 
-# Keys
-
--   Primary Key on a table only 1 allowed
--   Foreign Key references a different table
--   Unique Key
-
-IMDB graph is helpful here.
-
--   Ways to organize a database
-
-# Indexing
-
--   Ways to speed up a database.
--   Think of the database as organizing a column (maybe a key).
--   The Database Admin has to do this. But you can see the indexing with: SHOW INDEXES FROM `table_name`
-
-# Let's consider the imdb table.
-
-## Q: How many movies is Sean Connery listed on IMDB? 
-
-[This diagram is helpful](https://beanumber.github.io/sds192/lectures/mdsr_sql_03-imdb.html#14)
+## Q: Is the average rating for chain hamburgers better than local hamburgers ?
 
 ```{sql connection=db}
 
@@ -50,34 +29,47 @@ SHOW TABLES;
 
 ```{sql connection=db}
 
-DESCRIBE name;
+DESCRIBE businesses;
 
 ```
 
 ```{sql connection=db}
 
-SELECT *
-FROM movie_info
-WHERE info LIKE 'movie';
-
+SELECT  *
+FROM businesses
+ORDER BY name;
 ```
 
-```{sql connection=db}
- 
-SELECT name.id 
-FROM name
-WHERE name.name LIKE 'Connery, Sean'
-```
+The average of 154 chain brands is 3.1
 
 ```{sql connection=db}
 
-SELECT DISTINCT title.title, name.name, title.season_nr
-FROM cast_info 
-JOIN title 
-ON title.id = cast_info.movie_id
-JOIN name
-ON name.id = cast_info.person_id
-WHERE name.name LIKE 'Connery%' ;
+SELECT  AVG(stars)
+FROM businesses
+WHERE name  IN ('Burger King','Wendys','Wendy''s','McDonald''s','Mc Donalds','Mc Donald''s', 'McDonalds','Five Guys','FiveGuys','Wendy''s Old Fashioned Hamburgers','In-N-Out Burger','Five Guys Burgers & Fries','Five Guys Burgers and Fries','In N Out Burger','Five Guys Burger and Fries','Smashburger','Red Robin Gourmet Burgers');
 ```
 
-Not perfect
+Average of 86 locations that had the word burger in their name but were not chain brands was 3.8.
+
+```{sql connection=db}
+SELECT name, AVG(stars)
+FROM businesses
+WHERE name  LIKE '%burger%'
+GROUP BY name;
+```
+
+```{sql connection=db}
+SELECT city, AVG(stars)
+FROM businesses
+WHERE name  LIKE '%burger%' AND name NOT IN ('Burger King','Wendys','Wendy''s','McDonald''s','Mc Donalds','Mc Donald''s', 'McDonalds','Five Guys','FiveGuys','Wendy''s Old Fashioned Hamburgers','In-N-Out Burger','Five Guys Burgers & Fries','Five Guys Burgers and Fries','In N Out Burger','Five Guys Burger and Fries','Smashburger','Red Robin Gourmet Burgers') AND city LIKE 'phoenix'
+GROUP BY city
+ORDER BY city ;
+```
+
+```{sql connection=db}
+SELECT  city, AVG(stars)
+FROM businesses
+WHERE name  IN ('Burger King','Wendys','Wendy''s','McDonald''s','Mc Donalds','Mc Donald''s', 'McDonalds','Five Guys','FiveGuys','Wendy''s Old Fashioned Hamburgers','In-N-Out Burger','Five Guys Burgers & Fries','Five Guys Burgers and Fries','In N Out Burger','Five Guys Burger and Fries','Smashburger','Red Robin Gourmet Burgers') AND city LIKE 'phoenix'
+GROUP BY city
+ORDER BY city;
+```
