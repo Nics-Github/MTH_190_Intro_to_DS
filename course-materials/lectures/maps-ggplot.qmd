@@ -126,8 +126,8 @@ Just_MA_counties <- counties |> filter(STUSPS == "MA")
 leaflet() |>
   addTiles() |>
   addPolygons(data = Just_MA_counties) |>
-  addMarkers(data = addresses, lng=~long, lat=~lat, popup = ~name) |>
-  addCircleMarkers(data = ma_cities, lng=~long, lat=~lat, popup = ~name, color='black')
+  addMarkers(data = addresses, lng=~long, lat=~lat, popup = ~name, ) |>
+  addCircleMarkers(data = ma_cities, lng=~long, lat=~lat, popup = ~name, color='black',clusterOptions = markerClusterOptions() )
   
 ```
 
