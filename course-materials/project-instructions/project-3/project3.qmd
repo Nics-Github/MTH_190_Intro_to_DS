@@ -85,5 +85,5 @@ In many cases, a simple table of results will be sufficient---you should not fee
 
 ### Submission
 
-1. Push all commits to the appropriate repository in the [MTH 190 GitHub organization]().
+1. Push all commits to the appropriate repository in the [MTH 190 GitHub organization](https://github.com/MTH190/PROJECT-3).
 2. Submit rendered `.html` file to Moodle
