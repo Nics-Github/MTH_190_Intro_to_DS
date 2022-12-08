@@ -67,6 +67,12 @@ h1{font-weight: 400;}
 
 </iframe>
 
+## Day 25 Maps with leaflet. 
+
+# Day 24: Maps with ggplot. 
+
+
+
 # Day 23: SQL Project Day 
 
 Time to work on Project 3
