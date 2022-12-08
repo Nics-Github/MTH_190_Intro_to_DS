@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.583">
+<meta name="generator" content="quarto-1.0.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,7 +33,7 @@ ul.task-list{list-style: none;}
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -125,12 +125,14 @@ ul.task-list{list-style: none;}
   <li><a href="#lecture-schedule" id="toc-lecture-schedule" class="nav-link" data-scroll-target="#lecture-schedule">Lecture schedule</a></li>
   <li><a href="#book-and-software" id="toc-book-and-software" class="nav-link" data-scroll-target="#book-and-software">Book and software</a></li>
   <li><a href="#policies" id="toc-policies" class="nav-link" data-scroll-target="#policies">Class norms</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a>
   <ul class="collapse">
   <li><a href="#projects-40" id="toc-projects-40" class="nav-link" data-scroll-target="#projects-40">Projects 40%</a></li>
   <li><a href="#final-project-20" id="toc-final-project-20" class="nav-link" data-scroll-target="#final-project-20">Final project 20%</a></li>
   <li><a href="#problem-sets-25" id="toc-problem-sets-25" class="nav-link" data-scroll-target="#problem-sets-25">Problem sets 25%</a></li>
   <li><a href="#engagement" id="toc-engagement" class="nav-link" data-scroll-target="#engagement">Engagment 15%</a></li>
+  <li><a href="#tentative-assignment-schedule" id="toc-tentative-assignment-schedule" class="nav-link" data-scroll-target="#tentative-assignment-schedule">Tentative Assignment schedule</a></li>
   <li><a href="#policies-1" id="toc-policies-1" class="nav-link" data-scroll-target="#policies-1">Policies</a></li>
   </ul></li>
   </ul>
@@ -283,6 +285,10 @@ h1{font-weight: 400;}
 </ul>
 <hr>
 </section>
+<section id="readings" class="level1">
+<h1>Readings</h1>
+<p>We’ll be reading chapters 1-6,8,15,and 17 of Modern Data Science with R.</p>
+</section>
 <section id="evaluation" class="level1">
 <h1>Evaluation</h1>
 <p>All due dates can be found on the <a href="https://nics-github.github.io/MTH_190_Intro_to_DS/">main page</a> of this course webpage.</p>
@@ -311,6 +317,16 @@ h1{font-weight: 400;}
 <li>Even better: Responding to questions on Slack.</li>
 </ul>
 </section>
+<section id="tentative-assignment-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="tentative-assignment-schedule">Tentative Assignment schedule</h2>
+<p>Homework Will be assigned weekly and due by midnight the following Monday.</p>
+<p>Project 1- due after reading chapter 4 of MDSR roughly the 10th day of class</p>
+<p>Project 2- due after reading chapter 5 of MDSR roughly the 18th day of class</p>
+<p>Project 3- due after reading chapter 15 of MDSR roughly the 22nd day of class</p>
+<p>Project 4- due after reading chapter 17 of MDSR roughly the 26th day of class</p>
+<p>Final Project/ Presentation during our final time.</p>
+<p>For a more up to date schedule see the course’s <a href="https://nics-github.github.io/MTH_190_Intro_to_DS/">website</a>.</p>
+</section>
 <section id="policies-1" class="level2">
 <h2 class="anchored" data-anchor-id="policies-1">Policies</h2>
 <ol type="1">
@@ -326,6 +342,24 @@ h1{font-weight: 400;}
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

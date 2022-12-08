@@ -19,7 +19,8 @@ CholeraDeaths_Book <-mdsr::CholeraDeaths
 st_crs(CholeraDeaths_Book) = st_crs(CholeraDeaths_Book) 
 ```
 
-Let's find the latitude and longitude for a couple of places. 
+Let's find the latitude and longitude for a couple of places.
+
 ```{r}
 
 addresses<- tibble(address=c("50 Payson Ave, Easthampton, MA","Holyoke Community College, Holyoke,MA")) |>
@@ -28,7 +29,9 @@ geocode(address, method="osm") |>
 
 addresses
 ```
-Let's plot those with ggplot. 
+
+Let's plot those with ggplot.
+
 ```{r}
 ggplot(addresses) +
   geom_point(aes(long,lat)) 
@@ -36,7 +39,8 @@ ggplot(addresses) +
   
 
 ```
-Not very exciting. We'll add it it in a moment. 
+
+Not very exciting. We'll add it it in a moment.
 
 Let's build a map of Massachusetts with the map_data() function
 
@@ -47,14 +51,18 @@ ma_counties <- map_data("county", "massachusetts") %>%
 head(ma_counties)
 
 ```
-Notice there are a lot of points for barnstable. Those are the vertices of a polygon. Let's draw the polygon with the points. 
+
+Notice there are a lot of points for barnstable. Those are the vertices of a polygon. Let's draw the polygon with the points.
+
 ```{r}
 ma_counties |> ggplot(aes(long,lat,group=group))+
   geom_polygon(fill = "white", colour = "grey50")+
   geom_point()+
   coord_quickmap()
 ```
+
 Let's grab just Massachusetts cities from the data frame us.cities.
+
 ```{r}
 ma_cities <- us.cities %>% 
   filter(country.etc =="MA") |>
@@ -63,7 +71,7 @@ ma_cities <- us.cities %>%
 head(ma_cities)
 ```
 
-Exercise: Plot MA cities onto our county map. 
+Exercise: Plot MA cities onto our county map.
 
 ```{r}
 ma_counties |> ggplot(aes(long,lat))+
@@ -77,22 +85,20 @@ ma_counties |> ggplot(aes(long,lat))+
 class(ma_counties)
 class(ma_cities)
 ```
-Let's get some more accurate government data. 
+
+Let's get some more accurate government data.
 
 [Go here](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html) and download some shape files.
 
-
-Saving them will be a bit of work. First we need to find those files. 
+Saving them will be a bit of work. First we need to find those files.
 
 ```{r}
-states <- read_sf("~/GitHub/MTH_190_Intro_to_DS/course-materials/cb_2021_us_state_500k") |>
+states <- read_sf("~/Documents/MTH_190_Intro_to_DS/course-materials/cb_2021_us_state_500k") |>
   sf::st_transform('+proj=longlat +datum=WGS84')
 
-counties <- read_sf("~/GitHub/MTH_190_Intro_to_DS/course-materials/cb_2021_us_county_5m") |>
+counties <- read_sf("~/Documents/MTH_190_Intro_to_DS/course-materials/cb_2021_us_county_5m") |>
   st_transform('+proj=longlat +datum=WGS84')
 ```
-
-
 
 ```{r}
 
@@ -127,13 +133,20 @@ leaflet() |>
   addTiles() |>
   addPolygons(data = Just_MA_counties) |>
   addMarkers(data = addresses, lng=~long, lat=~lat, popup = ~name, ) |>
-  addCircleMarkers(data = ma_cities, lng=~long, lat=~lat, popup = ~name, color='black',clusterOptions = markerClusterOptions() )
+  addCircleMarkers(data = ma_cities, lng=~long, lat=~lat, popup = ~name, color='black',clusterOptions = markerClusterOptions() ) 
   
 ```
 
- Download some more shape files from [here](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html).
+```{r}
+leaflet() |>
+  addTiles() |>
+  addPolygons(data = Just_MA_counties) |>
+  addMarkers(data = addresses, lng=~long, lat=~lat, popup = ~name, ) |>
+  addCircleMarkers(data = ma_cities, lng=~long, lat=~lat, popup = ~name, color='black',clusterOptions = markerClusterOptions() ) 
+```
 
-Exercise: Plot the Places we should care about from MA on our map. 
+Download some more shape files from [here](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html).
 
-Exercise: Plot the American Indian Tribal Subdivisions. 
+Exercise: Plot the Places we should care about from MA on our map.
 
+Exercise: Plot the American Indian Tribal Subdivisions.

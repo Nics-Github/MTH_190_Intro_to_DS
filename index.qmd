@@ -67,13 +67,18 @@ h1{font-weight: 400;}
 
 </iframe>
 
-<<<<<<< HEAD
 # Day 25 More maps with leaflet. 
+
+-   more maps
+-   provider tiles
+-   slides 
+
+UMass $10,000 dollar/year scholarship to study Informatics. 
 
 
 # Day 24: Maps with ggplot2 and leaflet. 
 
-We'll be wporking from [this site](./course-materials/lectures/maps-ggplot.html) today. 
+We'll be working from [this site](./course-materials/lectures/maps-ggplot.html) today. 
 
 
 # Day 23: SQL Project Day 

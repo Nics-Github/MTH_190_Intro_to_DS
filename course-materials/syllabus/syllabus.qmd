@@ -39,7 +39,7 @@ h1{font-weight: 400;}
 # Basic information {#basicinfo}
 
 -   **Course title:** MTH 190: Introduction to Data Science
--   **Instructor:** [Nicholas Schwab (he/him)] - Assistant Professor of Mathematics. Please call me "Schwab" or "Professor Schwab"
+-   **Instructor:** \[Nicholas Schwab (he/him)\] - Assistant Professor of Mathematics. Please call me "Schwab" or "Professor Schwab"
 -   **Office location:** Frost 362
 -   **Email:** nschwab\@hcc.edu
 -   **Meeting locations/times:**
@@ -48,14 +48,15 @@ h1{font-weight: 400;}
     -   For non personal/sensitive questions, ask on the `#questions` channel on Slack. For personal/sensitive matters, Slack DM Professor Schwab.
     -   Prof. Schwab's hours:
         -   MF 10:00am - 10:50
-        -   W 1:00 - 1:50pm 
-        -   W 4:00 - 5:00pm by appointment only.  
+
+        -   W 1:00 - 1:50pm
+
+        -   W 4:00 - 5:00pm by appointment only.
 
         -   FR 362 or [set up a zoom appointment.](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UU10THFMNFV0NEJafGRlZmF1bHR8MzA4NTk0ZDE0OThjM2E4ZmU4ZjljYTU2NGYwZDJiMzk)
-        
     -   AJ's office hours
         -   Office hours: MW 7-9pm
-        -   See the slack chanel for AJ's zoom link 
+        -   See the slack chanel for AJ's zoom link
 
 ## Instructor work-life balance {#work-life-balance}
 
@@ -145,19 +146,22 @@ Students who complete this course will be able to: 
 
 # Lecture schedule
 
-The lecture schedule and associated readings can be found on the [main page](https://nics-github.github.io/MTH_190_Intro_to_DS/) of this course webpage. 
+The lecture schedule and associated readings can be found on the [main page](https://nics-github.github.io/MTH_190_Intro_to_DS/) of this course webpage.
 
 # Book and software
+
 The Modern Data Science with R **textbook** is accessible on the navigational bar of this webpage as well as via [this link](https://mdsr-book.github.io/mdsr2e/). Students will use the HCC RStudio workbench to do computations in R find it [here](http://hcc-rstudiosrv1.hcc.edu:8787/s/93126cfc78a31806f480a/auth-sign-in?appUri=%2F).
 
 # Class norms {#policies}
 
 -   You are expected to stay until the end of lecture. If you need to leave early, please confirm with me at the beginning of lecture and sit somewhere where your departure will be minimally disruptive.
--   *Attendance policy.* You may be dropped from the course for missing 3 or more days of class. 
+-   *Attendance policy.* You may be dropped from the course for missing 3 or more days of class.
 -   Attendance will not be explicitly taken and occasional absences are excused. However, extended absences should be mentioned to me.
 
-
 ------------------------------------------------------------------------
+# Readings
+
+We'll be reading chapters 1-6,8,15,and 17 of Modern Data Science with R. 
 
 # Evaluation
 
@@ -188,6 +192,22 @@ It is difficult to explicit codify what constitutes "an engaged student," so ins
 -   Posting questions on Slack.
 -   Even better: Responding to questions on Slack.
 
+## Tentative Assignment schedule
+
+Homework Will be assigned weekly and due by midnight the following Monday.
+
+Project 1- due after reading chapter 4 of MDSR roughly the 10th day of class
+
+Project 2- due after reading chapter 5 of MDSR roughly the 18th day of class
+
+Project 3- due after reading chapter 15 of MDSR roughly the 22nd day of class
+
+Project 4- due after reading chapter 17 of MDSR roughly the 26th day of class
+
+Final Project/ Presentation during our final time.
+
+For a more up to date schedule see the course's [website](https://nics-github.github.io/MTH_190_Intro_to_DS/).
+
 ## Policies
 
 1.  **Collaboration**: While I encourage you to work with your peers for problem sets, you must submit your own answers and not simple rewordings of another's work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.
@@ -195,5 +215,3 @@ It is difficult to explicit codify what constitutes "an engaged student," so ins
 *ACCESSIBILITY ACCOMMODATIONS*:
 
 Holyoke Community College values inclusion and equal access to its programs and activities and is committed to fostering an environment of mutual respect and full participation. Our goal is to create learning environments that are equitable, inclusive and welcoming. If you are an individual with a disability and require reasonable academic accommodations you are advised to contact the Office of Disability Services (ODS) at any time to discuss your accommodation needs and options. The ODS will work collaboratively with students with disabilities to develop effective accommodation plans for implementation in the classroom. The ODS is located in DON 147. For an appointment, please call 413-552- 2417. The Video Phone (VP) number is 413-650- 5502.
-
-
