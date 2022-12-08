@@ -67,11 +67,17 @@ h1{font-weight: 400;}
 
 </iframe>
 
+<<<<<<< HEAD
 ## Day 25 Maps with leaflet. 
 
 # Day 24: Maps with ggplot. 
 
 
+=======
+# Day 24: Maps with ggplot2 and leaflet. 
+
+We'll be wporking from [this site](./course-materials/lectures/maps-ggplot.html) today. 
+>>>>>>> 04277a62512ab040c38a34a6c6fcbe1346be496b
 
 # Day 23: SQL Project Day 
 
