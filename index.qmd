@@ -69,13 +69,13 @@ h1{font-weight: 400;}
 
 # Day 25 More maps with leaflet. 
 
-UMass $10,000 dollar/year scholarship to study Informatics. 
+UMass $10,000 dollar/year scholarship to study Informatics, let me know if you want more info.
 
 -   more maps
 -   provider tiles
 -   slides 
 
-[Final Project](~/Documents/MTH_190_Intro_to_DS/docs/course-materials/project-instructions/final-project.html) due Tuesday Dec 20 at midnight. Presentation of project is Wednesday Dec 21 at 10:30am. 
+[Final Project](./course-materials/project-instructions/final-project.html) due Tuesday Dec 20 at midnight. Presentation of project is Wednesday Dec 21 at 10:30am. 
 
 
 

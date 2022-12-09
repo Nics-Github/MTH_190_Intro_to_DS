@@ -4,7 +4,7 @@ author: "Schwab"
 format: html
 ---
 
-```{r setup}
+```{r setup, echo=FALSE}
 library(tidyverse)
 ```
 
@@ -13,7 +13,7 @@ library(tidyverse)
 Your final project will involve the data set of your choosing. You can explore what data is available to you in R by loading a library the running `data()` in the console. You can also visit 
 
 -   [Kaggle](https://www.kaggle.com/datasets/) for some timely and fun data.
--   [Any of these recommended sites.](https://www.freecodecamp.org/news/https-medium-freecodecamp-org-best-free-open-data-sources-anyone-can-use-a65b514b0f2d/)
+-   [Any of these recommended sites](https://www.freecodecamp.org/news/https-medium-freecodecamp-org-best-free-open-data-sources-anyone-can-use-a65b514b0f2d/)
 -   You can also scrape data from the web to analyse. I found it fun to scrape [Seven Sisters running data](https://7sisterstrailrace.com/results/)
 -   You can of course revisit the Smith Server Data... But not the yelp dataset on that server. 
 
