@@ -4,10 +4,6 @@ author: "Schwab"
 format: html
 ---
 
-```{r setup, echo=FALSE}
-library(tidyverse)
-```
-
 # Final Project/ Presentation
 
 Your final project will involve the data set of your choosing. You can explore what data is available to you in R by loading a library the running `data()` in the console. You can also visit 
